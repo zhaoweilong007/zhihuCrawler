@@ -22,6 +22,8 @@ public class ZhiHuConstant {
 
   public static final String ARCHIVERS_FORMAT="{}\\archives\\\\{}.md";
 
+  public static final String JSON_FORMAT="{}\\json\\\\{}.json";
+
   public static String PACKAGE_PATH;
 
   static {
