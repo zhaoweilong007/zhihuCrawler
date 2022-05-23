@@ -5,7 +5,6 @@ import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.StrUtil;
 import com.alibaba.fastjson.JSON;
-import com.zwl.CrawlerApp;
 import com.zwl.model.HotTopVo;
 import lombok.extern.slf4j.Slf4j;
 import us.codecraft.webmagic.Page;
@@ -47,7 +46,7 @@ public class ZhiHuHotTopProcess implements PageProcessor {
                         TOP_FORMAT,
                         count.getAndIncrement(),
                         datum.getTarget().getTitle(),
-                        datum.getTarget().getUrl()))
+                        StrUtil.format(QUESTION_URL, datum.getId())))
             .collect(Collectors.joining("\n"));
     StringBuffer buffer = new StringBuffer();
     String date = DateUtil.date().toString(DatePattern.NORM_DATE_PATTERN);

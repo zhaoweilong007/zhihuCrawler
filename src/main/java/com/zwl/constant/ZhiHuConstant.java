@@ -18,6 +18,8 @@ public class ZhiHuConstant {
   public static final String HOT_TOP_URL =
       "https://www.zhihu.com/api/v3/feed/topstory/hot-lists/total";
 
+  public static final String QUESTION_URL="https://www.zhihu.com/question/{}";
+
   public static final String TOP_FORMAT = "- {}、[{}]({})";
 
   public static final String ARCHIVERS_FORMAT = "{}/archives/{}.md";
