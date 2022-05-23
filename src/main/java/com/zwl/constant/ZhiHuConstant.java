@@ -20,19 +20,19 @@ public class ZhiHuConstant {
 
   public static final String TOP_FORMAT = "- {}、[{}]({})";
 
-  public static final String ARCHIVERS_FORMAT="{}\\archives\\\\{}.md";
+  public static final String ARCHIVERS_FORMAT = "{}/archives/{}.md";
 
-  public static final String JSON_FORMAT="{}\\json\\\\{}.json";
+  public static final String JSON_FORMAT = "{}/json/{}.json";
 
   public static String PACKAGE_PATH;
 
   static {
     String resourcePath = new File(CrawlerApp.class.getResource("").getPath()).getPath();
     if (resourcePath.contains("build")) {
-      PACKAGE_PATH = resourcePath.replace("\\build\\classes\\java\\main", "\\src\\main\\java");
+      PACKAGE_PATH = resourcePath.replace("/build/classes/java/main", "/src/main/java");
     } else {
-      PACKAGE_PATH = resourcePath.replace("\\out\\production\\classes", "\\src\\main\\java");
+      PACKAGE_PATH = resourcePath.replace("/out/production/classes", "/src/main/java");
     }
-    log.info("package_path:{}",PACKAGE_PATH);
+    log.info("package_path:{}", PACKAGE_PATH);
   }
 }
