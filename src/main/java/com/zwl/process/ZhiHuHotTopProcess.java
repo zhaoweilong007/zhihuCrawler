@@ -62,9 +62,6 @@ public class ZhiHuHotTopProcess implements PageProcessor {
     log.info("爬取知乎热榜:\n{}", buffer);
     String filePath = StrUtil.format(ARCHIVERS_FORMAT, PACKAGE_PATH, date);
     String jsonPath = StrUtil.format(JSON_FORMAT, PACKAGE_PATH, date);
-
-    log.info("resourcePath:{}", CrawlerApp.class.getResource("").getPath());
-    log.info("filePath:{}", filePath);
     FileUtil.writeUtf8String(buffer.toString(), filePath);
     FileUtil.writeUtf8String(JSON.toJSONString(hotTopVo.getData(), true), jsonPath);
   }

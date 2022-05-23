@@ -33,6 +33,5 @@ public class ZhiHuConstant {
     } else {
       PACKAGE_PATH = resourcePath.replace("/out/production/classes", "/src/main/java");
     }
-    log.info("package_path:{}", PACKAGE_PATH);
   }
 }
