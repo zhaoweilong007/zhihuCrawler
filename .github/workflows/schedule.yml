@@ -4,9 +4,11 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - master
   schedule:
     - cron: "0 * * * *"
+
+permissions: read-all|write-all
 
 jobs:
   build:
