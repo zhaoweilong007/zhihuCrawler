@@ -23,8 +23,10 @@ repositories {
 }
 
 dependencies {
+    implementation 'us.codecraft:webmagic-selenium:0.7.5'
     implementation 'us.codecraft:webmagic-core:0.7.5'
     implementation 'us.codecraft:webmagic-extension:0.7.5'
+    implementation 'one.util:streamex:0.8.1'
     implementation 'com.google.guava:guava:31.1-jre'
     implementation 'com.alibaba.fastjson2:fastjson2:2.0.3'
     implementation 'cn.hutool:hutool-all:5.8.1'
@@ -33,6 +35,7 @@ dependencies {
     implementation 'org.slf4j:slf4j-api:1.7.36'
     implementation 'ch.qos.logback:logback-core:1.2.11'
     implementation 'ch.qos.logback:logback-classic:1.2.11'
+    implementation 'junit:junit:4.13.2'
 }
 
 tasks.withType(JavaCompile) {

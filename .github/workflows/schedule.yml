@@ -6,7 +6,8 @@ on:
     branches:
       - master
   schedule:
-    - cron: "0 0 12 * *"
+    # 每天12点更新
+    - cron: "0 12 * * *"
 
 
 jobs:

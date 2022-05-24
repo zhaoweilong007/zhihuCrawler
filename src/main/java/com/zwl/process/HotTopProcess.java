@@ -23,7 +23,7 @@ import static com.zwl.constant.ZhiHuConstant.*;
  * @since 2022/5/20 15:17
  */
 @Slf4j
-public class ZhiHuHotTopProcess implements PageProcessor {
+public class HotTopProcess implements PageProcessor {
 
   @Override
   public void process(Page page) {
@@ -46,7 +46,7 @@ public class ZhiHuHotTopProcess implements PageProcessor {
                         TOP_FORMAT,
                         count.getAndIncrement(),
                         datum.getTarget().getTitle(),
-                        StrUtil.format(QUESTION_URL, datum.getId())))
+                        StrUtil.format(QUESTION_URL, datum.getTarget().getId())))
             .collect(Collectors.joining("\n"));
     StringBuffer buffer = new StringBuffer();
     String date = DateUtil.date().toString(DatePattern.NORM_DATE_PATTERN);

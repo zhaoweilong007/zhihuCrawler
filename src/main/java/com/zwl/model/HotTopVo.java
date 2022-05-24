@@ -9,11 +9,11 @@ import java.util.List;
  *
  * @author zwl
  * @since 2022/5/20 16:22
- **/
+ */
 @Data
 public class HotTopVo {
-    private List<Datum> data;
-    private Long displayNum;
-    private String freshText;
-    private Paging paging;
+  private List<Datum> data;
+  private Long displayNum;
+  private String freshText;
+  private Paging paging;
 }
