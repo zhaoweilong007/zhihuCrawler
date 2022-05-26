@@ -6,7 +6,7 @@ import us.codecraft.webmagic.Task;
 import us.codecraft.webmagic.handler.PatternProcessor;
 
 /**
- * 描述：爬取知乎回答
+ * 描述：爬取知乎文章回答 （暂不实现）
  *
  * @author zwl
  * @since 2022/5/23 17:03

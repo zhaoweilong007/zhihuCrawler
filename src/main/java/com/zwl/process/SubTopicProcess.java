@@ -3,6 +3,7 @@ package com.zwl.process;
 import cn.hutool.core.util.StrUtil;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
+import com.zwl.constant.ZhiHuConstant;
 import com.zwl.model.Topic;
 import com.zwl.util.CrawlerUtils;
 import com.zwl.util.TopicTree;
@@ -11,6 +12,7 @@ import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.ResultItems;
 import us.codecraft.webmagic.Task;
 import us.codecraft.webmagic.handler.PatternProcessor;
+import us.codecraft.webmagic.selector.Json;
 
 import java.net.URLDecoder;
 import java.nio.charset.Charset;
@@ -43,11 +45,17 @@ public class SubTopicProcess extends PatternProcessor {
     int offset = Integer.parseInt(StrUtil.subBetween(body, "offset\":", ","));
 
     // 通过msg判断翻页是否继续 为空代表没有数据了 结束翻页 否则继续添加翻页请求
-    JSONArray msg = JSON.parseObject(page.getJson().toString()).getJSONArray("msg");
-    if (!msg.isEmpty()) {
-      log.info("添加话题翻页,topic:{},offset:{}", parentTopicId, offset);
-      page.addTargetRequest(CrawlerUtils.assemblyBody(parentTopicId, offset + 20));
+    Json json = page.getJson();
+    if (json == null) {
+      return MatchOther.NO;
     }
+    JSONArray msg = JSON.parseObject(json.toString()).getJSONArray("msg");
+    if (msg.isEmpty()) {
+      return MatchOther.NO;
+    }
+
+    log.info("添加话题翻页,topic:{},offset:{}", parentTopicId, offset);
+    page.addTargetRequest(CrawlerUtils.assemblyBody(parentTopicId, offset + 20));
 
     // 解析
     CopyOnWriteArrayList<Topic> topics =
@@ -72,10 +80,19 @@ public class SubTopicProcess extends PatternProcessor {
     if (offset == 0) {
       log.info("添加话题【{}】的子话题", parentTopicId);
       // 添加子话题爬取
-      topics.parallelStream()
-          .forEach(
-              topic -> page.addTargetRequest(CrawlerUtils.assemblyBody(topic.getTopicId(), 0)));
+      topics.forEach(
+          topic -> page.addTargetRequest(CrawlerUtils.assemblyBody(topic.getTopicId(), 0)));
     }
+
+    // todo 增加爬取topic回答
+    topics.forEach(
+        topic -> {
+          try {
+            CrawlerUtils.putReq(ZhiHuConstant.ANSWER_URL.formatted(topic.getTopicId(), 0));
+          } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+          }
+        });
 
     return MatchOther.YES;
   }

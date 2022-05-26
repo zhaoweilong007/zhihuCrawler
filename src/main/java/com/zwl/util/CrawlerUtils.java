@@ -7,6 +7,7 @@ import us.codecraft.webmagic.Request;
 import us.codecraft.webmagic.model.HttpRequestBody;
 
 import java.util.HashMap;
+import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * 描述：
@@ -16,6 +17,16 @@ import java.util.HashMap;
  */
 @UtilityClass
 public class CrawlerUtils {
+
+  private static final LinkedBlockingQueue<String> REQUESTS = new LinkedBlockingQueue<>();
+
+  public static void putReq(String request) throws InterruptedException {
+    REQUESTS.put(request);
+  }
+
+  public static String pollReq() {
+    return REQUESTS.poll();
+  }
 
   public static Request assemblyBody(Long topicId, Integer offset) {
     String param = StrUtil.format(ZhiHuConstant.TOPIC_PARAM, topicId, offset);

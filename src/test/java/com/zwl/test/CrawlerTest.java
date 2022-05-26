@@ -1,11 +1,15 @@
 package com.zwl.test;
 
+import cn.hutool.core.map.BiMap;
 import cn.hutool.core.util.ReUtil;
 import cn.hutool.core.util.StrUtil;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.google.common.collect.LinkedListMultimap;
 import com.zwl.constant.ZhiHuConstant;
 import org.junit.Test;
+
+import java.util.Map;
 
 /**
  * 描述：
@@ -16,9 +20,9 @@ import org.junit.Test;
 public class CrawlerTest {
 
   public static void main(String[] args) {
-    String regex = "https://www.zhihu.com/topic/\\d+/top-answers";
-
-    String s = ReUtil.get(regex, "https://www.zhihu.com/topic/19776749/top-answers", 0);
+    String regex = "https://www.zhihu.com/api/v4/topics/\\d+/feeds/essence\\?limit=\\d+&offset=\\d+";
+    System.out.println(regex);
+    String s = ReUtil.get(regex, "https://www.zhihu.com/api/v4/topics/19962850/feeds/essence?limit=10&offset=65", 0);
     System.out.println(s);
 
     String json =
@@ -31,5 +35,21 @@ public class CrawlerTest {
   @Test
   public void test() {
     System.out.println(StrUtil.format(ZhiHuConstant.TOPIC_PARAM, 123123, 12));
+  }
+
+
+
+  @Test
+  public void spiltCookie(){
+    LinkedListMultimap<String, Object> linkedListMultimap = LinkedListMultimap
+            .<String, Object>create();
+    linkedListMultimap.put("123", "123456");
+    linkedListMultimap.put("123", "123456");
+    linkedListMultimap.put("123", "456789");
+    linkedListMultimap.put("123", "987654");
+    linkedListMultimap.put("123", "321654");
+    for (Map.Entry<String, Object> entry : linkedListMultimap.entries()) {
+      System.out.println("key="+entry.getKey()+"value="+entry.getValue());
+    }
   }
 }

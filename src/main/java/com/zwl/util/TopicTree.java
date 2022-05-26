@@ -15,15 +15,12 @@ import java.util.stream.Collectors;
  * @since 2022/5/24 14:00
  */
 public class TopicTree {
-  private static final ThreadLocal<CopyOnWriteArrayList<Topic>> TOPIC_THREAD_LOCAL =
-      new ThreadLocal<>();
 
   public static final CopyOnWriteArrayList<Topic> ROOT_TOPICS = new CopyOnWriteArrayList<>();
 
   private static final ConcurrentHashMap<Long, Topic> TOPIC_MAP = new ConcurrentHashMap<>();
 
   public static void setRootTopic(CopyOnWriteArrayList<Topic> topics) {
-    TOPIC_THREAD_LOCAL.set(topics);
     ROOT_TOPICS.addAll(topics);
     ROOT_TOPICS.parallelStream().forEach(TopicTree::putTopicMap);
   }

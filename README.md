@@ -4,6 +4,18 @@
 - 爬取知乎话题列表，并获取高赞回答
 - 使用github workflow自动触发任务
 
+## 归档文件
+
+data文件夹下包含:
+
+### archives:每日热榜数据
+
+### json:每日热榜json数据
+
+### topic:话题json数据
+
+### answer:各话题高赞回答
+
 ## 知乎API
 
 ### 获取知乎热榜

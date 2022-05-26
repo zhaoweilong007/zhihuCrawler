@@ -2,12 +2,9 @@ name: schedule
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - master
   schedule:
-    # 每天12点更新
-    - cron: "0 12 * * *"
+    # 每天12点更新 按照UTC时间计算
+    - cron: "0 4 * * *"
 
 
 jobs:

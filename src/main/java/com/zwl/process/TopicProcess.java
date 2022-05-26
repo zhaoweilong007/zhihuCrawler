@@ -1,5 +1,10 @@
 package com.zwl.process;
 
+import cn.hutool.core.collection.CollectionUtil;
+import cn.hutool.core.io.FileUtil;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.TypeReference;
+import com.zwl.constant.ZhiHuConstant;
 import com.zwl.model.Topic;
 import com.zwl.util.CrawlerUtils;
 import com.zwl.util.TopicTree;
@@ -28,22 +33,71 @@ public class TopicProcess extends PatternProcessor {
 
   @Override
   public MatchOther processPage(Page page) {
-    CopyOnWriteArrayList<Topic> topics =
-        page.getHtml().xpath("//ul[@class='zm-topic-cat-main clearfix']/li").nodes().stream()
-            .map(
-                node -> {
-                  String topicName = node.xpath("//a/text()").toString();
-                  Long topicId = Long.valueOf(node.xpath("//li/@data-id").toString());
+    if (checkTopic()) {
+      // 初始化已存在的topic
+      TopicTree.getRootTopic().forEach(topic -> forEachAddRequest(topic.getSubTopics()));
+    } else {
+      CopyOnWriteArrayList<Topic> topics =
+          page.getHtml().xpath("//ul[@class='zm-topic-cat-main clearfix']/li").nodes().stream()
+              .map(
+                  node -> {
+                    String topicName = node.xpath("//a/text()").toString();
+                    Long topicId = Long.valueOf(node.xpath("//li/@data-id").toString());
 
-                  page.addTargetRequest(CrawlerUtils.assemblyBody(topicId, 0));
-                  return new Topic().setTopicId(topicId).setTopicName(topicName).setParentId(0L);
-                })
-            .collect(Collectors.toCollection(CopyOnWriteArrayList::new));
+                    // 添加子话题爬取
+                    page.addTargetRequest(CrawlerUtils.assemblyBody(topicId, 0));
+                    return new Topic().setTopicId(topicId).setTopicName(topicName).setParentId(0L);
+                  })
+              .collect(Collectors.toCollection(CopyOnWriteArrayList::new));
 
-    // 设置根话题列表
-    TopicTree.setRootTopic(topics);
+      // 设置根话题列表
+      TopicTree.setRootTopic(topics);
+    }
+
+    // 添加topic回答爬取，最多同时5条请求
+    for (int i = 0; i < 3; i++) {
+      page.addTargetRequest(CrawlerUtils.pollReq());
+    }
 
     return MatchOther.YES;
+  }
+
+  private Boolean checkTopic() {
+    if (!ZhiHuConstant.topicState) {
+      return false;
+    }
+    try {
+      CopyOnWriteArrayList<Topic> topics =
+          JSON.parseObject(
+              FileUtil.readUtf8String(ZhiHuConstant.TOPIC_PATH),
+              new TypeReference<CopyOnWriteArrayList<Topic>>() {}.getType());
+      TopicTree.setRootTopic(topics);
+    } catch (Exception e) {
+      return false;
+    }
+    return true;
+  }
+
+  /**
+   * 递归添加请求
+   *
+   * @param topics
+   */
+  private void forEachAddRequest(CopyOnWriteArrayList<Topic> topics) {
+    if (CollectionUtil.isEmpty(topics)) {
+      return;
+    }
+    topics.forEach(
+        topic -> {
+          try {
+            CrawlerUtils.putReq(ZhiHuConstant.ANSWER_URL.formatted(topic.getTopicId(), 0));
+          } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+          }
+          if (CollectionUtil.isNotEmpty(topic.getSubTopics())) {
+            forEachAddRequest(topic.getSubTopics());
+          }
+        });
   }
 
   @Override
