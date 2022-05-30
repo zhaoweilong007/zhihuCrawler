@@ -18,5 +18,6 @@ public class Topic {
   private Long topicId;
   private Long parentId;
   private String topicName;
+  private Long followers;
   private CopyOnWriteArrayList<Topic> subTopics;
 }

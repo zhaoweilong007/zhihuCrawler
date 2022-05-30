@@ -4,7 +4,8 @@ import cn.hutool.core.date.DatePattern;
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.StrUtil;
-import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson2.JSON;
+import com.alibaba.fastjson2.JSONWriter;
 import com.zwl.model.HotTopVo;
 import lombok.extern.slf4j.Slf4j;
 import us.codecraft.webmagic.Page;
@@ -62,7 +63,7 @@ public class HotTopProcess implements PageProcessor {
     String filePath = StrUtil.format(ARCHIVERS_FORMAT, PACKAGE_PATH, date);
     String jsonPath = StrUtil.format(JSON_FORMAT, PACKAGE_PATH, date);
     FileUtil.writeUtf8String(buffer.toString(), filePath);
-    FileUtil.writeUtf8String(JSON.toJSONString(hotTopVo.getData(), true), jsonPath);
+    FileUtil.writeUtf8String(JSON.toJSONString(hotTopVo.getData(), JSONWriter.Feature.PrettyFormat), jsonPath);
   }
 
   @Override

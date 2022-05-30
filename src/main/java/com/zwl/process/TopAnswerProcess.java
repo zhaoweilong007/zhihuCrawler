@@ -2,14 +2,14 @@ package com.zwl.process;
 
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.StrUtil;
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSON;
+import com.alibaba.fastjson2.JSONObject;
 import com.google.common.collect.HashBasedTable;
 import com.zwl.constant.ZhiHuConstant;
 import com.zwl.model.Answer;
 import com.zwl.model.Topic;
-import com.zwl.util.CrawlerUtils;
 import com.zwl.util.TopicTree;
+import lombok.extern.slf4j.Slf4j;
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.ResultItems;
 import us.codecraft.webmagic.Task;
@@ -28,10 +28,10 @@ import java.util.stream.Collectors;
  * @author zwl
  * @since 2022/5/23 16:53
  */
+@Slf4j
 public class TopAnswerProcess extends PatternProcessor {
 
-  private final HashBasedTable<Long, Integer, CopyOnWriteArrayList<Answer>> table =
-      HashBasedTable.create();
+  private final HashBasedTable<Long, Integer, CopyOnWriteArrayList<Answer>> table = HashBasedTable.create();
 
   private final ReentrantLock lock = new ReentrantLock();
 
@@ -52,12 +52,6 @@ public class TopAnswerProcess extends PatternProcessor {
 
     if (object == null || object.getJSONObject("paging") == null) {
       writeAnswerFile(topicId);
-      String req = CrawlerUtils.pollReq();
-      // 添加下一个请求
-      if (req != null) {
-        page.addTargetRequest(req);
-        return MatchOther.YES;
-      }
       return MatchOther.NO;
     }
 
@@ -67,20 +61,6 @@ public class TopAnswerProcess extends PatternProcessor {
 
     if (isStart) {
       initAnswerFile(topicId);
-    }
-    if (isEnd) {
-      writeAnswerFile(topicId);
-      // 添加下一个请求
-      String req = CrawlerUtils.pollReq();
-      if (req != null) {
-        page.addTargetRequest(req);
-        return MatchOther.YES;
-      }
-
-      return MatchOther.NO;
-    } else {
-      // 翻页爬取
-      page.addTargetRequest(ZhiHuConstant.ANSWER_URL.formatted(topicId, offset + 50));
     }
 
     // 解析话题答案
@@ -130,12 +110,19 @@ public class TopAnswerProcess extends PatternProcessor {
             } else {
               arrayList.addAll(answers);
             }
-          } catch (Exception e) {
-            throw new RuntimeException(e);
+          } catch (Exception ignore) {
           } finally {
             lock.unlock();
           }
         });
+
+      if (isEnd) {
+          writeAnswerFile(topicId);
+          return MatchOther.NO;
+      } else {
+          // 翻页爬取
+          page.addTargetRequest(ZhiHuConstant.ANSWER_URL.formatted(topicId, offset + 50));
+      }
 
     return MatchOther.YES;
   }

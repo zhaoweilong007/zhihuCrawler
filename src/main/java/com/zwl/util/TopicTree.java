@@ -1,7 +1,12 @@
 package com.zwl.util;
 
 import cn.hutool.core.collection.CollectionUtil;
+import cn.hutool.core.io.FileUtil;
+import com.alibaba.fastjson2.JSON;
+import com.alibaba.fastjson2.TypeReference;
+import com.zwl.constant.ZhiHuConstant;
 import com.zwl.model.Topic;
+import lombok.extern.slf4j.Slf4j;
 import one.util.streamex.StreamEx;
 
 import java.util.concurrent.ConcurrentHashMap;
@@ -14,6 +19,7 @@ import java.util.stream.Collectors;
  * @author zwl
  * @since 2022/5/24 14:00
  */
+@Slf4j
 public class TopicTree {
 
   public static final CopyOnWriteArrayList<Topic> ROOT_TOPICS = new CopyOnWriteArrayList<>();
@@ -25,7 +31,7 @@ public class TopicTree {
     ROOT_TOPICS.parallelStream().forEach(TopicTree::putTopicMap);
   }
 
-  public static void putTopicMap(Topic topic) {
+  private static void putTopicMap(Topic topic) {
     TOPIC_MAP.putIfAbsent(topic.getTopicId(), topic);
     if (CollectionUtil.isEmpty(topic.getSubTopics())) {
       return;
@@ -105,5 +111,23 @@ public class TopicTree {
       }
     }
     return null;
+  }
+
+  public static Boolean checkTopic() {
+    if (!ZhiHuConstant.topicState) {
+      log.info("《《《《《《《《《《《《《topic.json不存在》》》》》》》》》》》》》》》");
+      return false;
+    }
+    log.info("《《《《《《《《《《《《《topic.json已存在》》》》》》》》》》》》》》》");
+    try {
+      CopyOnWriteArrayList<Topic> topics =
+              JSON.parseObject(
+                      FileUtil.readUtf8String(ZhiHuConstant.TOPIC_PATH),
+                      new TypeReference<CopyOnWriteArrayList<Topic>>() {}.getType());
+      TopicTree.setRootTopic(topics);
+    } catch (Exception e) {
+      return false;
+    }
+    return true;
   }
 }

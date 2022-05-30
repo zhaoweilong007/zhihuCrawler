@@ -18,15 +18,15 @@ import java.util.concurrent.LinkedBlockingQueue;
 @UtilityClass
 public class CrawlerUtils {
 
-  private static final LinkedBlockingQueue<String> REQUESTS = new LinkedBlockingQueue<>();
-
-  public static void putReq(String request) throws InterruptedException {
-    REQUESTS.put(request);
-  }
-
-  public static String pollReq() {
-    return REQUESTS.poll();
-  }
+  //private static final LinkedBlockingQueue<String> REQUESTS = new LinkedBlockingQueue<>();
+  //
+  //public static void putReq(String request)  {
+  //  REQUESTS.add(request);
+  //}
+  //
+  //public static String pollReq() {
+  //  return REQUESTS.poll();
+  //}
 
   public static Request assemblyBody(Long topicId, Integer offset) {
     String param = StrUtil.format(ZhiHuConstant.TOPIC_PARAM, topicId, offset);
@@ -44,4 +44,6 @@ public class CrawlerUtils {
     request.setCharset("utf-8");
     return request;
   }
+
+
 }

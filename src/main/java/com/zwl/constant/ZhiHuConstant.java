@@ -53,4 +53,14 @@ public class ZhiHuConstant {
   public static final String JSON_FORMAT = "{}/json/{}.json";
 
   public static final String TOPIC_PARAM = "{\"topic_id\":{},\"offset\":{},\"hash_id\":\"\"}";
+
+  public static final String TOPIC_ORGANIZE_URL="https://www.zhihu.com/topic/%s/organize";
+
+  public static final String TOPIC_PAGE_PATTERN="https://www.zhihu.com/topic/\\d+/organize";
+
+  public static final String ANSWER_PATTERN="https://www.zhihu.com/api/v4/topics/\\d+/feeds/essence\\?limit=\\d+&offset=\\d+";
+
+  public static final String ANSWER_PAGE_PATTERN="https://www.zhihu.com/question/\\d+/answer/\\d+";
+
+  public static final String TOPICS_PAGE_URL="https://www.zhihu.com/topics";
 }
