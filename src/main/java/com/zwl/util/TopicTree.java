@@ -1,5 +1,6 @@
 package com.zwl.util;
 
+import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.io.FileUtil;
 import com.alibaba.fastjson2.JSON;
@@ -25,6 +26,8 @@ public class TopicTree {
   public static final CopyOnWriteArrayList<Topic> ROOT_TOPICS = new CopyOnWriteArrayList<>();
 
   private static final ConcurrentHashMap<Long, Topic> TOPIC_MAP = new ConcurrentHashMap<>();
+
+  public static final CopyOnWriteArrayList<Topic> TOPIC_LIST = new CopyOnWriteArrayList<>();
 
   public static void setRootTopic(CopyOnWriteArrayList<Topic> topics) {
     ROOT_TOPICS.addAll(topics);

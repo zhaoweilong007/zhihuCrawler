@@ -1,7 +1,7 @@
 package com.zwl.process;
 
+import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.util.StrUtil;
-import com.alibaba.fastjson2.JSON;
 import com.zwl.constant.ZhiHuConstant;
 import com.zwl.model.Topic;
 import com.zwl.util.TopicTree;
@@ -14,6 +14,7 @@ import us.codecraft.webmagic.handler.PatternProcessor;
 import us.codecraft.webmagic.selector.Selectable;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.LinkedBlockingDeque;
 import java.util.stream.Collectors;
@@ -42,9 +43,15 @@ public class TopicPageProcess extends PatternProcessor {
     public MatchOther processPage(Page page) {
         Long parentTopicId = Long.parseLong(StrUtil.subBetween(page.getUrl().toString(), "topic/", "/"));
         String followers = page.getHtml().xpath("//div[@class='zm-topic-side-followers-info']//strong/text()").toString();
+        Long val = Optional.ofNullable(followers).map(Long::parseLong).orElse(0L);
 
-        //更新topic话题关注度
-        TopicTree.getTopicMap().get(parentTopicId).setFollowers(Long.parseLong(followers));
+        Topic parentTopic = TopicTree.getTopicMap().get(parentTopicId);
+        parentTopic.setFollowers(val);
+        if (val>20000){
+            Topic topic = new Topic();
+            BeanUtil.copyProperties(parentTopic,topic,"subTopics");
+            TopicTree.TOPIC_LIST.add(topic);
+        }
 
         List<Selectable> links = page.getHtml().xpath("//div[@id='zh-topic-organize-child-editor']//a[@class='zm-item-tag']").nodes();
         if (links.isEmpty()||links.size()==1){
@@ -58,16 +65,15 @@ public class TopicPageProcess extends PatternProcessor {
                     .setTopicId(Long.parseLong(tid))
                     .setTopicName(topicName)
                     .setParentId(parentTopicId);
-        }).collect(Collectors.toCollection(CopyOnWriteArrayList::new));
-        topics.stream().
-                filter(topic -> !TopicTree.getTopicMap().containsKey(topic.getTopicId())).map(topic ->{
+        }).filter(topic -> !TopicTree.getTopicMap().containsKey(topic.getTopicId()))
+                .collect(Collectors.toCollection(CopyOnWriteArrayList::new));
+        topics.stream()
+                .map(topic ->{
                     Request request = new Request(ZhiHuConstant.TOPIC_ORGANIZE_URL.formatted(topic.getTopicId()));
                     request.addCookie("z_c0",cookie);
                     return request;
                 } ).forEach(page::addTargetRequest);
 
-
-        log.info("topics:{}", JSON.toJSONString(topics));
         TopicTree.putNodeByParentId(topics,parentTopicId);
         return MatchOther.YES;
     }

@@ -56,7 +56,7 @@ public class HotTopProcess implements PageProcessor {
         .append(date)
         .append("\n")
         .append("共:")
-        .append(count)
+        .append(count.get())
         .append("条\n")
         .append(doc);
     log.info("爬取知乎热榜:\n{}", buffer);
@@ -68,6 +68,6 @@ public class HotTopProcess implements PageProcessor {
 
   @Override
   public Site getSite() {
-    return Site.me().setDomain(ZHIHU_URL).setCharset("utf-8").setRetryTimes(3).setTimeOut(1000);
+    return Site.me().setDomain(ZHIHU_URL).setCharset("utf-8").setRetryTimes(3).setTimeOut(10000);
   }
 }

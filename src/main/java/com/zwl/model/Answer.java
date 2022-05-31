@@ -13,10 +13,32 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 public class Answer {
 
-  Integer voteupCount;
-  Integer commentCount;
-  Integer answerId;
-  Integer questionId;
-  String title;
-  String authorName;
+    /**
+     * 点赞数
+     */
+    Integer voteupCount;
+    /**
+     * 评论数
+     */
+    Integer commentCount;
+    /**
+     * 回答id
+     */
+    Integer answerId;
+    /**
+     * 问题id
+     */
+    Integer questionId;
+    /**
+     * 问题标题
+     */
+    String title;
+    /**
+     * 作者
+     */
+    String authorName;
+    /**
+     * 回答url
+     */
+    String answerUrl;
 }

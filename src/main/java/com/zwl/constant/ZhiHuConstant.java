@@ -63,4 +63,7 @@ public class ZhiHuConstant {
   public static final String ANSWER_PAGE_PATTERN="https://www.zhihu.com/question/\\d+/answer/\\d+";
 
   public static final String TOPICS_PAGE_URL="https://www.zhihu.com/topics";
+
+  public static final String TOPIC_ANSWER_FILE_NAME = ZhiHuConstant.PACKAGE_PATH + File.separator + "%s" + File.separator + "%s-%d.%s";
+
 }

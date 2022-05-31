@@ -28,7 +28,7 @@ dependencies {
     implementation 'us.codecraft:webmagic-extension:0.7.5'
     implementation 'one.util:streamex:0.8.1'
     implementation 'com.google.guava:guava:31.1-jre'
-    implementation 'com.alibaba.fastjson2:fastjson2:2.0.3'
+    implementation 'com.alibaba.fastjson2:fastjson2:2.0.5'
     implementation 'cn.hutool:hutool-all:5.8.1'
     compileOnly 'org.projectlombok:lombok:1.18.20'
     annotationProcessor 'org.projectlombok:lombok:1.18.20'
