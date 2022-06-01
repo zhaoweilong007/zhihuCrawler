@@ -4,27 +4,29 @@ import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.exceptions.ExceptionUtil;
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.io.IORuntimeException;
-import cn.hutool.core.util.ArrayUtil;
+import cn.hutool.core.util.StrUtil;
 import cn.hutool.http.HttpStatus;
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONWriter;
 import com.zwl.constant.ZhiHuConstant;
 import com.zwl.model.Topic;
 import com.zwl.process.*;
+import com.zwl.thread.CrawlerThreadPool;
 import com.zwl.util.TopicTree;
 import lombok.extern.slf4j.Slf4j;
 import us.codecraft.webmagic.Request;
 import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
 import us.codecraft.webmagic.handler.CompositePageProcessor;
+import us.codecraft.webmagic.scheduler.FileCacheQueueScheduler;
 import us.codecraft.webmagic.utils.HttpConstant;
 
 import java.io.File;
 import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Optional;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -41,88 +43,77 @@ import static com.zwl.constant.ZhiHuConstant.*;
 @Slf4j
 public class CrawlerApp {
 
+    public static final String COOKIE = System.getenv().get("COOKIE");
+    public static final String ANSWER_FLAG = System.getenv().get("ANSWER_FLAG");
+
     public static void main(String[] args) {
         // 爬取知乎热榜
         Spider.create(new HotTopProcess())
                 .addUrl(ZhiHuConstant.HOT_TOP_URL)
                 .run();
-
-        log.info("输入参数：{}", Arrays.toString(args));
-        if (ArrayUtil.isEmpty(args)) {
-            log.warn("请配置cookie参数");
+        if (StrUtil.isEmpty(COOKIE)) {
+            log.warn("请在环境变量配置cookie参数");
             return;
         }
+        Boolean parseAnswer = Optional.ofNullable(ANSWER_FLAG).map(Boolean::valueOf).orElse(true);
 
-        String cookie = args[0];
-        Spider spider = Spider.create(assemblyPage(cookie))
-                //.addUrl(TOPICS_PAGE_URL)
-                .thread(200);
-        //spider.setSpiderListeners(new ArrayList<>() {{
-        //    add(new CrawlerListener(spider));
-        //}});
+        Spider spider = Spider.create(assemblyPage(COOKIE))
+                .thread(Runtime.getRuntime().availableProcessors() << 5)
+                .setScheduler(new FileCacheQueueScheduler(TMP_PATH));
 
         log.info("《《《《《《《《《《《《《《《《开始爬取topic》》》》》》》》》》》》》》");
         ScheduledExecutorService scheduledThreadPool = Executors.newScheduledThreadPool(2);
         if (!TopicTree.checkTopic()) {
-            scheduledThreadPool.scheduleWithFixedDelay(() -> {
-                // 保存话题json文件
-                try {
-                    FileUtil.writeUtf8String(JSON.toJSONString(TopicTree.getRootTopic(), JSONWriter.Feature.PrettyFormat), ZhiHuConstant.TOPIC_PATH);
-                    List<Topic> topics = TopicTree.TOPIC_LIST.stream().filter(topic -> topic.getFollowers() != null && topic.getFollowers() > 20000).peek(topic -> topic.setSubTopics(null)).toList();
-                    FileUtil.writeUtf8String(JSON.toJSONString(topics, JSONWriter.Feature.PrettyFormat), PACKAGE_PATH + File.separator + "topic" + File.separator + "heightTopics.json");
-                } catch (IORuntimeException e) {
-                    log.error("保存数据文件失败：{}", ExceptionUtil.stacktraceToString(e));
-                }
-            }, 1, 1, TimeUnit.MINUTES);
-            TopicTree.setRootTopic(new CopyOnWriteArrayList<>() {{
-                add(new Topic()
-                        .setTopicId(19776749L)
-                        .setTopicName("根话题")
-                        .setParentId(0L));
-            }});
-
-            Request request = new Request("https://www.zhihu.com/topic/19776749/organize");
-            request.addCookie("z_c0", cookie);
-            spider.addRequest(request).run();
-
-            log.info("《《《《《《《《《《《《《《topic爬取完成，开始写入topic文件》》》》》》》》》》》》》》");
-
-            // 爬取话题下的问题
-            parseTopicQuestion(spider, 2);
-            log.info("<<<<<<<<<<<<<<<<<<<<<<<<<<<回答爬取全部结束>>>>>>>>>>>>>>>>>>>>>>>>");
+            parseTopic(spider, scheduledThreadPool);
         }
         scheduledThreadPool.shutdown();
+        if (parseAnswer) {
+            // 爬取话题下的问题
+            parseTopicQuestion(spider, 5);
+        }
+        log.info("<<<<<<<<<<<<<<<<<<<<<<<<<<<回答爬取全部结束>>>>>>>>>>>>>>>>>>>>>>>>");
     }
 
+
+    public static void parseTopic(Spider spider, ScheduledExecutorService scheduledThreadPool) {
+        scheduledThreadPool.scheduleWithFixedDelay(() -> {
+            // 保存话题json文件
+            try {
+                FileUtil.writeUtf8String(JSON.toJSONString(TopicTree.getRootTopic(), JSONWriter.Feature.PrettyFormat), ZhiHuConstant.TOPIC_PATH);
+                List<Topic> topics = TopicTree.TOPIC_LIST.stream().filter(topic -> topic.getFollowers() != null && topic.getFollowers() > 20000).peek(topic -> topic.setSubTopics(null)).toList();
+                FileUtil.writeUtf8String(JSON.toJSONString(topics, JSONWriter.Feature.PrettyFormat), PACKAGE_PATH + File.separator + "topic" + File.separator + "heightTopics.json");
+            } catch (IORuntimeException e) {
+                log.error("保存数据文件失败：{}", ExceptionUtil.stacktraceToString(e));
+            }
+        }, 1, 1, TimeUnit.MINUTES);
+        TopicTree.setRootTopic(new CopyOnWriteArrayList<>() {{
+            add(new Topic()
+                    .setTopicId(19776749L)
+                    .setTopicName("根话题")
+                    .setParentId(0L));
+        }});
+        Request request = new Request("https://www.zhihu.com/topic/19776749/organize");
+        request.addCookie("z_c0", COOKIE);
+        spider.addRequest(request).run();
+        log.info("《《《《《《《《《《《《《《topic爬取完成，开始写入topic文件》》》》》》》》》》》》》》");
+    }
+
+
+    /**
+     * 爬取话题下高赞回答
+     *
+     * @param spider
+     * @param threadNum 线程数 目前设置并发为2
+     */
     private static void parseTopicQuestion(Spider spider, Integer threadNum) {
-        spider.thread(threadNum);
-        //开始爬取高赞回答
+        spider.setExecutorService(new CrawlerThreadPool(threadNum));
         String json = FileUtil.readUtf8String(PACKAGE_PATH + File.separator + "topic" + File.separator + "heightTopics.json");
         List<Topic> list = JSON.parseArray(json, Topic.class);
         list.sort(Comparator.comparingLong(Topic::getTopicId));
-        //每次最多爬取十个话题
-        int fromIndex = 0;
-        int lastIndex = list.size() - 1;
-        while (true) {
-            int nextIndex;
-            if (fromIndex == lastIndex) {
-                break;
-            } else if (lastIndex - fromIndex < threadNum) {
-                nextIndex = fromIndex + (lastIndex - fromIndex);
-            } else {
-                nextIndex = fromIndex + threadNum;
-            }
-            log.info("开始爬取topic：{}-{}", fromIndex, nextIndex);
-            List<Topic> topics = list.subList(fromIndex, nextIndex);
-            topics.forEach(topic -> {
-                TopicTree.getTopicMap().putIfAbsent(topic.getTopicId(), topic);
-                spider.addUrl(ZhiHuConstant.ANSWER_URL.formatted(topic.getTopicId(), 0));
-            });
-            spider.run();
-            log.info("爬取完成topic：{}-{}", fromIndex, nextIndex);
-            fromIndex = nextIndex;
-        }
+        list.forEach(topic -> spider.addUrl(ZhiHuConstant.ANSWER_URL.formatted(topic.getTopicId(), 0)));
+        spider.run();
     }
+
 
     /**
      * 递归添加请求

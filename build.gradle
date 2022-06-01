@@ -9,7 +9,11 @@ version '1.0-SNAPSHOT'
 description '知乎爬虫'
 
 java.sourceCompatibility = JavaVersion.VERSION_17
-mainClassName = 'com.zwl.CrawlerApp'
+
+application {
+    mainClass = 'com.zwl.CrawlerApp'
+}
+
 
 repositories {
     mavenLocal()

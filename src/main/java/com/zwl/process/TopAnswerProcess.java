@@ -18,6 +18,7 @@ import us.codecraft.webmagic.Task;
 import us.codecraft.webmagic.handler.PatternProcessor;
 
 import java.io.File;
+import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
@@ -124,7 +125,9 @@ public class TopAnswerProcess extends PatternProcessor {
         File file = new File(fileName);
         if (!file.exists()) {
             try {
-                FileUtil.writeUtf8String("# " + topic.getTopicName() + "\n", file);
+                String buffer = "# " + topic.getTopicName() + "\n" +
+                        "关注人数：" + topic.getFollowers() + "\n";
+                FileUtil.writeUtf8String(buffer, file);
             } catch (Exception ignore) {
             }
         }
@@ -141,17 +144,25 @@ public class TopAnswerProcess extends PatternProcessor {
         Topic topic = TopicTree.getTopicMap().get(topicId);
         // 文件
         String fileName = ZhiHuConstant.TOPIC_ANSWER_FILE_NAME.formatted("answer", topic.getTopicName().replace("/", " "), topic.getTopicId(), "md");
-        String jsonFileName = ZhiHuConstant.TOPIC_ANSWER_FILE_NAME.formatted("json", topic.getTopicName().replace("/", " "), topic.getTopicId(), "json");
+        String jsonFileName = ZhiHuConstant.TOPIC_ANSWER_FILE_NAME.formatted("answerJson", topic.getTopicName().replace("/", " "), topic.getTopicId(), "json");
 
         map.forEach((qid, answers) -> {
-            StringBuffer buffer = new StringBuffer();
-            buffer.append("## ").append(answers.get(0).getTitle()).append("\n");
-            answers.forEach(answer -> buffer.append("- [%s的回答](%s),点赞数：%d，评论数：%d\n".formatted(answer.getAuthorName(), answer.getAnswerUrl(), answer.getVoteupCount(), answer.getCommentCount())));
-            FileUtil.appendUtf8String(buffer.toString(), fileName);
+            StringBuilder builder = new StringBuilder();
+            builder.append("## ").append(answers.get(0).getTitle()).append("\n");
+            answers.forEach(answer -> builder.append("- [%s的回答](%s),点赞数：%d，评论数：%d\n".formatted(answer.getAuthorName(), answer.getAnswerUrl(), answer.getVoteupCount(), answer.getCommentCount())));
+            FileUtil.appendUtf8String(builder.toString(), fileName);
         });
-
         FileUtil.writeUtf8String(JSON.toJSONString(map, JSONWriter.Feature.PrettyFormat), jsonFileName);
 
+        lock.lock();
+        try {
+            List<Integer> qids = map.keySet().stream().toList();
+            qids.forEach(qid->table.remove(topicId, qid));
+        } catch (Exception e) {
+            log.error("移除table元素失败：{}", e.getMessage());
+        } finally {
+            lock.unlock();
+        }
     }
 
     @Override

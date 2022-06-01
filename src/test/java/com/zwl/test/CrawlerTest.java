@@ -1,5 +1,6 @@
 package com.zwl.test;
 
+import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.RandomUtil;
 import cn.hutool.core.util.ReUtil;
 import cn.hutool.core.util.StrUtil;
@@ -7,13 +8,12 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.google.common.collect.LinkedListMultimap;
 import com.zwl.constant.ZhiHuConstant;
+import com.zwl.thread.CrawlerThreadPool;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -35,6 +35,9 @@ public class CrawlerTest {
 
         JSONObject jsonObject = JSON.parseObject(json);
         System.out.println(jsonObject.toString());
+        System.out.println("==========================================================");
+        System.out.println("https:\\/\\/www.zhihu.com\\/account\\/unhuman?type=unhuman&message=%E7%B3%BB%E7%BB%9F%E7%9B%91%E6%B5%8B%E5%88%B0%E6%82%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83%E5%AD%98%E5%9C%A8%E5%BC%82%E5%B8%B8%EF%BC%8C%E4%B8%BA%E4%BF%9D%E8%AF%81%E6%82%A8%E7%9A%84%E6%AD%A3%E5%B8%B8%E8%AE%BF%E9%97%AE%EF%BC%8C%E8%AF%B7%E8%BE%93%E5%85%A5%E9%AA%8C%E8%AF%81%E7%A0%81%E8%BF%9B%E8%A1%8C%E9%AA%8C%E8%AF%81%E3%80%82&need_login=false".replace("\\", ""));
+
     }
 
     @Test
@@ -82,4 +85,38 @@ public class CrawlerTest {
                 .orElseThrow(() -> new RuntimeException("数据为空"));
         System.out.println(s);
     }
+
+    @Test
+    public void threadTest() throws InterruptedException {
+        CrawlerThreadPool crawlerThreadPool = new CrawlerThreadPool(3);
+        CountDownLatch countDownLatch = new CountDownLatch(1);
+        for (int i = 0; i < 100; i++) {
+            crawlerThreadPool.submit(() -> {
+                try {
+                    countDownLatch.await();
+                } catch (InterruptedException e) {
+                    System.out.println(e.getMessage());
+                }
+                System.out.println(DateUtil.now().toString() + ",threadName=" + Thread.currentThread().getName());
+            });
+        }
+        countDownLatch.countDown();
+
+        TimeUnit.SECONDS.sleep(Integer.MAX_VALUE);
+    }
+
+
+    @Test
+    public void keySet() {
+        HashMap<String, String> map = new HashMap<>() {{
+            put("1", "1");
+            put("2", "2");
+            put("3", "3");
+        }};
+
+        map.keySet().forEach(map::remove);
+        System.out.println(map);
+    }
+
+
 }
