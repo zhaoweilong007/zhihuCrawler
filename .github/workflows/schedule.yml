@@ -6,6 +6,8 @@ on:
     # 每天12点更新 按照UTC时间计算
     - cron: "0 4 * * *"
 
+env:
+  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
 jobs:
   build:
