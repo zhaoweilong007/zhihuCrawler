@@ -21,10 +21,13 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Shanghai
-      GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       COOKIE: ${{inputs.cookie}}
       ANSWER_FLAG: ${{inputs.parseAnswer}}
     steps:
+      - name: 输入参数
+        run: |
+          echo "COOKIE: $COOKIE"
+          echo "ANSWER_FLAG: $ANSWER_FLAG"
       - name: 克隆项目
         uses: actions/checkout@v3
       - name: Set up JDK 17
@@ -39,6 +42,9 @@ jobs:
           arguments: build -x test
       - name: 运行程序
         uses: gradle/gradle-build-action@v2
+        env:
+          COOKIE: ${{inputs.cookie}}
+          ANSWER_FLAG: ${{inputs.parseAnswer}}
         with:
           gradle-version: 7.4.2
           arguments: run
