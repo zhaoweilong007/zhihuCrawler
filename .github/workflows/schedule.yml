@@ -13,7 +13,7 @@ jobs:
 
     env:
       TZ: Asia/Shanghai
-      cookie: "{{ secrets.cookie }}"
+      cookie: ${{ secrets.cookie }}
     steps:
       - name: dump secrets variables
         run: "${{ toJSON(secrets) }}"
