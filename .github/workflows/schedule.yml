@@ -13,23 +13,10 @@ jobs:
 
     env:
       TZ: Asia/Shanghai
-
+      cookie: "{{ secret.cookie }}"
     steps:
-      - name: Dump GitHub context
-        id: github_context_step
-        run: echo '${{ toJSON(github) }}'
-      - name: Dump job context
-        run: echo '${{ toJSON(job) }}'
-      - name: Dump steps context
-        run: echo '${{ toJSON(steps) }}'
-      - name: Dump runner context
-        run: echo '${{ toJSON(runner) }}'
-      - name: Dump strategy context
-        run: echo '${{ toJSON(strategy) }}'
-      - name: Dump matrix context
-        run: echo '${{ toJSON(matrix) }}'
-      - name: Dump env context
-        run: echo '${{ toJSON(env) }}'
+      - name: dump secret variables
+        run: "${{ toJSON(secret) }}"
       - name: Clone repository
         uses: actions/checkout@v3
       - name: Set up JDK 17
@@ -42,7 +29,7 @@ jobs:
         with:
           gradle-version: 7.4.2
       - name: Execute Gradle build
-        run: ./gradlew build run
+        run: ./gradlew build run --args="${cookie}"
       - name: 归档爬取数据
         uses: EndBug/add-and-commit@v9
         with:
