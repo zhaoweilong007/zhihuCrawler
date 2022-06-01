@@ -31,7 +31,7 @@ jobs:
         with:
           gradle-version: 7.4.2
       - name: Execute Gradle build
-        run: ./gradlew build run --args="$COOKIE"
+        run: ./gradlew build run -x test --args="$COOKIE"
       - name: 归档爬取数据
         uses: EndBug/add-and-commit@v9
         with:
