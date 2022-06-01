@@ -15,10 +15,10 @@ jobs:
 
     env:
       TZ: Asia/Shanghai
-      cookie: ${{ secrets.cookie }}
+      COOKIE: ${{ secrets.cookie }}
     steps:
       - name: dump secrets variables
-        run: echo '${{ toJSON(secrets) }}'
+        run: echo $cookie
       - name: Clone repository
         uses: actions/checkout@v3
       - name: Set up JDK 17
@@ -31,7 +31,7 @@ jobs:
         with:
           gradle-version: 7.4.2
       - name: Execute Gradle build
-        run: ./gradlew build run --args="$cookie"
+        run: ./gradlew build run --args="$COOKIE"
       - name: 归档爬取数据
         uses: EndBug/add-and-commit@v9
         with:
