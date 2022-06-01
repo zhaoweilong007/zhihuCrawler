@@ -1,0 +1,33 @@
+{
+	"30489442":[
+		{
+			"answerId":51507979,
+			"answerUrl":"https://www.zhihu.com/question/30489442/answer/51507979",
+			"authorName":"Lachel",
+			"commentCount":412,
+			"questionId":30489442,
+			"title":"长期通过微博、微信、知乎等平台接收碎片化的知识有什么弊端？",
+			"voteupCount":21121
+		}
+	],
+	"23427617":[
+		{
+			"answerId":1445129874,
+			"answerUrl":"https://www.zhihu.com/question/23427617/answer/1445129874",
+			"authorName":"常青",
+			"commentCount":1005,
+			"questionId":23427617,
+			"title":"如何构建自己的笔记系统？",
+			"voteupCount":45390
+		},
+		{
+			"answerId":28206585,
+			"answerUrl":"https://www.zhihu.com/question/23427617/answer/28206585",
+			"authorName":"Lachel",
+			"commentCount":470,
+			"questionId":23427617,
+			"title":"如何构建自己的笔记系统？",
+			"voteupCount":19547
+		}
+	]
+}

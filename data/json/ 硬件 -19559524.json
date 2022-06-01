@@ -1,0 +1,35 @@
+{
+	"20592179":[
+		{
+			"answerId":15579614,
+			"answerUrl":"https://www.zhihu.com/question/20592179/answer/15579614",
+			"authorName":"cOMMANDO",
+			"commentCount":533,
+			"questionId":20592179,
+			"title":"为什么在 Windows 中常常见到的第一个分区的盘符是 C:，而不是 A:？",
+			"voteupCount":15824
+		}
+	],
+	"38477872":[
+		{
+			"answerId":1141142841,
+			"answerUrl":"https://www.zhihu.com/question/38477872/answer/1141142841",
+			"authorName":"BOO聊通信",
+			"commentCount":793,
+			"questionId":38477872,
+			"title":"台积电是一家怎样的公司？",
+			"voteupCount":11850
+		}
+	],
+	"59240026":[
+		{
+			"answerId":1578679059,
+			"answerUrl":"https://www.zhihu.com/question/59240026/answer/1578679059",
+			"authorName":"林野",
+			"commentCount":866,
+			"questionId":59240026,
+			"title":"为什么机箱这么没技术含量的东西有些会和高端的cpu一样贵？",
+			"voteupCount":14171
+		}
+	]
+}

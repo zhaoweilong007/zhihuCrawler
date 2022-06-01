@@ -1,0 +1,55 @@
+{
+	"26350691":[
+		{
+			"answerId":42692522,
+			"answerUrl":"https://www.zhihu.com/question/26350691/answer/42692522",
+			"authorName":"谢照东",
+			"commentCount":321,
+			"questionId":26350691,
+			"title":"阿里巴巴、美团等各大互联网公司的 Java 类校招对本科生的要求是什么？",
+			"voteupCount":12678
+		}
+	],
+	"54734401":[
+		{
+			"answerId":467879222,
+			"answerUrl":"https://www.zhihu.com/question/54734401/answer/467879222",
+			"authorName":"就没有名字",
+			"commentCount":1647,
+			"questionId":54734401,
+			"title":"做开发你遇到最无理的需求是什么？",
+			"voteupCount":27802
+		},
+		{
+			"answerId":495449083,
+			"answerUrl":"https://www.zhihu.com/question/54734401/answer/495449083",
+			"authorName":"匿名用户",
+			"commentCount":475,
+			"questionId":54734401,
+			"title":"做开发你遇到最无理的需求是什么？",
+			"voteupCount":13854
+		}
+	],
+	"25038841":[
+		{
+			"answerId":44396770,
+			"answerUrl":"https://www.zhihu.com/question/25038841/answer/44396770",
+			"authorName":"Belleve",
+			"commentCount":721,
+			"questionId":25038841,
+			"title":"PHP、Java、Python、C、C++ 这几种编程语言都各有什么特点或优点？",
+			"voteupCount":11411
+		}
+	],
+	"23148377":[
+		{
+			"answerId":907915556,
+			"answerUrl":"https://www.zhihu.com/question/23148377/answer/907915556",
+			"authorName":"吴师兄学算法",
+			"commentCount":371,
+			"questionId":23148377,
+			"title":"程序员必须掌握哪些算法？",
+			"voteupCount":26980
+		}
+	]
+}

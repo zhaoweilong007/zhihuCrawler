@@ -15,6 +15,21 @@ jobs:
       TZ: Asia/Shanghai
 
     steps:
+      - name: Dump GitHub context
+        id: github_context_step
+        run: echo '${{ toJSON(github) }}'
+      - name: Dump job context
+        run: echo '${{ toJSON(job) }}'
+      - name: Dump steps context
+        run: echo '${{ toJSON(steps) }}'
+      - name: Dump runner context
+        run: echo '${{ toJSON(runner) }}'
+      - name: Dump strategy context
+        run: echo '${{ toJSON(strategy) }}'
+      - name: Dump matrix context
+        run: echo '${{ toJSON(matrix) }}'
+      - name: Dump env context
+        run: echo '${{ toJSON(env) }}'
       - name: Clone repository
         uses: actions/checkout@v3
       - name: Set up JDK 17

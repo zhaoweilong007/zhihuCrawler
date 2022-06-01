@@ -1,0 +1,57 @@
+{
+	"19834302":[
+		{
+			"answerId":13108148,
+			"answerUrl":"https://www.zhihu.com/question/19834302/answer/13108148",
+			"authorName":"张帅",
+			"commentCount":574,
+			"questionId":19834302,
+			"title":"零基础的前端开发初学者应如何系统地学习？",
+			"voteupCount":12479
+		}
+	],
+	"22689579":[
+		{
+			"answerId":22318058,
+			"answerUrl":"https://www.zhihu.com/question/22689579/answer/22318058",
+			"authorName":"张秋怡",
+			"commentCount":645,
+			"questionId":22689579,
+			"title":"Web 建站技术中，HTML、HTML5、XHTML、CSS、SQL、JavaScript、PHP、ASP.NET、Web Services 是什么？",
+			"voteupCount":19413
+		}
+	],
+	"22646257":[
+		{
+			"answerId":22113651,
+			"answerUrl":"https://www.zhihu.com/question/22646257/answer/22113651",
+			"authorName":"落忧",
+			"commentCount":490,
+			"questionId":22646257,
+			"title":"HTML、CSS、JavaScript、PHP、 MySQL 的学习顺序是什么？",
+			"voteupCount":13395
+		}
+	],
+	"510180628":[
+		{
+			"answerId":-1990110238,
+			"answerUrl":"https://www.zhihu.com/question/510180628/answer/-1990110238",
+			"authorName":"以撒",
+			"commentCount":410,
+			"questionId":510180628,
+			"title":"如何看待faker.js 开源作者删除了所有的代码？",
+			"voteupCount":15662
+		}
+	],
+	"20790576":[
+		{
+			"answerId":32602154,
+			"answerUrl":"https://www.zhihu.com/question/20790576/answer/32602154",
+			"authorName":"张云龙",
+			"commentCount":436,
+			"questionId":20790576,
+			"title":"大公司里怎样开发和部署前端代码？",
+			"voteupCount":11846
+		}
+	]
+}
