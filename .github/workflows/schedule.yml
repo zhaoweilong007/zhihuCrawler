@@ -24,6 +24,8 @@ jobs:
       COOKIE: ${{inputs.cookie}}
       ANSWER_FLAG: ${{inputs.parseAnswer}}
     steps:
+      - name: show inputs
+        run: echo '${{ toJSON(inputs) }}'
       - name: set env
         run: | 
           echo "{COOKIE}={$COOKIE}" >> $GITHUB_ENV
