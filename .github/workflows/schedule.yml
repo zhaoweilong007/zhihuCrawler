@@ -22,13 +22,6 @@ jobs:
       COOKIE: ${{github.event.inputs.cookie}}
       ANSWER_FLAG: ${{github.event.inputs.parseAnswer}}
     steps:
-      - name: show inputs
-        run: echo '${{ toJSON(github.event.inputs) }}'
-      - name: show env
-        run: |
-          echo "$COOKIE"
-          echo "$ANSWER_FLAG"
-        shell: bash
       - name: 克隆项目
         uses: actions/checkout@v3
       - name: Set up JDK 17
