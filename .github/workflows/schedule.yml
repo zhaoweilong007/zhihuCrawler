@@ -6,12 +6,10 @@ on:
       cookie:
         description: '知乎cookie'
         required: true
-        type: string
       parseAnswer:
         description: '是否爬取话题下回答'
         required: false
         default: "false"
-        type: string
   schedule:
     # 每天12点更新 按照UTC时间计算
     - cron: "0 4 * * *"
@@ -21,15 +19,11 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Shanghai
-      COOKIE: ${{inputs.cookie}}
-      ANSWER_FLAG: ${{inputs.parseAnswer}}
+      COOKIE: ${{github.event.inputs.cookie}}
+      ANSWER_FLAG: ${{github.event.inputs.parseAnswer}}
     steps:
       - name: show inputs
-        run: echo '${{ toJSON(inputs) }}'
-      - name: set env
-        run: | 
-          echo "{COOKIE}={$COOKIE}" >> $GITHUB_ENV
-          echo "{ANSWER_FLAG}={$ANSWER_FLAG}" >> $GITHUB_ENV
+        run: echo '${{ toJSON(github.event.inputs) }}'
       - name: show env
         run: |
           echo "$COOKIE"
@@ -49,9 +43,6 @@ jobs:
           arguments: build -x test
       - name: 运行程序
         uses: gradle/gradle-build-action@v2
-        env:
-          COOKIE: ${{inputs.cookie}}
-          ANSWER_FLAG: ${{inputs.parseAnswer}}
         with:
           gradle-version: 7.4.2
           arguments: run
