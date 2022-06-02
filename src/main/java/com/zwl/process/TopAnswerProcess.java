@@ -51,6 +51,7 @@ public class TopAnswerProcess extends PatternProcessor {
     public MatchOther processPage(Page page) {
         String url = page.getRequest().getUrl();
         Long topicId = Long.parseLong(StrUtil.subBetween(url, "topics/", "/"));
+        int offset = Integer.parseInt(StrUtil.subAfter(url, "offset=", true));
         JSONObject object = JSON.parseObject(page.getJson().toString());
         JSONObject paging;
 
@@ -111,7 +112,7 @@ public class TopAnswerProcess extends PatternProcessor {
             }
         });
 
-        if (isEnd) {
+        if (isEnd||offset == 1000) {
             writeAnswerFile(topicId);
             return MatchOther.NO;
         }
@@ -135,7 +136,7 @@ public class TopAnswerProcess extends PatternProcessor {
             pages = 20;
         }
         //总页数
-        for (int i = 0; i < pages-1; i++) {
+        for (int i = 0; i < pages - 1; i++) {
             CrawlerUtils.addReqyest(ZhiHuConstant.ANSWER_URL.formatted(topicId, offset += 50));
         }
     }
