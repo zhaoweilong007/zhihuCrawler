@@ -12,6 +12,7 @@ import com.zwl.constant.ZhiHuConstant;
 import com.zwl.model.Topic;
 import com.zwl.process.*;
 import com.zwl.thread.CrawlerThreadPool;
+import com.zwl.util.CrawlerUtils;
 import com.zwl.util.TopicTree;
 import lombok.extern.slf4j.Slf4j;
 import us.codecraft.webmagic.Request;
@@ -55,27 +56,34 @@ public class CrawlerApp {
             log.warn("请在环境变量配置cookie参数");
             return;
         }
-        Boolean parseAnswer = Optional.ofNullable(ANSWER_FLAG).map(Boolean::valueOf).orElse(true);
+        Boolean parseAnswer = Optional.ofNullable(ANSWER_FLAG).map(Boolean::valueOf).orElse(false);
 
         Spider spider = Spider.create(assemblyPage(COOKIE))
                 .thread(Runtime.getRuntime().availableProcessors() << 5)
                 .setScheduler(new FileCacheQueueScheduler(TMP_PATH));
 
+        CrawlerUtils.setSpider(spider);
+
         log.info("《《《《《《《《《《《《《《《《开始爬取topic》》》》》》》》》》》》》》");
-        ScheduledExecutorService scheduledThreadPool = Executors.newScheduledThreadPool(2);
         if (!TopicTree.checkTopic()) {
-            parseTopic(spider, scheduledThreadPool);
+            parseTopic(spider);
         }
-        scheduledThreadPool.shutdown();
+
         if (parseAnswer) {
             // 爬取话题下的问题
-            parseTopicQuestion(spider, 5);
+            parseTopicQuestion(spider, 3);
         }
         log.info("<<<<<<<<<<<<<<<<<<<<<<<<<<<回答爬取全部结束>>>>>>>>>>>>>>>>>>>>>>>>");
     }
 
 
-    public static void parseTopic(Spider spider, ScheduledExecutorService scheduledThreadPool) {
+    /**
+     * 爬取话题
+     *
+     * @param spider
+     */
+    public static void parseTopic(Spider spider) {
+        ScheduledExecutorService scheduledThreadPool = Executors.newSingleThreadScheduledExecutor();
         scheduledThreadPool.scheduleWithFixedDelay(() -> {
             // 保存话题json文件
             try {
@@ -95,6 +103,7 @@ public class CrawlerApp {
         Request request = new Request("https://www.zhihu.com/topic/19776749/organize");
         request.addCookie("z_c0", COOKIE);
         spider.addRequest(request).run();
+        scheduledThreadPool.shutdown();
         log.info("《《《《《《《《《《《《《《topic爬取完成，开始写入topic文件》》》》》》》》》》》》》》");
     }
 
@@ -109,7 +118,8 @@ public class CrawlerApp {
         spider.setExecutorService(new CrawlerThreadPool(threadNum));
         String json = FileUtil.readUtf8String(PACKAGE_PATH + File.separator + "topic" + File.separator + "heightTopics.json");
         List<Topic> list = JSON.parseArray(json, Topic.class);
-        list.sort(Comparator.comparingLong(Topic::getTopicId));
+        //按热度排序，优先爬取热度高的话题
+        list.sort(Comparator.comparingLong(Topic::getFollowers).reversed());
         list.forEach(topic -> spider.addUrl(ZhiHuConstant.ANSWER_URL.formatted(topic.getTopicId(), 0)));
         spider.run();
     }

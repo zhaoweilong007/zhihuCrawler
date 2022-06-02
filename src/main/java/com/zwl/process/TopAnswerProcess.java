@@ -1,6 +1,7 @@
 package com.zwl.process;
 
 import cn.hutool.core.io.FileUtil;
+import cn.hutool.core.io.IORuntimeException;
 import cn.hutool.core.util.StrUtil;
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONObject;
@@ -9,10 +10,10 @@ import com.google.common.collect.HashBasedTable;
 import com.zwl.constant.ZhiHuConstant;
 import com.zwl.model.Answer;
 import com.zwl.model.Topic;
+import com.zwl.util.CrawlerUtils;
 import com.zwl.util.TopicTree;
 import lombok.extern.slf4j.Slf4j;
 import us.codecraft.webmagic.Page;
-import us.codecraft.webmagic.Request;
 import us.codecraft.webmagic.ResultItems;
 import us.codecraft.webmagic.Task;
 import us.codecraft.webmagic.handler.PatternProcessor;
@@ -35,9 +36,9 @@ import java.util.stream.Collectors;
 @Slf4j
 public class TopAnswerProcess extends PatternProcessor {
 
-    private static final HashBasedTable<Long, Integer, CopyOnWriteArrayList<Answer>> table = HashBasedTable.create();
+    private final HashBasedTable<Long, Integer, CopyOnWriteArrayList<Answer>> table = HashBasedTable.create();
 
-    private static final ReentrantLock lock = new ReentrantLock();
+    private final ReentrantLock lock = new ReentrantLock();
 
     /**
      * @param pattern url pattern to handle
@@ -50,23 +51,26 @@ public class TopAnswerProcess extends PatternProcessor {
     public MatchOther processPage(Page page) {
         String url = page.getRequest().getUrl();
         Long topicId = Long.parseLong(StrUtil.subBetween(url, "topics/", "/"));
-        long offset = Long.parseLong(StrUtil.subAfter(url, "offset=", true));
         JSONObject object = JSON.parseObject(page.getJson().toString());
         JSONObject paging;
 
         if (object == null || object.getJSONObject("paging") == null) {
             String redirectUrl = Optional.ofNullable(object).map(jsonObject -> jsonObject.getJSONObject("error")).map(obj -> obj.getString("redirect").replace("\\", "")).orElse("");
-            log.warn("redirectUrl:{},\n{}", redirectUrl, page.getJson());
+            if (StrUtil.isNotEmpty(redirectUrl)) {
+                log.warn("触发安全验证，redirectUrl:{},\n{}", redirectUrl, page.getJson());
+                CrawlerUtils.close();
+            }
             writeAnswerFile(topicId);
             return MatchOther.NO;
         }
 
         paging = object.getJSONObject("paging");
+        double totals = paging.getDouble("totals");
         Boolean isEnd = paging.getBoolean("is_end");
         Boolean isStart = paging.getBoolean("is_start");
 
         if (isStart) {
-            initAnswerFile(topicId);
+            initAllRequest(topicId, totals);
         }
 
         // 解析话题答案
@@ -110,16 +114,38 @@ public class TopAnswerProcess extends PatternProcessor {
         if (isEnd) {
             writeAnswerFile(topicId);
             return MatchOther.NO;
-        } else {
-            // 翻页爬取
-            page.addTargetRequest(new Request(ZhiHuConstant.ANSWER_URL.formatted(topicId, offset + 50)));
         }
 
         return MatchOther.YES;
     }
 
-    private void initAnswerFile(Long topicId) {
-        Topic topic = TopicTree.getTopicMap().get(topicId);
+    /**
+     * 测试发现offset最多为一千，总计5万条回答，超出部分不会被爬取
+     *
+     * @param topicId
+     * @param totals
+     */
+    private void initAllRequest(Long topicId, double totals) {
+        int offset = 50;
+        if (totals < offset) {
+            return;
+        }
+        double pages = Math.ceil(totals / offset);
+        if (totals > 1000) {
+            pages = 20;
+        }
+        //总页数
+        for (int i = 0; i < pages-1; i++) {
+            CrawlerUtils.addReqyest(ZhiHuConstant.ANSWER_URL.formatted(topicId, offset += 50));
+        }
+    }
+
+    /**
+     * 初始化话题精华回答文件
+     *
+     * @param topic
+     */
+    private void initAnswerFile(Topic topic) {
         // 初始化文件
         String fileName = ZhiHuConstant.TOPIC_ANSWER_FILE_NAME.formatted("answer", topic.getTopicName().replace("/", " "), topic.getTopicId(), "md");
         File file = new File(fileName);
@@ -140,24 +166,44 @@ public class TopAnswerProcess extends PatternProcessor {
      * @param topicId
      */
     private void writeAnswerFile(Long topicId) {
-        Map<Integer, CopyOnWriteArrayList<Answer>> map = table.row(topicId);
-        Topic topic = TopicTree.getTopicMap().get(topicId);
-        // 文件
-        String fileName = ZhiHuConstant.TOPIC_ANSWER_FILE_NAME.formatted("answer", topic.getTopicName().replace("/", " "), topic.getTopicId(), "md");
-        String jsonFileName = ZhiHuConstant.TOPIC_ANSWER_FILE_NAME.formatted("answerJson", topic.getTopicName().replace("/", " "), topic.getTopicId(), "json");
+        try {
+            Map<Integer, CopyOnWriteArrayList<Answer>> map = table.row(topicId);
+            Topic topic = TopicTree.getTopicMap().get(topicId);
+            // 文件
+            String fileName = ZhiHuConstant.TOPIC_ANSWER_FILE_NAME.formatted("answer", topic.getTopicName().replace("/", " "), topic.getTopicId(), "md");
+            String jsonFileName = ZhiHuConstant.TOPIC_ANSWER_FILE_NAME.formatted("answerJson", topic.getTopicName().replace("/", " "), topic.getTopicId(), "json");
 
-        map.forEach((qid, answers) -> {
-            StringBuilder builder = new StringBuilder();
-            builder.append("## ").append(answers.get(0).getTitle()).append("\n");
-            answers.forEach(answer -> builder.append("- [%s的回答](%s),点赞数：%d，评论数：%d\n".formatted(answer.getAuthorName(), answer.getAnswerUrl(), answer.getVoteupCount(), answer.getCommentCount())));
-            FileUtil.appendUtf8String(builder.toString(), fileName);
-        });
-        FileUtil.writeUtf8String(JSON.toJSONString(map, JSONWriter.Feature.PrettyFormat), jsonFileName);
+            if (!FileUtil.exist(fileName)) {
+                initAnswerFile(topic);
+            }
 
+            map.forEach((qid, answers) -> {
+                StringBuilder builder = new StringBuilder();
+                builder.append("## ").append(answers.get(0).getTitle()).append("\n");
+                answers.forEach(answer -> builder.append("- [%s的回答](%s),点赞数：%d，评论数：%d\n".formatted(answer.getAuthorName(), answer.getAnswerUrl(), answer.getVoteupCount(), answer.getCommentCount())));
+                FileUtil.appendUtf8String(builder.toString(), fileName);
+            });
+
+            FileUtil.writeUtf8String(JSON.toJSONString(map, JSONWriter.Feature.PrettyFormat), jsonFileName);
+            removeTopic(map, topicId);
+        } catch (IORuntimeException e) {
+            log.error("writeAnswerFile error", e);
+        }
+
+    }
+
+
+    /**
+     * 移除话题
+     *
+     * @param map
+     * @param topicId
+     */
+    private void removeTopic(Map<Integer, CopyOnWriteArrayList<Answer>> map, Long topicId) {
         lock.lock();
         try {
             List<Integer> qids = map.keySet().stream().toList();
-            qids.forEach(qid->table.remove(topicId, qid));
+            qids.forEach(qid -> table.remove(topicId, qid));
         } catch (Exception e) {
             log.error("移除table元素失败：{}", e.getMessage());
         } finally {

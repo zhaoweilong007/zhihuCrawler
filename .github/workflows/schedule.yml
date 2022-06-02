@@ -24,10 +24,15 @@ jobs:
       COOKIE: ${{inputs.cookie}}
       ANSWER_FLAG: ${{inputs.parseAnswer}}
     steps:
-      - name: 输入参数
+      - name: set env
+        run: | 
+          echo "{COOKIE}={$COOKIE}" >> $GITHUB_ENV
+          echo "{ANSWER_FLAG}={$ANSWER_FLAG}" >> $GITHUB_ENV
+      - name: show env
         run: |
-          echo "COOKIE: $COOKIE"
-          echo "ANSWER_FLAG: $ANSWER_FLAG"
+          echo "$COOKIE"
+          echo "$ANSWER_FLAG"
+        shell: bash
       - name: 克隆项目
         uses: actions/checkout@v3
       - name: Set up JDK 17
