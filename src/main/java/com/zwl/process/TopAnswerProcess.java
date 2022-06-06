@@ -1,7 +1,7 @@
 package com.zwl.process;
 
+import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.IORuntimeException;
 import cn.hutool.core.util.StrUtil;
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONObject;
@@ -97,22 +97,23 @@ public class TopAnswerProcess extends PatternProcessor {
             return new Answer().setAuthorName(authorName).setAnswerId(answerId).setQuestionId(questionId).setVoteupCount(voteupCount).setCommentCount(commentCount).setTitle(title).setAnswerUrl(StrUtil.format(ZhiHuConstant.ANSWER_PAGE_URL, questionId, answerId));
         }).collect(Collectors.groupingBy(Answer::getQuestionId, Collectors.toCollection(CopyOnWriteArrayList::new)));
 
-        map.forEach((qid, answers) -> {
-            lock.lock();
-            try {
+        lock.lock();
+        try {
+            map.forEach((qid, answers) -> {
                 CopyOnWriteArrayList<Answer> arrayList = table.get(topicId, qid);
                 if (arrayList == null) {
                     table.put(topicId, qid, answers);
                 } else {
                     arrayList.addAll(answers);
                 }
-            } catch (Exception ignore) {
-            } finally {
-                lock.unlock();
-            }
-        });
 
-        if (isEnd||offset == 1000) {
+            });
+        } catch (Exception e) {
+            log.error("添加table异常:{}", e.getMessage());
+        } finally {
+            lock.unlock();
+        }
+        if (isEnd || offset == 1000) {
             writeAnswerFile(topicId);
             return MatchOther.NO;
         }
@@ -167,8 +168,13 @@ public class TopAnswerProcess extends PatternProcessor {
      * @param topicId
      */
     private void writeAnswerFile(Long topicId) {
+        lock.lock();
         try {
             Map<Integer, CopyOnWriteArrayList<Answer>> map = table.row(topicId);
+
+            if (CollectionUtil.isEmpty(map)) {
+                return;
+            }
             Topic topic = TopicTree.getTopicMap().get(topicId);
             // 文件
             String fileName = ZhiHuConstant.TOPIC_ANSWER_FILE_NAME.formatted("answer", topic.getTopicName().replace("/", " "), topic.getTopicId(), "md");
@@ -186,31 +192,16 @@ public class TopAnswerProcess extends PatternProcessor {
             });
 
             FileUtil.writeUtf8String(JSON.toJSONString(map, JSONWriter.Feature.PrettyFormat), jsonFileName);
-            removeTopic(map, topicId);
-        } catch (IORuntimeException e) {
-            log.error("writeAnswerFile error", e);
-        }
-
-    }
-
-
-    /**
-     * 移除话题
-     *
-     * @param map
-     * @param topicId
-     */
-    private void removeTopic(Map<Integer, CopyOnWriteArrayList<Answer>> map, Long topicId) {
-        lock.lock();
-        try {
             List<Integer> qids = map.keySet().stream().toList();
             qids.forEach(qid -> table.remove(topicId, qid));
         } catch (Exception e) {
-            log.error("移除table元素失败：{}", e.getMessage());
+            log.error("writeAnswerFile error", e);
         } finally {
             lock.unlock();
         }
+
     }
+
 
     @Override
     public MatchOther processResult(ResultItems resultItems, Task task) {
