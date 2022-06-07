@@ -36,7 +36,7 @@ import java.util.stream.Collectors;
 @Slf4j
 public class TopAnswerProcess extends PatternProcessor {
 
-    private final HashBasedTable<Long, Integer, CopyOnWriteArrayList<Answer>> table = HashBasedTable.create();
+    private final HashBasedTable<Long, Long, CopyOnWriteArrayList<Answer>> table = HashBasedTable.create();
 
     private final ReentrantLock lock = new ReentrantLock();
 
@@ -75,7 +75,7 @@ public class TopAnswerProcess extends PatternProcessor {
         }
 
         // 解析话题答案
-        Map<Integer, CopyOnWriteArrayList<Answer>> map = object.getJSONArray("data").stream().filter(o -> {
+        Map<Long, CopyOnWriteArrayList<Answer>> map = object.getJSONArray("data").stream().filter(o -> {
             JSONObject obj = (JSONObject) o;
             JSONObject target = obj.getJSONObject("target");
             String type = target.getString("type");
@@ -90,8 +90,8 @@ public class TopAnswerProcess extends PatternProcessor {
             String authorName = author.getString("name");
             Integer voteupCount = target.getInteger("voteup_count");
             Integer commentCount = target.getInteger("comment_count");
-            Integer answerId = target.getInteger("id");
-            Integer questionId = question.getInteger("id");
+            Long answerId = target.getLong("id");
+            Long questionId = question.getLong("id");
             String title = question.getString("title");
 
             return new Answer().setAuthorName(authorName).setAnswerId(answerId).setQuestionId(questionId).setVoteupCount(voteupCount).setCommentCount(commentCount).setTitle(title).setAnswerUrl(StrUtil.format(ZhiHuConstant.ANSWER_PAGE_URL, questionId, answerId));
@@ -170,7 +170,7 @@ public class TopAnswerProcess extends PatternProcessor {
     private void writeAnswerFile(Long topicId) {
         lock.lock();
         try {
-            Map<Integer, CopyOnWriteArrayList<Answer>> map = table.row(topicId);
+            Map<Long, CopyOnWriteArrayList<Answer>> map = table.row(topicId);
 
             if (CollectionUtil.isEmpty(map)) {
                 return;
@@ -192,7 +192,7 @@ public class TopAnswerProcess extends PatternProcessor {
             });
 
             FileUtil.writeUtf8String(JSON.toJSONString(map, JSONWriter.Feature.PrettyFormat), jsonFileName);
-            List<Integer> qids = map.keySet().stream().toList();
+            List<Long> qids = map.keySet().stream().toList();
             qids.forEach(qid -> table.remove(topicId, qid));
         } catch (Exception e) {
             log.error("writeAnswerFile error", e);

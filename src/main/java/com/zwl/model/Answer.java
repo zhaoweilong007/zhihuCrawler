@@ -24,11 +24,11 @@ public class Answer {
     /**
      * 回答id
      */
-    Integer answerId;
+    Long answerId;
     /**
      * 问题id
      */
-    Integer questionId;
+    Long questionId;
     /**
      * 问题标题
      */
