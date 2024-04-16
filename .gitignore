@@ -40,3 +40,10 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/encodings.xml
+/.idea/gradle.xml
+/.idea/jpa-buddy.xml
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
