@@ -9,13 +9,17 @@ import org.archive.properties.CrawlerProperties;
 public class CrawlerConfig {
 
 
-  /**
-   * 初始化配置
-   * @return 配置
-   */
-  public CrawlerProperties init() {
+    /**
+     * 初始化配置
+     *
+     * @return 配置
+     */
+    public static CrawlerProperties init() {
 
-    return null;
-  }
+
+
+
+        return null;
+    }
 
 }

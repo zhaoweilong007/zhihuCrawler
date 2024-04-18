@@ -10,33 +10,33 @@ import lombok.Data;
 public class CrawlerProperties {
 
 
-  /**
-   * redis config
-   */
-  private RedisProperties redis;
+    /**
+     * redis config
+     */
+    private RedisProperties redis;
 
 
-  /**
-   * datasource config
-   */
-  private DBProperties db;
+    /**
+     * datasource config
+     */
+    private DBProperties db;
 
 
-  /**
-   * threadPool config
-   */
-  private ThreadPoolProperties thread;
+    /**
+     * threadPool config
+     */
+    private ThreadPoolProperties thread;
 
 
-  /**
-   * proxy config
-   */
-  private ProxyProperties proxy;
+    /**
+     * proxy config
+     */
+    private ProxyProperties proxy;
 
-  /**
-   * object storage
-   */
-  private OssProperties oss;
+    /**
+     * object storage
+     */
+    private OssProperties oss;
 
 
 }

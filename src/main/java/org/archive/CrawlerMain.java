@@ -1,7 +1,9 @@
 package org.archive;
 
 import lombok.extern.slf4j.Slf4j;
+import org.archive.config.CrawlerConfig;
 import org.archive.processor.TopActivityProcess;
+import org.archive.properties.CrawlerProperties;
 
 /**
  * @author ZhaoWeiLong
@@ -11,7 +13,8 @@ import org.archive.processor.TopActivityProcess;
 public class CrawlerMain {
 
   public static void main(String[] args) {
-    final ZhiHuCrawler zhiHuCrawler = new ZhiHuCrawler();
+    final CrawlerProperties properties = CrawlerConfig.init();
+    final ZhiHuCrawler zhiHuCrawler = new ZhiHuCrawler(properties);
     zhiHuCrawler.addSubPageProcessor(new TopActivityProcess());
     zhiHuCrawler.run();
   }
