@@ -29,7 +29,7 @@ public class TopActivityProcess extends PatternProcessor {
     }
 
     public TopActivityProcess() {
-        super(CrawlerConstants.TOP_ACTIVITY_URL);
+        super(CrawlerConstants.TOP_ACTIVITY_URL_PATTERN);
 
     }
 

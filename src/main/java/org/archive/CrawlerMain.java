@@ -12,7 +12,7 @@ import org.archive.properties.CrawlerProperties;
 @Slf4j
 public class CrawlerMain {
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws Exception {
     final CrawlerProperties properties = CrawlerConfig.init();
     final ZhiHuCrawler zhiHuCrawler = new ZhiHuCrawler(properties);
     zhiHuCrawler.addSubPageProcessor(new TopActivityProcess());
