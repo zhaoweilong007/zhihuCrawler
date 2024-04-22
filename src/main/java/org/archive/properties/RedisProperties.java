@@ -3,8 +3,9 @@ package org.archive.properties;
 import lombok.Data;
 
 /**
+ * redis config
+ *
  * @author ZhaoWeiLong
- * @description
  **/
 @Data
 public class RedisProperties {

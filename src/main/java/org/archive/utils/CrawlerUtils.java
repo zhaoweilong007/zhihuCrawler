@@ -4,7 +4,6 @@ import lombok.experimental.UtilityClass;
 
 /**
  * @author ZhaoWeiLong
- * @description
  **/
 @UtilityClass
 public class CrawlerUtils {

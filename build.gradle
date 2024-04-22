@@ -30,23 +30,25 @@ dependencies {
     implementation 'us.codecraft:webmagic-selenium:0.10.0'
     implementation 'us.codecraft:webmagic-core:0.10.0'
     implementation 'us.codecraft:webmagic-extension:0.10.0'
-    implementation 'com.alibaba.fastjson2:fastjson2:2.0.5'
     implementation 'cn.hutool:hutool-all:5.8.27'
     implementation 'one.util:streamex:0.8.1'
     implementation 'com.google.guava:guava:31.1-jre'
-    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.17.0'
     implementation 'org.slf4j:slf4j-api:2.0.12'
     implementation 'ch.qos.logback:logback-core:1.5.4'
     implementation 'ch.qos.logback:logback-classic:1.5.4'
     implementation 'com.mysql:mysql-connector-j:8.3.0'
+    implementation 'com.alibaba:druid:1.2.22'
+    implementation 'org.yaml:snakeyaml:2.2'
+    implementation 'com.amazonaws:aws-java-sdk-s3:1.12.705'
     compileOnly 'org.projectlombok:lombok:1.18.20'
     annotationProcessor 'org.projectlombok:lombok:1.18.20'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.3'
 }
 
 test {
     useJUnitPlatform()
 }
 
-tasks.withType(JavaCompile) {
+tasks.withType(JavaCompile).configureEach {
     options.encoding = "UTF-8"
 }

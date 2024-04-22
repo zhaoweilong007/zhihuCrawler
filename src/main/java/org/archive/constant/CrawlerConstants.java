@@ -1,8 +1,9 @@
 package org.archive.constant;
 
 /**
+ * 常量
+ *
  * @author ZhaoWeiLong
- * @description 常量
  **/
 public interface CrawlerConstants {
 
@@ -14,10 +15,10 @@ public interface CrawlerConstants {
     /**
      * 精华回答
      */
-    String TOP_ACTIVITY_URL_PATTERN = "https://www.zhihu.com/api/v5.1/topics/\\d+/feeds/top_activity?offset=\\d+&limit=50";
+    String TOP_ACTIVITY_URL_PATTERN = "https://www.zhihu.com/api/v5.1/topics/\\d+/feeds/top_activity?.*";
 
 
-    String TOP_ACTIVITY_URL = "https://www.zhihu.com/api/v5.1/topics/%s/feeds/top_activity?offset=0&limit=50";
+    String TOP_ACTIVITY_URL = "https://www.zhihu.com/api/v5.1/topics/%s/feeds/top_activity?offset=%s&limit=50&followers=%s";
 
 
     /**

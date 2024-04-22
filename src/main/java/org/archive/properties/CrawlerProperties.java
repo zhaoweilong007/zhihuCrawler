@@ -3,8 +3,9 @@ package org.archive.properties;
 import lombok.Data;
 
 /**
+ * 配置属性
+ *
  * @author ZhaoWeiLong
- * @description 配置属性
  **/
 @Data
 public class CrawlerProperties {
@@ -14,19 +15,6 @@ public class CrawlerProperties {
      * redis config
      */
     private RedisProperties redis;
-
-
-    /**
-     * datasource config
-     */
-    private DBProperties db;
-
-
-    /**
-     * threadPool config
-     */
-    private ThreadPoolProperties thread;
-
 
     /**
      * proxy config
