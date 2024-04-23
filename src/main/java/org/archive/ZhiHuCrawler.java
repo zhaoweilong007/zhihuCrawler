@@ -5,22 +5,27 @@ import cn.hutool.core.util.PageUtil;
 import cn.hutool.db.Db;
 import cn.hutool.db.Entity;
 import cn.hutool.db.Page;
+import cn.hutool.db.ds.DSFactory;
 import cn.hutool.db.handler.BeanListHandler;
 import cn.hutool.db.sql.Direction;
 import cn.hutool.db.sql.Order;
-import cn.hutool.http.HttpStatus;
 import lombok.extern.slf4j.Slf4j;
 import org.archive.constant.CrawlerConstants;
+import org.archive.listener.RedisMonitorSpiderListener;
 import org.archive.model.Topic;
+import org.archive.oss.OssClient;
 import org.archive.properties.CrawlerProperties;
 import org.archive.properties.ProxyProperties;
 import org.archive.properties.RedisProperties;
+import org.archive.proxy.DynamicProxyProvider;
+import org.archive.utils.EntityUtils;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 import us.codecraft.webmagic.Request;
 import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
+import us.codecraft.webmagic.SpiderListener;
 import us.codecraft.webmagic.downloader.Downloader;
 import us.codecraft.webmagic.downloader.HttpClientDownloader;
 import us.codecraft.webmagic.handler.CompositePageProcessor;
@@ -29,11 +34,10 @@ import us.codecraft.webmagic.proxy.Proxy;
 import us.codecraft.webmagic.proxy.SimpleProxyProvider;
 import us.codecraft.webmagic.scheduler.RedisPriorityScheduler;
 
+import javax.sql.DataSource;
 import java.sql.SQLException;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Objects;
-import java.util.Set;
 
 /**
  * 知乎爬虫
@@ -45,40 +49,43 @@ public class ZhiHuCrawler {
 
     private final RedisPriorityScheduler scheduler;
     private final Downloader downloader;
-    private final Jedis jedis;
-    private final Db db;
-    private CompositePageProcessor processors;
-    private Integer thread;
+    private final JedisPool jedisPool;
+    private final DataSource dataSource;
+    private final CompositePageProcessor processors;
+    /**
+     * 线程数 默认固定为1，如果开启代理，则线程数等于代理数
+     */
+    private final Integer thread;
+    private final SpiderListener spiderListener;
+    private final OssClient ossClient;
+    private final CrawlerProperties properties;
 
     public ZhiHuCrawler(CrawlerProperties properties) {
-        Set<Integer> acceptCode = new HashSet<>() {
-            {
-                add(HttpStatus.HTTP_OK);
-                add(HttpStatus.HTTP_NOT_FOUND);
-                add(HttpStatus.HTTP_FORBIDDEN);
-            }
-        };
+        this.properties = properties;
         this.processors = new CompositePageProcessor(Site.me()
-                .setSleepTime(1000)
+                .setSleepTime(properties.getThread().getSleepTime())
                 .setDomain(CrawlerConstants.DO_MAIN)
-                .setCharset(CharsetUtil.UTF_8)
-                .setAcceptStatCode(acceptCode));
-        final JedisPool jedisPool = initJedis(properties.getRedis());
-        this.jedis = jedisPool.getResource();
+                .setCharset(CharsetUtil.UTF_8));
+        this.jedisPool = initJedis(properties.getRedis());
         this.scheduler = new RedisPriorityScheduler(jedisPool);
-        this.downloader = initProxy(properties);
-        this.db = Db.use();
+        this.spiderListener = new RedisMonitorSpiderListener(jedisPool);
+        this.downloader = initProxy(jedisPool,properties);
+        this.thread = properties.getProxy().getEnable() ? properties.getProxy().getPools().size() : 1;
+        this.dataSource = DSFactory.get();
+        if (properties.getOss().getEnable()) {
+            this.ossClient = new OssClient(properties.getOss());
+        } else {
+            this.ossClient = null;
+        }
+        EntityUtils.init(properties.getThread());
+        EntityUtils.setJedisPool(jedisPool);
     }
 
-    private HttpClientDownloader initProxy(CrawlerProperties properties) {
+    private HttpClientDownloader initProxy(JedisPool jedisPool,CrawlerProperties properties) {
         final ProxyProperties proxy = properties.getProxy();
         final HttpClientDownloader clientDownloader = new HttpClientDownloader();
         if (proxy.getEnable()) {
-            clientDownloader.setProxyProvider(SimpleProxyProvider.from(proxy.getProxies().toArray(new Proxy[0])));
-            this.thread = proxy.getProxies().size();
-        } else {
-            clientDownloader.setThread(1);
-            this.thread = 1;
+            clientDownloader.setProxyProvider(DynamicProxyProvider.from(jedisPool,proxy));
         }
         return clientDownloader;
     }
@@ -98,39 +105,47 @@ public class ZhiHuCrawler {
 
     public void run() throws Exception {
         final Spider spider = Spider.create(processors)
+                .setSpawnUrl(true)
                 .setScheduler(scheduler)
                 .setDownloader(downloader)
+                .setSpiderListeners(List.of(spiderListener))
                 .thread(thread);
-        final String initKey = jedis.get(CrawlerConstants.INIT_TOPIC_KEY);
-        if (initKey == null || Objects.equals(Boolean.FALSE.toString(), initKey)) {
-            initTopic(spider);
-        }
+        //init topic
+        initTopic(spider);
         spider.run();
     }
 
+
+    /**
+     * 从db读取所有topic写入redis队列
+     */
     private void initTopic(Spider spider) throws SQLException {
-        //init request
-        final Entity entity = Entity.parseWithUnderlineCase(new Topic());
-        final long count = db.count(entity);
-        if (count == 0) {
-            throw new RuntimeException("topic table is empty,place run sql script first");
+        try (Jedis jedis = jedisPool.getResource()) {
+            final String initKey = jedis.get(CrawlerConstants.INIT_TOPIC_KEY);
+            if (initKey != null && Objects.equals(Boolean.TRUE.toString(), initKey)) {
+                return;
+            }
+            //init request
+            final Entity entity = Entity.parseWithUnderlineCase(new Topic());
+            final long count = Db.use().count(entity);
+            if (count == 0) {
+                throw new RuntimeException("topic table is empty,place run sql script first");
+            }
+            for (int i = 0; i < PageUtil.totalPage(count, 10000); i++) {
+                final Page page = Page.of(i, 10000);
+                page.setOrder(new Order("followers", Direction.DESC));
+                final List<Topic> topics = Db.use().page(entity, page, BeanListHandler.create(Topic.class));
+                final Request[] requests = topics.stream()
+                        .map(topic -> {
+                            final Request request = new Request(CrawlerConstants.TOP_ACTIVITY_URL.formatted(topic.getTopicId(), 0, topic.getFollowers()));
+                            request.setPriority(topic.getFollowers());
+                            return request;
+                        })
+                        .toArray(Request[]::new);
+                spider.addRequest(requests);
+            }
+            jedis.set(CrawlerConstants.INIT_TOPIC_KEY, Boolean.TRUE.toString());
+            log.info("init request finish total request:{}", count);
         }
-        for (int i = 0; i < PageUtil.totalPage(count, 10000); i++) {
-            final Page page = Page.of(i, 10000);
-            page.setOrder(new Order("followers", Direction.DESC));
-            final List<Topic> topics = db.page(entity, page, BeanListHandler.create(Topic.class));
-            final Request[] requests = topics.stream()
-                    .map(topic -> {
-                        final Request request = new Request(CrawlerConstants.TOP_ACTIVITY_URL.formatted(topic.getTopicId(), 0, topic.getFollowers()));
-                        request.setPriority(topic.getFollowers());
-                        return request;
-                    })
-                    .toArray(Request[]::new);
-            spider.addRequest(requests);
-        }
-        jedis.set(CrawlerConstants.INIT_TOPIC_KEY, Boolean.TRUE.toString());
-        log.info("init request finish total request:{}", count);
     }
-
-
 }

@@ -22,7 +22,7 @@ public class CrawlerConfig {
      *
      * @return 配置
      */
-    public static CrawlerProperties init() {
+    public static CrawlerProperties loadProperties() {
         final BufferedReader reader = ResourceUtil.getReader("crawler.yml", Charset.defaultCharset());
         final CrawlerProperties properties = YamlUtil.load(reader, CrawlerProperties.class);
         log.info("load crawler.yaml success");

@@ -16,6 +16,9 @@ public class ProxyProperties {
 
     private Boolean enable = false;
 
-    private List<Proxy> proxies = new ArrayList<>();
+    /**
+     * 代理ip池
+     */
+    private List<Proxy> pools = new ArrayList<>();
 
 }

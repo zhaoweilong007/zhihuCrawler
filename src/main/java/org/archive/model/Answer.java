@@ -10,7 +10,7 @@ import java.util.Date;
  * @author ZhaoWeiLong
  **/
 @Data
-public class Answer {
+public class Answer implements Model {
 
     /**
      * 主键
@@ -97,4 +97,9 @@ public class Answer {
      * 回答url
      */
     private String answerUrl;
+
+    /**
+     * 回答类型
+     */
+    private String type;
 }

@@ -5,10 +5,41 @@ redis:
   database: 0
   username:
   password:
-  timeout: 2000
-  maxTotal: 10
+  #超时时间
+  timeout: 3000
+  #最大线程数
+  maxTotal: 12
+  #最大空闲时间
   maxIdle: 5000
+  #最小空闲时间
   minIdle: 1000
 proxy:
+  #是否开启代理
   enable: false
-
+  #代理ip
+#  pools:
+#    - scheme:
+#      host:
+#      port:
+#      username:
+#      password:
+thread:
+  #请求间隔等待时间 （防止请求太频繁封ip）
+  sleepTime: 500
+  #单次合并最大请求大小
+  maxRequestSize: 1000
+  #线程工厂核心线程数
+  corePoolSize: 1
+  #合并请求间隔（单位毫秒）
+  requestInterval: 5000
+oss:
+  enable: false
+  endpoint:
+  domain:
+  prefix:
+  accessKey:
+  secretKey:
+  bucketName:
+  region:
+  isHttps:
+  accessPolicy:

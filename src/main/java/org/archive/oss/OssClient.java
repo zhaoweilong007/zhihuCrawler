@@ -36,15 +36,11 @@ import java.util.Date;
  **/
 public class OssClient {
 
-
-    private final String configKey;
-
     private final OssProperties properties;
 
     private final AmazonS3 client;
 
-    public OssClient(String configKey, OssProperties ossProperties) {
-        this.configKey = configKey;
+    public OssClient(OssProperties ossProperties) {
         this.properties = ossProperties;
         try {
             AwsClientBuilder.EndpointConfiguration endpointConfig =
@@ -68,7 +64,6 @@ public class OssClient {
                 build.enablePathStyleAccess();
             }
             this.client = build.build();
-
             createBucket();
         } catch (Exception e) {
             if (e instanceof OssException) {
@@ -225,9 +220,6 @@ public class OssClient {
         return path + suffix;
     }
 
-    public String getConfigKey() {
-        return configKey;
-    }
 
     /**
      * 获取私有URL链接

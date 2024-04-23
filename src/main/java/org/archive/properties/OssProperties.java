@@ -10,6 +10,8 @@ import lombok.Data;
 @Data
 public class OssProperties {
 
+    private Boolean enable = false;
+
     /**
      * 访问站点
      */

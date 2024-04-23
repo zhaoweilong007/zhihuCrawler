@@ -26,5 +26,10 @@ public class CrawlerProperties {
      */
     private OssProperties oss;
 
+    /**
+     * db save thread config
+     */
+    private ThreadPoolProperties thread;
+
 
 }

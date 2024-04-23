@@ -14,8 +14,7 @@ import org.archive.properties.CrawlerProperties;
 public class CrawlerMain {
 
     public static void main(String[] args) throws Exception {
-        final CrawlerProperties properties = CrawlerConfig.init();
-        final ZhiHuCrawler zhiHuCrawler = new ZhiHuCrawler(properties);
+        final ZhiHuCrawler zhiHuCrawler = new ZhiHuCrawler(CrawlerConfig.loadProperties());
         zhiHuCrawler.addSubPageProcessor(new TopActivityProcess());
         zhiHuCrawler.run();
     }

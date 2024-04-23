@@ -8,7 +8,7 @@ import lombok.Data;
  * @author ZhaoWeiLong
  **/
 @Data
-public class Topic {
+public class Topic implements Model {
 
     /**
      * 主键
