@@ -25,13 +25,13 @@ proxy:
 #      password:
 thread:
   #请求间隔等待时间 （单位毫秒）（防止请求太频繁封ip）
-  sleepTime: 1500
+  sleepTime: 1000
   #单次合并最大请求大小
   maxRequestSize: 1000
   #线程工厂核心线程数
   corePoolSize: 1
   #合并请求间隔（单位毫秒）
-  requestInterval: 3000
+  requestInterval: 5000
 oss:
   enable: false
   endpoint:

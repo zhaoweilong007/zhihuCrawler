@@ -70,6 +70,7 @@ public class EntityUtils {
                 final List<Entity> entityList = extractElement(taskQueue, size);
                 try {
                     Db.use().insert(entityList);
+                    log.info("save entity success, size: {}", entityList.size());
                 } catch (SQLException e) {
                     log.error("save entity failed", e);
                     final String json = JSON.toJSONString(entityList);
