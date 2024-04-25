@@ -132,9 +132,11 @@ public class ZhiHuCrawler {
     private void initTopic(Spider spider) throws SQLException {
         final String initKey = RedisUtil.get(CrawlerConstants.INIT_TOPIC_KEY);
         if (initKey != null && Objects.equals(Boolean.TRUE.toString(), initKey)) {
+            log.info("Already initialized topic");
             return;
         }
         //init request
+        log.info("Initialization topic");
         final Entity entity = Entity.parseWithUnderlineCase(new Topic());
         final long count = Db.use().count(entity);
         if (count == 0) {
@@ -154,6 +156,6 @@ public class ZhiHuCrawler {
             spider.addRequest(requests);
         }
         RedisUtil.set(CrawlerConstants.INIT_TOPIC_KEY, Boolean.TRUE.toString());
-        log.info("init request finish total request:{}", count);
+        log.info("Initialization complete total request:{}", count);
     }
 }
