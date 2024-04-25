@@ -6,7 +6,6 @@ import lombok.Data;
  * thread config
  *
  * @author ZhaoWeiLong
- * @since 2024/4/23
  **/
 @Data
 public class ThreadPoolProperties {

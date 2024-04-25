@@ -25,7 +25,7 @@ public class CrawlerConfig {
     public static CrawlerProperties loadProperties() {
         final BufferedReader reader = ResourceUtil.getReader("crawler.yml", Charset.defaultCharset());
         final CrawlerProperties properties = YamlUtil.load(reader, CrawlerProperties.class);
-        log.info("load crawler.yaml success");
+        log.info("load crawler.yal success");
         return properties;
     }
 

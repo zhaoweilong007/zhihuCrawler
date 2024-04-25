@@ -18,6 +18,11 @@ public class Answer implements Model {
     private Long id;
 
     /**
+     * 话题id
+     */
+    private Long topicId;
+
+    /**
      * 回答id
      */
     private Long answerId;

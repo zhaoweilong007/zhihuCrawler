@@ -1,0 +1,23 @@
+version: '3.8'
+
+networks:
+  crawler:
+    name: crawler
+    driver: bridge
+
+services:
+  mysql:
+    container_name: mysql
+    build:
+      context: .
+      dockerfile: ./mysql/Dockerfile
+    image: crawler/mysql:8.3.0
+    env_file:
+      - ./env/mysql.env
+    volumes:
+      - ./mysql:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    restart: always
+    networks:
+      - crawler

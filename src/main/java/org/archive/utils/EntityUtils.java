@@ -3,14 +3,11 @@ package org.archive.utils;
 import cn.hutool.db.Db;
 import cn.hutool.db.Entity;
 import com.alibaba.fastjson2.JSON;
-import lombok.Setter;
 import lombok.experimental.UtilityClass;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
 import org.archive.constant.CrawlerConstants;
 import org.archive.properties.ThreadPoolProperties;
-import redis.clients.jedis.Jedis;
-import redis.clients.jedis.JedisPool;
 
 import java.sql.SQLException;
 import java.util.*;
@@ -30,9 +27,6 @@ public class EntityUtils {
      * 并发安全队列，多个线程同时添加数据时保证线程安全
      */
     private final ConcurrentLinkedQueue<Entity> taskQueue = new ConcurrentLinkedQueue<>();
-
-    @Setter
-    private JedisPool jedisPool;
 
     public static void init(ThreadPoolProperties properties) {
         Runnable runnable = getRunnable(properties.getMaxRequestSize());
@@ -58,7 +52,7 @@ public class EntityUtils {
         return lists;
     }
 
-    public static void saveEntity(Collection<Entity> models) throws SQLException {
+    public static void saveEntity(Collection<Entity> models) {
         taskQueue.addAll(models);
     }
 
@@ -79,9 +73,7 @@ public class EntityUtils {
                 } catch (SQLException e) {
                     log.error("save entity failed", e);
                     final String json = JSON.toJSONString(entityList);
-                    try (Jedis jedis = jedisPool.getResource()) {
-                        jedis.rpush(CrawlerConstants.CRAWLER_DB_SAVE_ERROR_QUEUE, json);
-                    }
+                    RedisUtil.rpush(CrawlerConstants.CRAWLER_DB_SAVE_ERROR_QUEUE, json);
                 }
             }
         };

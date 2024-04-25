@@ -3,6 +3,7 @@ package org.archive.processor;
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.db.Entity;
+import cn.hutool.http.HttpStatus;
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONArray;
 import com.alibaba.fastjson2.JSONObject;
@@ -17,10 +18,10 @@ import us.codecraft.webmagic.ResultItems;
 import us.codecraft.webmagic.Task;
 import us.codecraft.webmagic.handler.PatternProcessor;
 
-import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -44,6 +45,9 @@ public class TopActivityProcess extends PatternProcessor {
 
     @Override
     public MatchOther processPage(Page page) {
+        if (page.getStatusCode() == HttpStatus.HTTP_FORBIDDEN) {
+            throw new RuntimeException("ip has been blocked by zhihu");
+        }
         try {
             return process(page);
         } catch (Exception e) {
@@ -54,30 +58,34 @@ public class TopActivityProcess extends PatternProcessor {
 
     private MatchOther process(Page page) {
         final String url = page.getRequest().getUrl();
-        final String topic = StrUtil.subBetween(url, "topics/", "/");
+        final Long topicId = Long.parseLong(StrUtil.subBetween(url, "topics/", "/"));
         final Map<String, String> queryMap = QueryUtils.getQueryMap(url);
         final int offset = Integer.parseInt(queryMap.get("offset"));
         final int limit = Integer.parseInt(queryMap.get("limit"));
         final String followers = queryMap.get("followers");
-        if (offset < 1000) {
-            //next page
-            final Request request = new Request(CrawlerConstants.TOP_ACTIVITY_URL.formatted(topic, offset + 50, followers));
-            request.setPriority(Long.parseLong(followers));
-            page.addTargetRequest(request);
-        }
-        log.info("process topic:【{}】 offset:【{}】 limit:【{}】", topic, offset, limit);
+        log.info("process topic:【{}】 offset:【{}】 limit:【{}】", topicId, offset, limit);
         JSONObject object = JSON.parseObject(page.getJson().toString());
         if (object == null) {
-            log.warn("process topic json is null:【{}】 offset:【{}】 limit:【{}】", topic, offset, limit);
+            log.warn("process topic json is null:【{}】 offset:【{}】 limit:【{}】", topicId, offset, limit);
             return MatchOther.NO;
         }
         final JSONArray array = object.getJSONArray("data");
         if (array == null) {
-            log.warn("process topic data is null:【{}】 offset:【{}】 limit:【{}】", topic, offset, limit);
+            log.warn("process topic data is null:【{}】 offset:【{}】 limit:【{}】", topicId, offset, limit);
             return MatchOther.NO;
         }
-
+        AtomicBoolean flag = new AtomicBoolean(true);
         final List<Entity> data = array.stream()
+                .filter(o -> {
+                    final JSONObject obj = (JSONObject) o;
+                    JSONObject target = obj.getJSONObject("target");
+                    final Integer voteupCount = target.getInteger("voteup_count");
+                    final boolean check = voteupCount > 5000;
+                    if (!check) {
+                        flag.set(false);
+                    }
+                    return check;
+                })
                 .map(o -> {
                     final JSONObject obj = (JSONObject) o;
                     JSONObject target = obj.getJSONObject("target");
@@ -88,6 +96,7 @@ public class TopActivityProcess extends PatternProcessor {
                     JSONObject question = target.getJSONObject("question");
                     JSONObject author = target.getJSONObject("author");
                     final Answer answer = new Answer();
+                    answer.setTopicId(topicId);
                     answer.setAuthorId(author.getString("id"));
                     answer.setAuthorName(author.getString("name"));
                     answer.setAvatarUrl(author.getString("avatar_url"));
@@ -106,7 +115,7 @@ public class TopActivityProcess extends PatternProcessor {
                         answer.setUpdatedTime(DateUtil.date(target.getLongValue("updated_time") * 1000));
                         answer.setQuestionId(question.getLong("id"));
                         answer.setQuestionTitle(question.getString("title"));
-                        answer.setAnswerUrl(StrUtil.format(CrawlerConstants.ANSWER_PAGE_URL, answer.getQuestionId(), answer.getId()));
+                        answer.setAnswerUrl(StrUtil.format(CrawlerConstants.ANSWER_PAGE_URL, answer.getQuestionId(), answer.getAnswerId()));
                     } else if (Objects.equals(answer.getType(), "article")) {
                         answer.setCreatedTime(DateUtil.date(target.getLongValue("created") * 1000));
                         answer.setUpdatedTime(DateUtil.date(target.getLongValue("updated") * 1000));
@@ -116,12 +125,14 @@ public class TopActivityProcess extends PatternProcessor {
                 }).filter(Objects::nonNull)
                 .collect(Collectors.toList());
 
-        try {
-            //save db
-            EntityUtils.saveEntity(data);
-        } catch (SQLException e) {
-            log.error("回答写入数据库失败", e);
-            return MatchOther.NO;
+        //save db
+        EntityUtils.saveEntity(data);
+
+        if (flag.get() && offset < 1000) {
+            //next page
+            final Request request = new Request(CrawlerConstants.TOP_ACTIVITY_URL.formatted(topicId, offset + 50, followers));
+            request.setPriority(Long.parseLong(followers));
+            page.addTargetRequest(request);
         }
         return MatchOther.YES;
     }
