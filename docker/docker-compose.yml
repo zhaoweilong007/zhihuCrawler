@@ -6,18 +6,26 @@ networks:
     driver: bridge
 
 services:
-  mysql:
-    container_name: mysql
-    build:
-      context: .
-      dockerfile: ./mysql/Dockerfile
-    image: crawler/mysql:8.3.0
-    env_file:
-      - ./env/mysql.env
+#  mysql:
+#    container_name: mysql
+#    build:
+#      context: .
+#      dockerfile: ./mysql/Dockerfile
+#    image: crawler/mysql:8.3.0
+#    env_file:
+#      - ./env/mysql.env
+#    volumes:
+#      - ./mysql:/var/lib/mysql
+#    ports:
+#      - "3306:3306"
+#    restart: always
+#    networks:
+#      - crawler
+  zhihu_crawler:
+    container_name: zhihu_crawler
+    image: zhaoweilong007/zhihu_crawler:1.0
     volumes:
-      - ./mysql:/var/lib/mysql
-    ports:
-      - "3306:3306"
+      - ./config/crawler.yml:/resource/crawler.yml
     restart: always
     networks:
       - crawler

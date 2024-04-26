@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'idea'
     id("org.springframework.boot") version "3.2.5"
+    id "com.google.cloud.tools.jib" version "3.4.1"
 }
 
 group = 'org.archive'
@@ -54,4 +55,26 @@ tasks.withType(JavaCompile).configureEach {
 
 springBoot {
     mainClass = 'org.archive.Main'
+}
+
+
+jib {
+    from {
+        image = "amazoncorretto:17.0.8"
+    }
+    //推送的目标镜像仓库地址
+    to {
+        image = "zhaoweilong007/zhihu_crawler:${project.version}"
+        //身份认证信息
+        auth {
+            username = ""
+            password = ""
+        }
+    }
+    //镜像容器的配置信息
+    container {
+        jvmFlags = ['-Djava.security.egd=file:/dev/./urandom', '-Dfile.encoding=utf-8']
+        creationTime = "USE_CURRENT_TIMESTAMP"
+    }
+
 }

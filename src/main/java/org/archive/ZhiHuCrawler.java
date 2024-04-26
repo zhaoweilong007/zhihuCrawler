@@ -1,6 +1,7 @@
 package org.archive;
 
 import cn.hutool.core.lang.Assert;
+import cn.hutool.core.util.BooleanUtil;
 import cn.hutool.core.util.CharsetUtil;
 import cn.hutool.core.util.PageUtil;
 import cn.hutool.db.Db;
@@ -79,7 +80,7 @@ public class ZhiHuCrawler {
         this.spiderListener = new RedisMonitorSpiderListener();
         this.downloader = initDownload(properties.getProxy());
         this.thread = properties.getProxy().getEnable() ? properties.getProxy().getPools().size() : 1;
-        if (properties.getOss().getEnable()) {
+        if (BooleanUtil.isTrue(properties.getOss().getEnable())) {
             this.ossClient = new OssClient(properties.getOss());
         } else {
             this.ossClient = null;
@@ -89,7 +90,7 @@ public class ZhiHuCrawler {
 
     private HttpClientDownloader initDownload(ProxyProperties proxy) {
         final HttpClientDownloader clientDownloader = new HttpClientDownloader();
-        if (proxy.getEnable()) {
+        if (BooleanUtil.isTrue(proxy.getEnable())) {
             Assert.notEmpty(proxy.getPools(), "proxy pool is empty");
             clientDownloader.setProxyProvider(DynamicProxyProvider.from(proxy));
         }
