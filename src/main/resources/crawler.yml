@@ -1,6 +1,6 @@
 # config
 redis:
-  host: 127.0.0.1
+  host: 192.168.31.103
   port: 6379
   database: 0
   username:
@@ -15,7 +15,7 @@ redis:
   minIdle: 1000
 proxy:
   #是否开启代理
-  enable:
+  enable: false
   #代理ip
 #  pools:
 #    - scheme:
@@ -33,7 +33,7 @@ thread:
   #合并请求间隔（单位毫秒）
   requestInterval: 5000
 oss:
-  enable:
+  enable: false
   endpoint:
   domain:
   prefix:
