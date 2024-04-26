@@ -3,7 +3,6 @@ package org.archive.http;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.http.HttpHost;
-import org.apache.http.NoHttpResponseException;
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.config.AuthSchemes;
 import org.apache.http.client.config.CookieSpecs;
@@ -37,8 +36,6 @@ import javax.net.ssl.X509TrustManager;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.Socket;
-import java.security.KeyManagementException;
-import java.security.NoSuchAlgorithmException;
 import java.security.cert.X509Certificate;
 import java.util.List;
 
@@ -89,9 +86,7 @@ public class HttpManager {
             connManager.setMaxTotal(200);
             // 设置每个连接的路由数
             connManager.setDefaultMaxPerRoute(20);
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-        } catch (KeyManagementException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
@@ -101,10 +96,6 @@ public class HttpManager {
 
     public static HttpManager get() {
         return Holder.MANAGER;
-    }
-
-    private static class Holder {
-        private static final HttpManager MANAGER = new HttpManager();
     }
 
     /**
@@ -190,9 +181,7 @@ public class HttpManager {
                 response = createHttpClient(20000, httpHost, null).execute(request, httpClientContext);
             }
 
-        } catch (NoHttpResponseException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
@@ -264,7 +253,7 @@ public class HttpManager {
             page.setRequest(new Request(url));
             try {
                 if (page.getStatusCode() == 200) {
-                    page.setHtml(Html.create(EntityUtils.toString(response.getEntity(), charset)));
+                    page.setRawText(EntityUtils.toString(response.getEntity(), charset));
                 }
             } catch (IOException e) {
                 e.printStackTrace();
@@ -277,5 +266,9 @@ public class HttpManager {
         }
 
         return page;
+    }
+
+    private static class Holder {
+        private static final HttpManager MANAGER = new HttpManager();
     }
 }

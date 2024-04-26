@@ -1,18 +1,17 @@
 plugins {
     id 'java'
     id 'idea'
-    id 'application'
+    id("org.springframework.boot") version "3.2.5"
 }
 
 group = 'org.archive'
 version = '1.0'
 description = 'zhihu crawler'
 
-java.sourceCompatibility = JavaVersion.VERSION_17
 
-
-application {
-    mainClass = 'org.archive.CrawlerMain'
+java {
+    targetCompatibility = JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_17
 }
 
 repositories {
@@ -51,4 +50,8 @@ test {
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = "UTF-8"
+}
+
+springBoot {
+    mainClass = 'org.archive.Main'
 }

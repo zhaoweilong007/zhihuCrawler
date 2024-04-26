@@ -57,7 +57,7 @@ public class RedisUtil {
 
     public static long rpush(String key, String value) {
         try (Jedis jedis = getJedis()) {
-             return jedis.rpush(key, value);
+            return jedis.rpush(key, value);
         }
     }
 

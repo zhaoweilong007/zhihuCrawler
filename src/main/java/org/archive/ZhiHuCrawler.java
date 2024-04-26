@@ -1,11 +1,11 @@
 package org.archive;
 
+import cn.hutool.core.lang.Assert;
 import cn.hutool.core.util.CharsetUtil;
 import cn.hutool.core.util.PageUtil;
 import cn.hutool.db.Db;
 import cn.hutool.db.Entity;
 import cn.hutool.db.Page;
-import cn.hutool.db.ds.DSFactory;
 import cn.hutool.db.handler.BeanListHandler;
 import cn.hutool.db.sql.Direction;
 import cn.hutool.db.sql.Order;
@@ -33,7 +33,6 @@ import us.codecraft.webmagic.handler.CompositePageProcessor;
 import us.codecraft.webmagic.handler.SubPageProcessor;
 import us.codecraft.webmagic.scheduler.RedisPriorityScheduler;
 
-import javax.sql.DataSource;
 import java.sql.SQLException;
 import java.util.HashSet;
 import java.util.List;
@@ -50,8 +49,6 @@ public class ZhiHuCrawler {
 
     private final RedisPriorityScheduler scheduler;
     private final Downloader downloader;
-    private final JedisPool jedisPool;
-    private final DataSource dataSource;
     private final CompositePageProcessor processors;
     /**
      * 线程数 默认固定为1，如果开启代理，则线程数等于代理数
@@ -73,15 +70,15 @@ public class ZhiHuCrawler {
                 .setSleepTime(properties.getThread().getSleepTime())
                 .setDomain(CrawlerConstants.DO_MAIN)
                 .setCharset(CharsetUtil.UTF_8)
+                .setTimeOut(3000)
                 .setAcceptStatCode(acceptCode)
         );
-        this.jedisPool = initJedis(properties.getRedis());
-        this.scheduler = new RedisPriorityScheduler(jedisPool);
+        final JedisPool jedisPool = initJedis(properties.getRedis());
         RedisUtil.setJedisPool(jedisPool);
+        this.scheduler = new RedisPriorityScheduler(jedisPool);
         this.spiderListener = new RedisMonitorSpiderListener();
-        this.downloader = initProxy(properties);
+        this.downloader = initDownload(properties.getProxy());
         this.thread = properties.getProxy().getEnable() ? properties.getProxy().getPools().size() : 1;
-        this.dataSource = DSFactory.get();
         if (properties.getOss().getEnable()) {
             this.ossClient = new OssClient(properties.getOss());
         } else {
@@ -90,16 +87,18 @@ public class ZhiHuCrawler {
 
     }
 
-    private HttpClientDownloader initProxy(CrawlerProperties properties) {
-        final ProxyProperties proxy = properties.getProxy();
+    private HttpClientDownloader initDownload(ProxyProperties proxy) {
         final HttpClientDownloader clientDownloader = new HttpClientDownloader();
         if (proxy.getEnable()) {
+            Assert.notEmpty(proxy.getPools(), "proxy pool is empty");
             clientDownloader.setProxyProvider(DynamicProxyProvider.from(proxy));
         }
         return clientDownloader;
     }
 
     private JedisPool initJedis(RedisProperties redis) {
+        Assert.notBlank(redis.getHost(), "redis host is empty");
+        Assert.notNull(redis.getPort(), "redis port is empty");
         final JedisPoolConfig poolConfig = new JedisPoolConfig();
         poolConfig.setMaxIdle(redis.getMaxIdle());
         poolConfig.setMinIdle(redis.getMinIdle());
