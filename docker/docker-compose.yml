@@ -6,21 +6,39 @@ networks:
     driver: bridge
 
 services:
-#  mysql:
-#    container_name: mysql
-#    build:
-#      context: .
-#      dockerfile: ./mysql/Dockerfile
-#    image: crawler/mysql:8.3.0
-#    env_file:
-#      - ./env/mysql.env
-#    volumes:
-#      - ./mysql:/var/lib/mysql
-#    ports:
-#      - "3306:3306"
-#    restart: always
-#    networks:
-#      - crawler
+  redis:
+    image: redis:6.2.7
+    container_name: redis
+    ports:
+      - "6379:6379"
+    environment:
+      # 时区上海
+      TZ: Asia/Shanghai
+    volumes:
+      # 配置文件
+      - ./redis/conf:/redis/config
+      # 数据文件
+      - ./redis/data/:/redis/data/
+    command: "redis-server /redis/config/redis.conf"
+    privileged: true
+    restart: always
+    networks:
+      - crawler
+  mysql:
+    container_name: mysql
+    build:
+      context: .
+      dockerfile: ./mysql/Dockerfile
+    image: crawler/mysql:8.3.0
+    env_file:
+      - ./env/mysql.env
+    volumes:
+      - ./mysql:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    restart: always
+    networks:
+      - crawler
   zhihu_crawler:
     container_name: zhihu_crawler
     image: zhaoweilong007/zhihu_crawler:1.0
