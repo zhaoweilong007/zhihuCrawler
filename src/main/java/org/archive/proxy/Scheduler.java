@@ -10,8 +10,8 @@ import java.util.concurrent.TimeUnit;
 public abstract class Scheduler implements Runnable {
 
     protected long initialDelay = 0;
-    protected long period = 3;
-    protected TimeUnit unit = TimeUnit.HOURS;
+    protected long period = 5;
+    protected TimeUnit unit = TimeUnit.SECONDS;
     protected ScheduledExecutorService scheduledExecutorService = Executors.newSingleThreadScheduledExecutor();
 
     public Scheduler() {

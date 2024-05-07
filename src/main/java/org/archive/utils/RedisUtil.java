@@ -66,4 +66,10 @@ public class RedisUtil {
             jedis.incr(key);
         }
     }
+
+    public static String poll(String key) {
+        try (Jedis jedis = getJedis()) {
+            return jedis.lpop(key);
+        }
+    }
 }

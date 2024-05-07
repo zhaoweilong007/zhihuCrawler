@@ -11,7 +11,6 @@ import java.util.Objects;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Consumer;
 
 /**
@@ -20,8 +19,6 @@ import java.util.function.Consumer;
 public class ProxyVerifier implements Runnable {
 
     private final Logger log = LoggerFactory.getLogger(ProxyVerifier.class);
-
-    private final AtomicBoolean flag = new AtomicBoolean(true);
 
     @Getter
     private final BlockingQueue<ProxyEntity> proxyQueue;
@@ -49,13 +46,8 @@ public class ProxyVerifier implements Runnable {
         return new ProxyVerifierBuilder();
     }
 
-    public void stopVerify() {
-        flag.set(false);
-    }
-
     public void startVerify() {
         log.info("==============开始校验代理ip=========");
-        flag.set(true);
         executorService.execute(this);
     }
 
@@ -65,13 +57,11 @@ public class ProxyVerifier implements Runnable {
 
     @Override
     public void run() {
-        while (flag.get()) {
-            try {
-                ProxyEntity entity = getProxyQueue().take();
-                executorService.execute(() -> doVerify(entity));
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
+        try {
+            ProxyEntity entity = getProxyQueue().take();
+            executorService.execute(() -> doVerify(entity));
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
     }
 

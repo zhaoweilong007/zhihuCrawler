@@ -1,6 +1,7 @@
 package org.archive.properties;
 
 import lombok.Data;
+import org.archive.model.ProxyEntity;
 import us.codecraft.webmagic.proxy.Proxy;
 
 import java.util.ArrayList;
@@ -19,6 +20,6 @@ public class ProxyProperties {
     /**
      * 代理ip池
      */
-    private List<Proxy> pools = new ArrayList<>();
+    private List<ProxyEntity> pools = new ArrayList<>();
 
 }

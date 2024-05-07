@@ -10,7 +10,6 @@ import us.codecraft.webmagic.Task;
 import us.codecraft.webmagic.proxy.Proxy;
 import us.codecraft.webmagic.proxy.ProxyProvider;
 
-import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -21,27 +20,17 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author ZhaoWeiLong
  **/
 @RequiredArgsConstructor
-public class DynamicProxyProvider implements ProxyProvider {
+public class DynamicProxyProvider extends Scheduler implements ProxyProvider {
 
-    @Getter
     private final ProxyVerifier proxyVerifier;
     private final CopyOnWriteArrayList<Proxy> proxyList;
+    private final ProxyProperties properties;
     private final AtomicInteger index = new AtomicInteger(0);
 
 
     public static DynamicProxyProvider from(ProxyProperties properties) {
-        final List<ProxyEntity> proxys = properties.getPools().stream()
-                .map(proxy -> {
-                    final ProxyEntity proxyEntity = new ProxyEntity();
-                    proxyEntity.setHost(proxy.getHost());
-                    proxyEntity.setPort(proxy.getPort());
-                    proxyEntity.setType(proxy.getScheme());
-                    proxyEntity.setUsername(proxy.getUsername());
-                    proxyEntity.setPassword(proxy.getPassword());
-                    return proxyEntity;
-                }).toList();
         final VerifyQueue verifyQueue = new VerifyQueue();
-        verifyQueue.addAll(proxys);
+        verifyQueue.addAll(properties.getPools());
         final CopyOnWriteArrayList<Proxy> proxyList = new CopyOnWriteArrayList<>();
         // 代理验证器持续从验证队列中获取代理，并进行验证
         final ProxyVerifier proxyValidator = ProxyVerifier.builder()
@@ -56,8 +45,8 @@ public class DynamicProxyProvider implements ProxyProvider {
                 })
                 .executorService(Executors.newFixedThreadPool(10))
                 .build();
-        final DynamicProxyProvider proxyProvider = new DynamicProxyProvider(proxyValidator, proxyList);
-        proxyProvider.getProxyVerifier().startVerify();
+        final DynamicProxyProvider proxyProvider = new DynamicProxyProvider(proxyValidator, proxyList, properties);
+        proxyProvider.start();
         return proxyProvider;
 
     }
@@ -87,5 +76,11 @@ public class DynamicProxyProvider implements ProxyProvider {
     @Override
     public void returnProxy(Proxy proxy, Page page, Task task) {
 
+    }
+
+    @Override
+    public void run() {
+        proxyVerifier.getProxyQueue().addAll(properties.getPools());
+        proxyVerifier.startVerify();
     }
 }

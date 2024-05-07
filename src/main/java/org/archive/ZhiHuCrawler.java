@@ -122,6 +122,13 @@ public class ZhiHuCrawler {
                 .thread(thread);
         //init topic
         initTopic(spider);
+
+        //读取失败队列的
+        String url;
+        while ((url = RedisUtil.poll(CrawlerConstants.CRAWLER_ERROR_QUEUE)) != null) {
+            spider.addUrl(url);
+        }
+
         spider.run();
     }
 
