@@ -18,6 +18,8 @@ public interface CrawlerConstants {
      */
     String ANSWER_PAGE_URL = "https://www.zhihu.com/question/{}/answer/{}";
 
+    String ANSWER_PAGE_URL_PATTERN = "https://www.zhihu.com/question/\\d+/answer/\\d+";
+
     /**
      * 精华回答
      */
@@ -74,6 +76,9 @@ public interface CrawlerConstants {
     };
 
     List<String> uas = new CopyOnWriteArrayList<>();
+
+
+    String ANSWER_CONTENT_KEY = "answer_content_key";
 
 
     static String getUserAgent() {

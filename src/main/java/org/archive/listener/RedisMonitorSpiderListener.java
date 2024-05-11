@@ -21,6 +21,7 @@ public class RedisMonitorSpiderListener implements SpiderListener {
 
     @Override
     public void onError(Request request, Exception e) {
+
         RedisUtil.incr(CrawlerConstants.CRAWLER_ERROR_COUNT);
         RedisUtil.rpush(CrawlerConstants.CRAWLER_ERROR_QUEUE, request.getUrl());
     }

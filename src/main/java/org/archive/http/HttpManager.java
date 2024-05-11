@@ -28,8 +28,6 @@ import org.archive.constant.CrawlerConstants;
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Request;
 import us.codecraft.webmagic.proxy.Proxy;
-import us.codecraft.webmagic.selector.Html;
-
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;

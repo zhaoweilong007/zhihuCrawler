@@ -1,6 +1,9 @@
 package org.archive;
 
+import java.util.List;
 import org.archive.config.CrawlerConfig;
+import org.archive.listener.RedisMonitorSpiderListener;
+import org.archive.processor.AnswerPageProcess;
 import org.archive.processor.TopActivityProcess;
 
 /**
@@ -10,9 +13,11 @@ import org.archive.processor.TopActivityProcess;
  **/
 public class Main {
 
-    public static void main(String[] args) throws Exception {
-        final ZhiHuCrawler zhiHuCrawler = new ZhiHuCrawler(CrawlerConfig.loadProperties());
-        zhiHuCrawler.addSubPageProcessor(new TopActivityProcess());
-        zhiHuCrawler.run();
-    }
+  public static void main(String[] args) {
+    ZhiHuSpider.create(CrawlerConfig.loadProperties())
+        .addSubPageProcessor(new TopActivityProcess())
+        .addSubPageProcessor(new AnswerPageProcess())
+        .setSpiderListeners(List.of(new RedisMonitorSpiderListener()))
+        .run();
+  }
 }

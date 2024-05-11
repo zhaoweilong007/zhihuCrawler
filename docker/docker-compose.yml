@@ -7,18 +7,15 @@ networks:
 
 services:
   redis:
-    image: redis:6.2.7
+    image: redis:latest
     container_name: redis
     ports:
       - "6379:6379"
-    environment:
-      # 时区上海
-      TZ: Asia/Shanghai
     volumes:
       # 配置文件
-      - ./redis/conf:/redis/config
+      - ./redis/conf:/redis/config:rw
       # 数据文件
-      - ./redis/data/:/redis/data/
+      - ./redis/data/:/redis/data:rw
     command: "redis-server /redis/config/redis.conf"
     privileged: true
     restart: always
