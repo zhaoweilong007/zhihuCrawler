@@ -40,7 +40,8 @@ services:
     container_name: zhihu_crawler
     image: zhaoweilong007/zhihu_crawler:1.0
     volumes:
-      - ./config/crawler.yml:/resource/crawler.yml
+      - ./config/crawler.yml:/app/resources/crawler.yml
+      - ./config/db.setting:/app/resources/db.setting
     restart: always
     networks:
       - crawler
