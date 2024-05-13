@@ -2,7 +2,7 @@ plugins {
     id 'java'
     id 'idea'
     id("org.springframework.boot") version "3.2.5"
-    id "com.google.cloud.tools.jib" version "3.4.1"
+    id "com.google.cloud.tools.jib" version "3.4.2"
 }
 
 group = 'org.archive'

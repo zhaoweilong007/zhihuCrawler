@@ -1,5 +1,7 @@
 package org.archive.model;
 
+import cn.hutool.core.annotation.PropIgnore;
+import java.util.concurrent.CopyOnWriteArrayList;
 import lombok.Data;
 
 /**
@@ -34,5 +36,9 @@ public class Topic implements Model {
      * 关注人数
      */
     private Long followers;
+
+
+    @PropIgnore
+    private CopyOnWriteArrayList<Topic> subTopics;
 
 }

@@ -1,5 +1,7 @@
 package org.archive;
 
+import cn.hutool.core.collection.CollectionUtil;
+import cn.hutool.core.io.resource.ResourceUtil;
 import cn.hutool.core.lang.Assert;
 import cn.hutool.core.util.BooleanUtil;
 import cn.hutool.core.util.CharsetUtil;
@@ -11,10 +13,15 @@ import cn.hutool.db.handler.BeanListHandler;
 import cn.hutool.db.sql.Direction;
 import cn.hutool.db.sql.Order;
 import cn.hutool.http.HttpStatus;
+import com.alibaba.fastjson2.JSON;
+import com.alibaba.fastjson2.TypeReference;
+import java.io.BufferedReader;
 import java.sql.SQLException;
 import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
+import java.util.concurrent.CopyOnWriteArrayList;
 import lombok.extern.slf4j.Slf4j;
 import org.archive.constant.CrawlerConstants;
 import org.archive.model.Topic;
@@ -43,9 +50,6 @@ import us.codecraft.webmagic.scheduler.RedisPriorityScheduler;
 @Slf4j
 public class ZhiHuSpider extends Spider {
 
-  /**
-   * 线程数 默认固定为1，如果开启代理，则线程数等于代理数
-   */
   private final OssClient ossClient;
   private final CrawlerProperties properties;
 
@@ -109,8 +113,8 @@ public class ZhiHuSpider extends Spider {
 
   @Override
   public void run() {
-    //init topic
     try {
+      //init topic
       initTopic();
       //读取失败队列的
       String url;
@@ -128,6 +132,23 @@ public class ZhiHuSpider extends Spider {
    * 从db读取所有topic写入redis队列
    */
   private void initTopic() throws SQLException {
+    final Entity entity = Entity.parseWithUnderlineCase(new Topic());
+    final Db database = Db.use();
+
+    final long total = database.count(entity);
+    if (total == 0) {
+      log.info("topic count is empty,init topic from file");
+      final BufferedReader reader = ResourceUtil.getUtf8Reader(CrawlerConstants.TOPIC_PATH);
+      CopyOnWriteArrayList<Topic> topics =
+          JSON.parseObject(reader,
+              new TypeReference<CopyOnWriteArrayList<Topic>>() {
+              }.getType());
+      final LinkedList<Entity> entities = new LinkedList<>();
+      forEachAddRequest(topics, entities);
+      database.insert(entities);
+      log.info("init topic from file success");
+    }
+
     final String initKey = RedisUtil.get(CrawlerConstants.INIT_TOPIC_KEY);
     if (initKey != null && Objects.equals(Boolean.TRUE.toString(), initKey)) {
       log.info("Already initialized topic");
@@ -135,21 +156,20 @@ public class ZhiHuSpider extends Spider {
     }
     //init request
     log.info("Initialization topic");
-    final Entity entity = Entity.parseWithUnderlineCase(new Topic());
-    final long count = Db.use().count(entity);
+    final long count = database.count(entity);
     if (count == 0) {
       throw new RuntimeException("topic table is empty,place run sql script first");
     }
     for (int i = 0; i < PageUtil.totalPage(count, 10000); i++) {
       final Page page = Page.of(i, 10000);
       page.setOrder(new Order("followers", Direction.DESC));
-      final List<Topic> topics = Db.use().page(entity, page, BeanListHandler.create(Topic.class));
+      final List<Topic> topics = database.page(entity, page, BeanListHandler.create(Topic.class));
       final Request[] requests = topics.stream()
           .map(topic -> {
             final Request request = new Request(
-                CrawlerConstants.TOP_ACTIVITY_URL.formatted(topic.getTopicId(), 0,
-                    topic.getFollowers()));
-            request.setPriority(topic.getFollowers());
+                CrawlerConstants.TOP_ACTIVITY_URL.formatted(topic.getTopicId(), 0));
+            final long priority = topic.getFollowers() == null ? 0 : topic.getFollowers();
+            request.setPriority(priority);
             return request;
           })
           .toArray(Request[]::new);
@@ -157,6 +177,29 @@ public class ZhiHuSpider extends Spider {
     }
     RedisUtil.set(CrawlerConstants.INIT_TOPIC_KEY, Boolean.TRUE.toString());
     log.info("Initialization complete total request:{}", count);
+  }
+
+
+  /**
+   * 递归添加请求
+   *
+   * @param topics
+   */
+  private static void forEachAddRequest(CopyOnWriteArrayList<Topic> topics,
+      LinkedList<Entity> linkedList) {
+    if (CollectionUtil.isEmpty(topics)) {
+      return;
+    }
+    topics.forEach(topic -> {
+      topic.setTopicName(topic.getTopicName().trim());
+      if (topic.getFollowers() == null) {
+        topic.setFollowers(0L);
+      }
+      linkedList.add(Entity.parse(topic, true, false));
+      if (CollectionUtil.isNotEmpty(topic.getSubTopics())) {
+        forEachAddRequest(topic.getSubTopics(), linkedList);
+      }
+    });
   }
 
   @Override
