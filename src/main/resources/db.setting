@@ -1,5 +1,5 @@
 ## db config
-url = jdbc:mysql://192.168.31.20:3306/crawler?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&rewriteBatchedStatements=true&allowMultiQueries=true
+url = jdbc:mysql://192.168.31.31:3306/crawler?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&rewriteBatchedStatements=true&allowMultiQueries=true
 user = root
 pass = matrix
 

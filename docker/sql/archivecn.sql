@@ -1,4 +1,4 @@
-create database if not exists `crawler` collate utf8mb4_unicode_ci;
+create database if not exists `crawler` charset utf8mb4 collate utf8mb4_unicode_ci;
 
 
 use crawler;
@@ -28,7 +28,8 @@ create table if not exists answer
     answer_url     varchar(255) null comment '回答地址',
     type           varchar(10)  null comment '回答类型 '
 )
-    comment '回答表' charset = utf8mb4;
+    comment '回答表' charset = utf8mb4
+                     collate utf8mb4_unicode_ci;
 
 -- auto-generated definition
 create table if not exists topic
@@ -40,5 +41,6 @@ create table if not exists topic
     topic_name varchar(100)     null comment '话题名称',
     followers  bigint default 0 null comment '关注人数'
 )
-    comment '话题表' charset = utf8mb4;
+    comment '话题表' charset = utf8mb4
+                     collate utf8mb4_unicode_ci;
 

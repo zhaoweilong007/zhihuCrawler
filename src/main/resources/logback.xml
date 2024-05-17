@@ -32,7 +32,7 @@
     </appender>
 
     <!--根root logger-->
-    <root level="INFO">
+    <root level="debug">
         <!--设置根logger的日志输出目的地-->
         <appender-ref ref="FILE"/>
         <appender-ref ref="CONSOLE"/>
