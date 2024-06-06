@@ -37,6 +37,11 @@ public class Topic implements Model {
      */
     private Long followers;
 
+    /**
+     * 是否已处理
+     */
+    private Boolean parse;
+
 
     @PropIgnore
     private CopyOnWriteArrayList<Topic> subTopics;

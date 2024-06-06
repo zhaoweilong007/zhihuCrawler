@@ -110,11 +110,11 @@ public class TopActivityProcess extends PatternProcessor {
                     answer.setPictures(pictures.toJSONString());
                     answer.setWordNum(countWordsWithoutHtmlTags(answer.getContent()));
                     answer.setType(target.getString("type"));
+                    answer.setQuestionTitle(question.getString("title"));
                     if (Objects.equals(answer.getType(), "answer")) {
                         answer.setCreatedTime(DateUtil.date(target.getLongValue("created_time") * 1000));
                         answer.setUpdatedTime(DateUtil.date(target.getLongValue("updated_time") * 1000));
                         answer.setQuestionId(question.getLong("id"));
-                        answer.setQuestionTitle(question.getString("title"));
                         answer.setAnswerUrl(
                                 StrUtil.format(CrawlerConstants.ANSWER_PAGE_URL, answer.getQuestionId(),
                                         answer.getAnswerId()));
