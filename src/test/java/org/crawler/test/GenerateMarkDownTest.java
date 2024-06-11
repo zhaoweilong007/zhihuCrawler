@@ -4,16 +4,14 @@ import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.date.DatePattern;
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.resource.ResourceUtil;
+import cn.hutool.core.lang.tree.Tree;
+import cn.hutool.core.lang.tree.TreeUtil;
 import cn.hutool.core.util.PageUtil;
 import cn.hutool.db.Db;
 import cn.hutool.db.Entity;
 import cn.hutool.db.handler.BeanListHandler;
 import cn.hutool.system.SystemUtil;
-import com.alibaba.fastjson2.JSON;
-import com.alibaba.fastjson2.TypeReference;
 import com.google.common.util.concurrent.RateLimiter;
-import org.archive.constant.CrawlerConstants;
 import org.archive.model.Answer;
 import org.archive.model.Topic;
 import org.jsoup.Jsoup;
@@ -23,12 +21,14 @@ import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -48,19 +48,23 @@ public class GenerateMarkDownTest {
 
     @Test
     public void gen() throws SQLException {
-        final BufferedReader reader = ResourceUtil.getUtf8Reader(CrawlerConstants.TOPIC_PATH);
-        CopyOnWriteArrayList<Topic> topics =
-                JSON.parseObject(reader,
-                        new TypeReference<CopyOnWriteArrayList<Topic>>() {
-                        }.getType());
+        final Db database = Db.use();
         ConcurrentHashMap<Long, String> topicPathMap = new ConcurrentHashMap<>();
-        topics.forEach(topic -> {
-            String path = dir + "document" + FileUtil.FILE_SEPARATOR + topic.getTopicName().trim();
-            topicPathMap.put(topic.getTopicId(), path);
-            createTopicDir(topic, topic.getSubTopics(), topicPathMap);
+        final Entity topicEntity = Entity.parseWithUnderlineCase(new Topic());
+        final List<Topic> topicList = database.findAll(topicEntity, Topic.class);
+        final List<Tree<Long>> trees = TreeUtil.build(topicList, 0L, (node, tree) -> {
+            tree.setId(node.getTopicId());
+            tree.setParentId(node.getParentId());
+            tree.setName(node.getTopicName());
+            tree.setWeight(node.getFollowers());
+        });
+        trees.forEach(node -> {
+            String path = dir + "document" + FileUtil.FILE_SEPARATOR + node.getName().toString().trim();
+            topicPathMap.put(node.getId(), path);
+            createTopicDir(node, node.getChildren(), topicPathMap);
         });
 
-        final Db database = Db.use();
+
         final Entity entity = Entity.parseWithUnderlineCase(new Answer());
         final long total = database.count(entity);
         if (total == 0) {
@@ -74,19 +78,19 @@ public class GenerateMarkDownTest {
                 data = database.query("""
                         select * from answer order by id limit 500
                         """, BeanListHandler.create(Answer.class));
-                nextId = data.get(data.size() - 1).getId();
             } else {
                 data = database.query("""
                         select * from answer where id>?  order by id limit 500
                         """, BeanListHandler.create(Answer.class), nextId);
             }
+            nextId = data.get(data.size() - 1).getId();
             if (CollUtil.isEmpty(data)) {
                 return;
             }
 
             createQuestionDir(data, topicPathMap, questionPathMap);
 
-            executorService.execute(() -> writeMarkDown(data, questionPathMap));
+            writeMarkDown(data, questionPathMap, topicPathMap);
         }
 
     }
@@ -97,7 +101,7 @@ public class GenerateMarkDownTest {
             if (questionPathMap.containsKey(entry.getKey())) {
                 return;
             }
-            final String questionTitle = entry.getValue().getQuestionTitle();
+            final String questionTitle = entry.getValue().getQuestionTitle().trim();
             final String topicPath = topicPathMap.get(entry.getValue().getTopicId());
             String path = topicPath + FileUtil.FILE_SEPARATOR + questionTitle;
             questionPathMap.put(entry.getKey(), path);
@@ -105,19 +109,19 @@ public class GenerateMarkDownTest {
 
     }
 
-    private void createTopicDir(Topic parent, CopyOnWriteArrayList<Topic> topics, ConcurrentHashMap<Long, String> topicPathMap) {
+    private void createTopicDir(Tree<Long> parent, List<Tree<Long>> topics, ConcurrentHashMap<Long, String> topicPathMap) {
         if (CollUtil.isEmpty(topics)) {
             return;
         }
         topics.forEach(topic -> {
-            final String parentPath = topicPathMap.get(parent.getTopicId());
-            final String filePath = parentPath + FileUtil.FILE_SEPARATOR + topic.getTopicName().trim();
-            topicPathMap.put(topic.getTopicId(), filePath);
-            executorService.execute(() -> createTopicDir(topic, topic.getSubTopics(), topicPathMap));
+            final String parentPath = topicPathMap.get(parent.getId());
+            final String filePath = parentPath + FileUtil.FILE_SEPARATOR + topic.getName().toString().trim();
+            topicPathMap.put(topic.getId(), filePath);
+            createTopicDir(topic, topic.getChildren(), topicPathMap);
         });
     }
 
-    private void writeMarkDown(List<Answer> answers, ConcurrentHashMap<Long, String> questionPathMap) {
+    private void writeMarkDown(List<Answer> answers, ConcurrentHashMap<Long, String> questionPathMap, ConcurrentHashMap<Long, String> topicPathMap) {
         answers.forEach(answer -> {
             String filePath = null;
             try {
@@ -129,13 +133,13 @@ public class GenerateMarkDownTest {
                     String path = questionPathMap.get(answer.getQuestionId());
                     // 不存在topic的情况
                     if (path == null) {
-                        parseTopic(answer, questionPathMap);
-                        path = questionPathMap.get(answer.getQuestionId());
-                        if (path == null) {
-                            path = unclassifiedPath;
+                        path = topicPathMap.get(answer.getTopicId());
+                        if (path != null) {
+                            path = path + FileUtil.FILE_SEPARATOR + answer.getQuestionTitle().trim();
+                        } else {
+                            parseTopic(answer, questionPathMap);
                         }
                     }
-
                     filePath = path + FileUtil.FILE_SEPARATOR + "【" + answer.getAuthorName().trim() + "】的回答_" + answer.getAnswerId();
                     buffer.append("# ").append(answer.getQuestionTitle());
                     buffer.append("\n");
@@ -149,7 +153,9 @@ public class GenerateMarkDownTest {
                 buffer.append("- 回答url：").append(answer.getAnswerUrl());
                 buffer.append("\n");
                 buffer.append(document.body());
-                FileUtil.writeUtf8String(buffer.toString(), new File(filePath));
+                final File file = new File(filePath);
+                FileUtil.touch(file);
+                FileUtil.writeUtf8String(buffer.toString(), file);
             } catch (Exception e) {
                 log.error("写入失败,filePath:{}", filePath, e);
             }
@@ -161,7 +167,7 @@ public class GenerateMarkDownTest {
     String url = "https://www.zhihu.com/topic/%s";
 
 
-    RateLimiter rateLimiter = RateLimiter.create(0.5);
+    RateLimiter rateLimiter = RateLimiter.create(0.3);
 
 
     private void parseTopic(Answer answer, ConcurrentHashMap<Long, String> questionPathMap) {
@@ -169,6 +175,10 @@ public class GenerateMarkDownTest {
             rateLimiter.acquire();
             final Document document = Jsoup.connect(url.formatted(answer.getTopicId())).get();
             final Element element = document.selectFirst("div.TopicMetaCard-title");
+
+            if (element == null) {
+                return;
+            }
             final String topicName = element.text();
 
             final Topic topic = new Topic();
@@ -177,7 +187,7 @@ public class GenerateMarkDownTest {
             topic.setParentId(0L);
             topic.setParse(false);
 
-            String filepath = rootPath + FileUtil.FILE_SEPARATOR + topicName.trim();
+            String filepath = rootPath + FileUtil.FILE_SEPARATOR + topicName.trim() + FileUtil.FILE_SEPARATOR + answer.getQuestionTitle().trim();
             questionPathMap.put(answer.getQuestionId(), filepath);
             Db.use().insert(Entity.parseWithUnderlineCase(topic));
         } catch (Exception e) {

@@ -4,13 +4,13 @@ user = root
 pass = matrix
 
 # 是否在日志中显示执行的SQL
-showSql = false
+showSql = true
 # 是否格式化显示的SQL
-formatSql = false
+formatSql = true
 # 是否显示SQL参数
-showParams = false
+showParams = true
 # 打印SQL的日志等级，默认debug，可以是info、warn、error
-sqlLevel = info
+sqlLevel = debug
 
 # druid config
 # 初始化时建立物理连接的个数。初始化发生在显示调用init方法，或者第一次getConnection时

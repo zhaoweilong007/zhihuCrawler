@@ -30,7 +30,7 @@ dependencies {
     implementation 'us.codecraft:webmagic-selenium:0.10.0'
     implementation 'us.codecraft:webmagic-core:0.10.0'
     implementation 'us.codecraft:webmagic-extension:0.10.0'
-    implementation 'cn.hutool:hutool-all:5.8.27'
+    implementation 'cn.hutool:hutool-all:5.8.28'
     implementation 'one.util:streamex:0.8.1'
     implementation 'com.google.guava:guava:31.1-jre'
     implementation 'org.slf4j:slf4j-api:2.0.12'
