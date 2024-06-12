@@ -1,0 +1,48 @@
+# 如何评价人民日报「钟声」对《流浪地球》的评价？
+- 点赞数：14328
+- 更新时间：2019年08月24日10时44分39秒
+- 回答url：https://www.zhihu.com/question/312188623/answer/598493893
+<body>
+ <p data-pid="JfMKXwM1">标志着官方认为一直期待着的战略相持阶段的到来。</p>
+ <p data-pid="8nRsHYIC">可以说在战狼2之前，中国电影界乃至文化节，面对西方的强势文化，都采取的战略防守态势。</p>
+ <p data-pid="bjegxe31">具体来说，有这么几点：</p>
+ <p data-pid="5CY2YuJd">1、进入国际语境时迎合西方标准，表现为创作题材和艺术风格的古代化及农村化、思想主题的反思化与客体化。</p>
+ <p data-pid="QDJSF0sI">创作题材与艺术风格：古典武侠/农村纪实占了大部分，如《英雄》、《长城》、《大红灯笼高高挂》《活着》（对你们都知道我主要在婊谁）</p>
+ <p data-pid="95vDNtmv">思想主题的反思化：所有伤痕类电影，包括但不限于《活着》《霸王别姬》《孔雀》等</p>
+ <p data-pid="brCGeVTQ">思想主题的客体化：中国人不能成为改造主体，包括但不限于《金陵十三钗》《长城》</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="99rUHUVD">2、面向国内市场的商业作品，主要选取西方、特别是好莱坞难以进入的题材及类型进行突破。</p>
+ <p data-pid="ErDKMWAf">仙侠：中国式仙侠只有中国人懂。</p>
+ <p data-pid="mBDpD9ye">魔幻：代表作：西游记的各种改编</p>
+ <p data-pid="et4pxJtS">喜剧：美国人不懂中国人的笑点</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="8phRWz5w">3、以好莱坞为代表的西方影视界，会选取中国文化元素作为创作题材：</p>
+ <p data-pid="OLDnAU5m">《花木兰》《功夫之王》等</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="MXVqKDzE">从上面几点可以看出，中国电影完全无法和好莱坞正面抗衡，甚至连自己的领域都不断被侵蚀，最终只能在中式喜剧等跟中国语言及文化关系极深的领域勉强抵抗，保住若干根据地。</p>
+ <p data-pid="c-SdroFC">虽然偶尔也有一些非上述类型的电影出现，但只能是零星的胜利，就想平型关大捷一样，不能改变整体走势。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="vW-fiGUl">那么为什么说现在进入了战略相持呢？</p>
+ <p data-pid="Nhbs-aLy">1、牢牢守住了阵地：</p>
+ <p data-pid="L_khRr54">近几年以徐峥、黄渤、沈腾为代表的国产喜剧片不仅在阵地上存活了下来，还牢牢占领了这个领域，让其他喜剧片难以打开局面。</p>
+ <p data-pid="c9O-toT_">2、西方进攻受阻：</p>
+ <p data-pid="swRh-smE">好莱坞大片已不再是“好片”的代名词，既有速激、复联这样比较卖座的片子，也有《变形金刚》、《环太平洋2》等众口一词的烂片，《钢锯岭》《敦刻尔克》等较为严肃的大片也不太能唤起中国观众的关注；而即便是比较卖座的大片，在票房榜上也是节节败退，不能引领风骚。</p>
+ <p data-pid="OcWxk0pY">3、部分领域开始反攻：</p>
+ <p data-pid="LERoI3fm">以《战狼》系列和《红海行动》为代表的重工业军事片，开始在中国市场进攻原本被西方占领的军事动作片阵地，并一举成功；《流浪地球》作为重工业科幻片，也开始进攻原本被西方占领的重工业科幻片阵地，正在不断高歌猛进；</p>
+ <p data-pid="QsKyXztL">与此同时，中国电影的创作题材与艺术风格，从“古典/农村”走向“未来/城市”，从“旧”中国走向了“新”中国；</p>
+ <p data-pid="qo0j51X3">思想主题方面，从反思变成了肯定，从向后看变成了向前看；</p>
+ <p data-pid="0-An_8Ew">同时，中国人在电影中不再是客体，而是完完全全的主体；不再是被拯救者，而是拯救者或共同拯救者。</p>
+ <p data-pid="uXkn3PY4">当然也要认识到，在中国市场上，好莱坞电影依然具备很强的战斗力，某些领域依然是国产难以突破的坚壁；即便是开展反攻的战红流，暂时还是“点”的突破，尚不能认为实现了稳定输出；</p>
+ <p data-pid="6cZZR28t">同时，在思想主题上，“对中国的肯定”和“中国人成为主体”这两点还存在极大争议，近期豆瓣事件便是激烈交锋的一个体现。</p>
+ <p data-pid="MBgh6w7O">在电影行业内部，”投降派“也依然很有势力，比如那句”中国科幻现在应该是拍不了，我们对市场的掌握很熟悉，中国根本就没有这种机会。“</p>
+ <p data-pid="ydW0ND6l">在国际市场上，中国电影依然作为不大。</p>
+ <p data-pid="4FC43Gz0">所以，只能认为，中国电影从节节败退艰难生存，进入了相互进攻互有胜负的阶段，从“绝对弱势”进入了“相对弱势”的阶段，也就是从战略防守进入了战略相持阶段。</p>
+ <p data-pid="Q1Y72-0i">那么未来能进入战略反攻阶段吗？我不知道。</p>
+ <p data-pid="8lFQd86Z">但我们为《流浪地球》等优秀作品的每一次呐喊、贡献的每一张电影票，都是在为反攻阶段的到来贡献自己的力量。</p>
+ <p data-pid="1Uct3lzS">如果吴京、郭帆等人也开始买流量烂片了怎么办？</p>
+ <p data-pid="yS0Znex6">骂丫的，用脚投票，让能够拍出好片的人得到鼓励和支持。</p>
+ <p data-pid="K8lQCKpW">我们支持的不是吴京，也不是郭帆，而是名叫“吴京”、名叫“郭帆”的认真拍片子的人。</p>
+ <p data-pid="hozCEP2o">最后，你问我为什么中国电影要防守、要相持、要反攻？</p>
+ <p data-pid="4_8tzFGR">因为我想看到能表达我的价值观和审美倾向的影片，而好莱坞显然做不到这一点。</p>
+ <p class="ztext-empty-paragraph"><br></p><a href="https://www.zhihu.com/question/311422205/answer/595850160" data-draft-node="block" data-draft-type="link-card" class="internal">《流浪地球》后，吴京的地位如何？</a><a href="https://www.zhihu.com/question/341926440/answer/797526797" data-draft-node="block" data-draft-type="link-card" class="internal">如何评价《哪吒之魔童降世》票房超越《复联4》跻身中国内地票房榜前三？</a><a href="https://www.zhihu.com/question/312614023/answer/601017556" data-draft-node="block" data-draft-type="link-card" class="internal">如何看待屈楚萧豆瓣人设崩塌事件？</a><a href="https://www.zhihu.com/question/63122687/answer/230846719" data-draft-node="block" data-draft-type="link-card" class="internal">电影《战狼2》反应了中国在世界上怎样的地位？</a><a href="https://www.zhihu.com/question/63855426/answer/216216813" data-draft-node="block" data-draft-type="link-card" class="internal">如何评价电影《战狼2》票房进入全球电影票房史TOP100？</a><a href="https://www.zhihu.com/question/63780530/answer/214412090" data-draft-node="block" data-draft-type="link-card" class="internal">《战狼2》是否引发了民族主义的新潮流？如果是，如何评价这种“现象级的民族主义”？</a><a href="https://www.zhihu.com/question/29395276/answer/215937216" data-draft-node="block" data-draft-type="link-card" class="internal">《战狼1》成功的主要原因是什么？</a><a href="https://www.zhihu.com/question/313322836/answer/614518263" data-draft-node="block" data-draft-type="link-card" class="internal">吴京被孤立了吗？</a>
+</body>
