@@ -1,0 +1,43 @@
+# 如何评价《创造营2020》第十期总决赛「学员成团」？
+- 点赞数：5186
+- 更新时间：2020年07月06日15时36分16秒
+- 回答url：https://www.zhihu.com/question/404904437/answer/1319220849
+<body>
+ <p data-pid="w8bS_O2U">创3成团夜=连夜跑路场</p>
+ <p data-pid="0LU_pAYG">祝贺张艺凡以一个小偷的身份成功出道。</p>
+ <p data-pid="EwEaMNUt">她，以80万的集资</p>
+ <p data-pid="-udaQuz0">力压270万</p>
+ <p data-pid="K34rpXCp">是哪里的奶票</p>
+ <p data-pid="oiN9o0k8">如此便宜</p>
+ <p data-pid="Yeoln85f">是哪里的梦想</p>
+ <p data-pid="0VtrMHnu">如此廉价</p>
+ <p data-pid="cfdiZa5H">是哪里的努力</p>
+ <p data-pid="ez0h1LG6">轻易践踏</p>
+ <p data-pid="pqcecRXD">——是背后有人强捧</p>
+ <p data-pid="_BLs5dJr">给大众喂屎</p>
+ <p data-pid="4DdXi2KE">还要你夸它美味</p>
+ <p data-pid="ozPObNxF">回一下部分评论</p>
+ <p data-pid="sJd2WiWr">“张艺凡路人缘很好”——在这种主要看粉丝砸钱的选秀，路人缘是给你锦上添花的，不是拿来说的，不然你先算算多少路人才能抵上一个打投女工。</p>
+ <p data-pid="dl9mozR8">“这么说过分”——不好意思，她被强捧出道，偷了别人的梦想，人生。那对于她的负面言论，她只能接受。如果你说承受不了，就退团。</p>
+ <p data-pid="zK1sZn4y">青春有你2的安崎也皇</p>
+ <p data-pid="UEaL9XE0">倒是可以去看看她队长微博下的热评</p>
+ <p data-pid="g11bjiW8"><b>强捧遭天谴。</b></p>
+ <p data-pid="pg7gaVsn"><b>“</b>还有说我是粉丝的<b>”</b>——创造营里，我粉的敖心仪，吉扬柳早就二轮游了，苏芮琪注定与出道位无缘，只能说时也命也，数据也确实不到那个位置。别给我随便按上一个粉籍。</p>
+ <p data-pid="vPftQUDM">再回一波</p>
+ <p data-pid="Mp0Jvb86">“粉丝真金白银投出来的”——是啊，太厉害了，80万的钱投的能比270万多。掰开了揉碎了你投不出来。</p>
+ <p data-pid="LO4EOf3S">“不要将恶意施加在张艺凡身上”——你是一个穷苦女孩，被一个富二代的老婆撞了，富二代和家人出来了，使了点手段就让你吃了哑巴亏，跟你说我老婆被我们保护太好了，什么都不懂，你不要怪她。——请问你是讨厌富二代和家人还是富二代老婆还是富二代全家?</p>
+ <p data-pid="MLv4GEIc">“还有一个说我是专业黑子”——我看你是混粉圈混成脑残了还是先治治你的脑子吧。</p>
+ <p data-pid="a6hUcpr0">“至于说270万可以换多少撑腰值”——的确，这我不知道，80万可以换多少我也不知道，但我想只要脑子没问题都知道270万肯定能换的比80万多。还有说决赛撑腰的，那大概要所有人都去投张艺凡才可以了，会有人信吗？</p>
+ <p data-pid="eDGy4hsZ">发现我这里提了安崎有人跟我说安崎的实力很强——安崎实力强跟她是皇有什么关系吗？我不接受任何一种皇，不管你是实力皇还是废物皇。</p>
+ <p data-pid="0YqACur5">评论中最可笑的是有一位说跟你沾不上关系，就不要生气了</p>
+ <p data-pid="TbEKg9Us"><b>当他们来抓工会组织者的时候，</b></p>
+ <p data-pid="gLJmZNv6"><b>我没有站出来反对，</b></p>
+ <p data-pid="v9GovAqV"><b>我想我反正不是工会的人。</b></p>
+ <p data-pid="CxGTUOfN"><b>当他们来抓犹太人的时候，</b></p>
+ <p data-pid="cftUG3gY"><b>我没有站出来反对，</b></p>
+ <p data-pid="aNOonUe7"><b>我想我反正不是犹太人。</b></p>
+ <p data-pid="dUWdx5yi"><b>当他们来抓天主教徒的时候，</b></p>
+ <p data-pid="HshIHUB2"><b>我没有站出来反对，</b></p>
+ <p data-pid="pmALmooY"><b>我想我反正不是天主教徒。</b></p>
+ <p data-pid="2_LAvoOQ"><b>——这段话送给他/她。</b></p>
+</body>
