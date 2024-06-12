@@ -1,0 +1,47 @@
+# 海底捞有哪些让人难忘的服务细节？
+- 点赞数：6123
+- 更新时间：2018年08月30日09时32分38秒
+- 回答url：https://www.zhihu.com/question/19563517/answer/137310168
+<body>
+ <p data-pid="pcYPV0FA">====2018.8.30更新====</p>
+ <p data-pid="NymY75Zp"><b>明显有大批水军</b></p>
+ <p data-pid="3srg7qM5"><b>帮这个问题下的正面回答刷量</b></p>
+ <p data-pid="S2C9EA-V"><b>就要上市了</b></p>
+ <p data-pid="E4yFKAMI"><b>PR团队是真的</b></p>
+ <p data-pid="SneIkYbE"><b>勤奋……</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="uUdxRCQ_">====2018.5.20更新====</p>
+ <p data-pid="lDYSuiZ9">在知乎收到这么多赞还是第一次</p>
+ <p data-pid="KqcmVAkB"><b>但是我强烈怀疑有海底捞公司的PR团队</b></p>
+ <p data-pid="g4nH18g1"><b>给我用水军买赞</b></p>
+ <p data-pid="kuyoKQwN">总是几十几十个一批一批僵尸号在赞……</p>
+ <p data-pid="o_MQTgGA">我能大致分辨出来真假点赞，因为我也是PR同行（黑线）</p>
+ <p data-pid="sIP78u8X">在太阳宫店吃出老鼠事件后</p>
+ <p data-pid="3t-mrOxd">海底捞PR团队为了上市</p>
+ <p data-pid="vd1lKS9B">一直不遗余力</p>
+ <p data-pid="NDlp8JdD">为你们的专业精神（误）打call= =……</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="9a5VHza4">====以下为原答案====</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="Xr-T1Rhz">说说我跟女朋友在海底捞的经历。</p>
+ <p data-pid="gJvoE0ll">大家说过的，等位小吃打包等等，我们也都经历过。说点或许比较特别的。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="BJh2f59s">海底捞沈阳中街大悦城店。</p>
+ <p data-pid="QfQ-2Niw">我和女朋友都非常喜欢吃海底捞的番茄锅，因为我们的吃辣能力一般，更喜欢甜的。并且认为海底捞的番茄锅的好吃程度，要远好于其他火锅店的番茄锅。我们辗转过沈阳和北京两座城市的不下十家海底捞分店，每次都点番茄锅，几乎一样的菜品，一直都不会吃腻。并且我们每回都会在下菜品之前，盛两碗番茄锅的汤喝。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="jOnMXBfj">那天在沈阳中街大悦城这家吃。锅刚上来的时候，我俩无意间说了一句，"啊太喜欢这个汤的味道了"，之后服务的小哥给我们一人盛了一碗。</p>
+ <p data-pid="j2KzMbWz">二十分钟左右的时间，这个服务小哥专门端过来了一个小锅，给我们鞠了个躬，跟我们说："刚才听您俩说喜欢喝番茄锅的汤，我就去后厨，专门给两位煮了一锅番茄汤。希望您喜欢。"</p>
+ <p data-pid="X19xl6gk">当时我和女朋友感动的不行，连声说谢谢。</p>
+ <p data-pid="4x7gXk1p">可能因为这个小哥的举动，我俩都挺开心，一边吃一边说笑。</p>
+ <p data-pid="1dszuMux">又过了十几分钟，这个小哥又满脸阳光的过来，端了一个盘子过来。</p>
+ <p data-pid="5JW0k9WN">我俩正疑惑他要干嘛，他说："我看两位应该是情侣吧，"</p>
+ <p data-pid="2YjywEZF">我们点头。</p>
+ <p data-pid="yONOQ9Mh">"我看你俩特别幸福，然后，我就自作主张......"</p>
+ <p data-pid="uHTKjqEe">小哥说着，捂着脸羞涩了一秒钟，"诶嘛不知道该怎么说。"</p>
+ <p data-pid="cPm1HpiV">"我自作主张赠送你们一道菜。"</p>
+ <p data-pid="FGikHWxS">说着，把盘子拿过来，放在我俩中间。是白菜跟粉丝组成的一个"笑脸"。</p>
+ <p data-pid="ZGEwAqD9">"白代表白头到老，粉丝代表长长久久，祝你俩能白头到老，一直幸福。"</p>
+ <p data-pid="BAyhyAVu">小哥一边说，一边红着脸，有些羞涩。一旁在忙的服务员转头看着他，乐呵呵地跟他竖大拇指鼓励他。</p>
+ <p data-pid="_6-TAESB">这回我俩是真的被感动到了。虽然赠送点东西成本没多少，但是确实相当有心。</p>
+ <p data-pid="Gy1Jrwbm">后来我们问了这小哥的名字，好像是叫于洋。</p>
+</body>

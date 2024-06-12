@@ -1,0 +1,50 @@
+# 如何看待山东各地支援上海蔬菜瓜果?
+- 点赞数：7795
+- 更新时间：2022年04月07日17时52分25秒
+- 回答url：https://www.zhihu.com/question/525241322/answer/2427538876
+<body>
+ <p data-pid="Rmv2d5fF">这就是低端工具省的悲哀</p>
+ <p data-pid="3dWcVzDn">全国三十来个省级行政区，每个都有自己的工具属性</p>
+ <p data-pid="3bVXUkYz">有些是负责赚钱的，有些是负责种田的，有些是负责统战的，有些是负责挖煤的，有些是负责保卫边疆的，有些是负责垫河沟的</p>
+ <p data-pid="rcptnX1G">其实，除了那个垫河沟的，其他省份，其实都有赚钱的门路</p>
+ <p data-pid="bpaDsZeH">特别是挖煤的，产粮的，种菜的这几个</p>
+ <p data-pid="t9vIahpQ">你不是市场经济么</p>
+ <p data-pid="mNQaNY3N">那我煤炭、粮食、蔬菜价格涨到天上去，为什么不行呢</p>
+ <p data-pid="XPbGtl1F">你手机可以涨价、农药皮肤可以涨价、笔记本电脑可以涨价、机械设备可以涨价，为什么到了煤炭、粮食和蔬菜的时候，就要“保持价格平稳”呢</p>
+ <p data-pid="o-uMdpmz">哦，你们说了，这些关乎国计民生，涉及社会稳定</p>
+ <p data-pid="YKc4qJ6l">手机可以不用、汽车可以不开、游戏可以不打、设备可以不上</p>
+ <p data-pid="K1beZbBl">但是电要用、粮要吃、菜要啃</p>
+ <p data-pid="-ZSPoVat">那好，我们不玩这些，我们也去发展工业呗。大家都知道那些东西赚钱。</p>
+ <p data-pid="d2ZFFHNL">不行，你们要坚守能源大省&amp;粮食大省&amp;农业大省责任</p>
+ <p data-pid="h0-btTJy">那行，我们坚守责任吧，那可是会穷啊</p>
+ <p data-pid="8O8WgwYI">《孔雀东南飞，全国人才流向长三角》</p>
+ <p data-pid="_MQv0Vkk">《山东，下一个东北》</p>
+ <p data-pid="Vd4b-a1n">《投资不出南宋版图，北方省份要反思了》</p>
+ <p data-pid="nn1PQ9mM">《苟晶说，这就是我来到浙江的原因》</p>
+ <p data-pid="Sf-93fps">《南北差距越来越大，专家一针见血：北方需要改变观念》</p>
+ <p data-pid="VI0kngrU">《碾压！全国十大城市北方仅剩一席》</p>
+ <p data-pid="3a83Lmf7">……</p>
+ <p data-pid="926Tydip">ps，我并没有关闭评论区</p>
+ <p data-pid="iY2BI_gM">————————————————————</p>
+ <p data-pid="12e4Garh">就我省的宣传，多说几句</p>
+ <p data-pid="KSsqpVLK">我大山东这几年在沪联网被黑出翔，但很多人，特别是领导、媒体、网民都没认清一件事</p>
+ <p data-pid="aH4RdoHv">他们眼中我山东的黑点，从来不是人不好</p>
+ <p data-pid="jDVu9WSJ">而是穷和弱</p>
+ <p data-pid="WUrGNGdj">相比苏浙，我们确实是穷</p>
+ <p data-pid="TOcZXJWD">相比广东，我们确实是弱</p>
+ <p data-pid="tij7d2zV">这个没得洗</p>
+ <p data-pid="e9ojFl_k">但是2020年能被黑成那个样子，逼得我们的sz出来开发布会，已经不是穷和弱能解释的了。</p>
+ <p data-pid="EHz0qRb5">在南方人和部分山东人心里，穷和弱的刻板印象已经形成了</p>
+ <p data-pid="WEMwk2E9">所以，任我们给他们送多少粮油米面瓜果蔬菜，派多少医护工作者捐多少东西，我们在他们眼中，依旧是一个土穷弱的形象</p>
+ <p data-pid="1abwxhLR">我们为他们做的再多，只会让他们觉着我们傻，而不是我们善良</p>
+ <p data-pid="xuBvsmN6">设身处地想一下，如果你是个中产，你那个买不起房子的租户，每月交完房租还要资助大学生、出去做义工，你内心深处会不会觉着他傻？</p>
+ <p data-pid="Js03cTHt">所以，真心希望我省的宣传部门，别再宣传我们给上海送多少东西了</p>
+ <p data-pid="TFjvSaeX">人家不会感激的，我们自己人也会觉着心疼</p>
+ <p data-pid="Cu51nyvX">我们可以不打别人，但是希望我们有限的宣传力量，去秀一秀肌肉</p>
+ <p data-pid="SpSnMqi_">吹一吹济南的软件、生物医药</p>
+ <p data-pid="WhRHnBLZ">吹一吹青岛的轨道交通、食品、机械</p>
+ <p data-pid="ZmOPVSNi">吹一吹烟台的化工、国之重器</p>
+ <p data-pid="2cAkWR4w">吹一吹潍坊的专精特新、隐形冠军</p>
+ <p data-pid="G9Zkdhp4">什么“山东好人”、“出力哥”、“大衣哥”这样的，求求大家不要再宣传了。</p>
+ <p data-pid="51eB782C">谁让这是个笑贫不笑娼的时代。</p>
+</body>
