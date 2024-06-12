@@ -1,0 +1,29 @@
+# 老婆不想上班、不想赚钱，是种怎样的体验？
+- 点赞数：7418
+- 更新时间：2019年04月13日15时08分40秒
+- 回答url：https://www.zhihu.com/question/64162177/answer/225648719
+<body>
+ <p data-pid="51kLCrXQ">老公年收入6万，老婆年收入4万，有个孩子。</p>
+ <p data-pid="frPqgnLg">老婆上班，去了房租还有6000，人均2000的月消费，剩不下什么积蓄。</p>
+ <p data-pid="-VjPYbW8">不想上班，一个月去了房租还剩3000，人均1000的月消费，日子紧巴巴的，老婆想不上班，孩子的幼儿园费用都困难啊，你有什么资格不想上班？</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="3uWXkEh7">老公年入百万，老婆年收入4万，有个孩子。</p>
+ <p data-pid="C18BtDx3">老婆上班挣4万，带孩子保姆一年10万，孩子带的还没有老婆好。</p>
+ <p data-pid="csSOK9Tt">老婆同事上班公交车，老婆的车比老板的好，工资不够油钱保养钱。</p>
+ <p data-pid="8Ue8SwZ5">老婆同事中午路边摊麻辣烫，老婆减肥中午去吃日料了。</p>
+ <p data-pid="C3s8lwqp">老婆要升职小主管了，月收入要大涨500了，不过要每天早去晚走，多1个小时的工作时间。</p>
+ <p data-pid="l-GjSHEf">这种情况，不当全职太太不是有病吗？</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="S9Ftwq1C">老公年入6万，老婆年入百万，有个孩子</p>
+ <p data-pid="sMJWIK7h">老婆嫌弃太累，孩子照顾不好，不想上班了。</p>
+ <p data-pid="NpIFbTm7">老公说：亲爱的，你累我给你捶背，给你按摩，给你泡脚。</p>
+ <p data-pid="gF33uQtL">你回家什么都不用做，家务我全包，孩子我来带。</p>
+ <p data-pid="V4feaBUs">上班我开车送你，下班我开车借你，到家就有热气腾腾的晚餐，早起就有爱心早餐</p>
+ <p data-pid="Gp5PEcxu">你这个班还是上行不行？</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="L2_lJkDe">老公年入百万，老婆年入百万，有个孩子</p>
+ <p data-pid="Rgrci0hG">老婆嫌弃太累，不想上班了。</p>
+ <p data-pid="7tVM1prD">老公，亲爱的，太累就不做了，我养你。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="e3PQIPBS">所以，全职太太主要是个经济问题，双方的经济收入，与保姆收入的对比决定选择的选项。</p>
+</body>

@@ -1,0 +1,70 @@
+# 如何用一句话证明你上过网课？
+- 点赞数：8010
+- 更新时间：2020年05月11日17时46分02秒
+- 回答url：https://www.zhihu.com/question/374499796/answer/1141561987
+<body>
+ <p data-pid="flkMidUZ">第二次更新</p>
+ <p data-pid="FXvbc1KO">今天老师反击了</p>
+ <p data-pid="cAZZ4qcB">“我随时提问哈 你们玩手机比我要精 别给我说手机出不了声什么的 我都懂哈！”</p>
+ <p data-pid="t4tGBn8p">/****************************************/</p>
+ <p data-pid="VFwIsuCN">第一次更新</p>
+ <p data-pid="Qqm-xXcb">老师：会的扣1，不会的扣2</p>
+ <p data-pid="qAoj6rTi">1</p>
+ <p data-pid="qwcN6AEX">1</p>
+ <p data-pid="DynVfFMW">1</p>
+ <p data-pid="cN515Ass">1</p>
+ <p data-pid="JdgShz2d">2</p>
+ <p data-pid="n_mYk-pt">1</p>
+ <p data-pid="g9HP9mqU">1</p>
+ <p data-pid="GWpDpxbE">1.5</p>
+ <p data-pid="9zVRJZp-">...</p>
+ <p data-pid="U8pOCpR1">老师：怎么每个班都有1.5啊</p>
+ <p data-pid="LrNzIE9b">/****************************************/</p>
+ <p data-pid="81B0jj5J">马上结课了</p>
+ <p data-pid="6_MnLH9L">同学A:“唉，都快结课了 还没有见过老师的面”</p>
+ <p data-pid="b09S8Pym">同学BCD...疯狂+1（都是男生）</p>
+ <p data-pid="3BBBkUy0">老师：“我还是不开视频了 女博士大家知道长什么样吧！”</p>
+ <p data-pid="02qiNTdf">/****************************************/</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="TgFrI4QD">上课后好久签到已经过期某同学：“老师我还没有签到！”</p>
+ <p data-pid="XnvsRIRk">“我也没有”</p>
+ <p data-pid="jzbrgBs1">“我也没有”</p>
+ <p data-pid="PzzegDim">/****************************************/</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="uV7OxoNa">原回答</p>
+ <p data-pid="cdrKRTdH">老师上网课提问</p>
+ <p data-pid="381xl4Cn">老师“A,在吗？ A?在吗？ 可以听到吗？”</p>
+ <p data-pid="-rvBrFzU">一会儿A“老师，我在”</p>
+ <p data-pid="m93YQi6P">老师“你回答一下我的问题”</p>
+ <p data-pid="VfUwqhHL">A“嗯..老师，什么问题？”</p>
+ <p data-pid="IS13Zo_r">老师“就是什么什么问题”</p>
+ <p data-pid="po3gPLjn">A“嗯...老师，那个 我第一次上课，我之前没有选上这门课”</p>
+ <p data-pid="3iodruiy">老师“好吧 那你下去要跟上啊！”</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="HVdXVUt9">老师“B! B同学在吗？ B同学听到把麦大开！B在吗？”</p>
+ <p data-pid="IefiMOyd">......</p>
+ <p data-pid="--yp47a1">B打开耳麦“老师，可以听到吗？ 我刚才上厕所去了 不好意思”</p>
+ <p data-pid="r9Sba5id">老师“好的 你回答一下问题”</p>
+ <p data-pid="ZRdW23jk">B“...嗯 老师，这个我没有太懂”</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="MtrxQB1A">老师“C,C同学？回答一下问题”</p>
+ <p data-pid="RFBncWI_">C立即打开“老师，我不会！”</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="X4snJmpF">老师“D，D同学你回答一下吧！”</p>
+ <p data-pid="vT4PF86r">D同学没有耳麦或设备问题，在聊天窗口打字，老师看不见。</p>
+ <p data-pid="Uy44jN9I">...</p>
+ <p data-pid="DaonvWiI">老师“D同学没有来吗？”</p>
+ <p data-pid="liybIVBg">......</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="qJSLxlcL">然后，一学霸打开耳麦“老师D同学耳麦有问题，他打字了，您没有看见”</p>
+ <p data-pid="6eA0He7r">老师“这样啊 行”</p>
+ <p data-pid="WiQidD0l">学霸“老师这道题怎么这么怎么这么”</p>
+ <p data-pid="Tx1mfH_V">老师“对 对 对～ 就是这样 大家听懂了吗？”</p>
+ <p data-pid="_lvHIN93">评论区</p>
+ <p data-pid="XF7q8TmQ">“懂了</p>
+ <p data-pid="pMDqAFK_">懂了</p>
+ <p data-pid="I07m2V92">懂了</p>
+ <p data-pid="eGDVJIyc">...</p>
+ <p data-pid="ENACdNfD">...”</p>
+ <p data-pid="25wrIbL2">老师“好的 好的 我们下一题！”</p>
+</body>
