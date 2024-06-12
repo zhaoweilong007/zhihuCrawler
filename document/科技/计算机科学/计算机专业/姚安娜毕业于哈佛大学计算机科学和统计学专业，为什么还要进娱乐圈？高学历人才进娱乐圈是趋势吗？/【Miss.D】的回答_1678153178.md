@@ -1,0 +1,80 @@
+# 姚安娜毕业于哈佛大学计算机科学和统计学专业，为什么还要进娱乐圈？高学历人才进娱乐圈是趋势吗？
+- 点赞数：5854
+- 更新时间：2022年07月05日00时11分48秒
+- 回答url：https://www.zhihu.com/question/439314149/answer/1678153178
+<body>
+ <p data-pid="bvrcrWGj">说几句实话吧，求求「破格公主」不要再拉着哈佛计算机科学炒作了。</p>
+ <p data-pid="EAE2MRjl">无论是美本还是美研的申请，准备工作都和我国的机制不一样。</p>
+ <p data-pid="bmYtlGN8">她作为巨富之女，从哈佛顺利毕业比我们想得要简单很多。我也不觉得她有真才实学。这合理推测是有依据的，且慢慢看。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="Ux_1cuC0">西方院校的申请准备过程，在五年前时兴用小钱把自己的孩子包装得很牛；现在时兴用大钱让学校直接跨过孩子，欣赏自己多牛。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="p0I-w10K">我国的升学制度是「一考定乾坤」。</p>
+ <p data-pid="zLmSeF8L">高考超常发挥，进到一所高于自身能力的大学，后四年会过得很辛苦，摆脱不了自卑情绪。</p>
+ <p data-pid="zLV2DDkA">高考发挥失误，进到一所低于自身能力的大学，后四年会总是失望，永远不甘心。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="VuFVPgOt">然而，又岂止是四年呢？</p>
+ <p data-pid="w1WVCPNU">我父母是大学同学。父亲高考考好了，欢欢喜喜进了好大学。结果大物、高数、流体力学多门不及格，一直在补考。他和我讲起自己的大学生活，总结起来就是一句话：「天永远都是灰色的」。</p>
+ <p data-pid="NQqVsZrY">大学毕业后几十年了，他一直在念叨：“爸爸是个笨人。” 这种自卑刻到了骨子里。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="sTFVL3ag">相反，我母亲高考考了567分，当年北大在她们省的分数线是570分。三分之差让她12年苦读的梦破灭了，也成了一生的遗憾。</p>
+ <p data-pid="f2s3ogDv">从我记事起，我母亲就鲜少提起大学。听父亲讲，她助学金、奖学金一拿就是四年。后来，她一路读到最高学位，然而18岁的遗憾却永远无法抚平。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="U0jOmmyG">高考的「一考定终生」有没有问题？太有了。</p>
+ <p data-pid="mqouhkLs">毕竟，一次考试能体现出真正的水平吗？不能。</p>
+ <p data-pid="yB1ZbIRd">但至少，高考是最透明、最公正、最可控的。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="YiBurk7h">说说美国升学吧。有一件事情是大家都公认的：美国升学准备主要靠运作。</p>
+ <p data-pid="NmAbh77s">这个运作就给了申请者很大的空间。</p>
+ <p data-pid="sRZErX46">有本事的，自己靠本事积累；没本事的，花钱让别人帮自己镀金。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="-Wyw2wQD">我大二那年，同学花四万块钱报名了哈佛大学的一个项目。项目有十次网课，结业了考一个试。考试前十名的哈佛教授给写推荐信，之后的助教给写。</p>
+ <p data-pid="_XdjTo4m">你可能会说，这十次课都很难吧？没有，基本我们都学过了。</p>
+ <p data-pid="tXAe-VM1">懂的就知道了，这就是一个光鲜亮丽的「水项目」。归根结底，就是用四万块钱买哈佛大学的推荐信，申请的时候让自己看起来很牛。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="-216ZZYu">当然，现在的招生官已经能甄别各种花花绿绿的「水项目」和「水科研」了，都要求看实打实的科研成果和论文质量。</p>
+ <p data-pid="rXpb21Nv">真正的哈佛牛项目都还给顶尖学生发工资呢，人家的科研、教学质量丝毫不减。到了最后，只有学生和家长在自欺欺人。</p>
+ <p data-pid="zxXQnWzM">可问题是，这些运作只是我等中上等家庭的手段。一开始新兴，还有作用。人们趋之若鹜后烂大街了，那就集体贬值呗。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="4GEKA6EA">可姚安娜不是啊，她是千亿公主。她的社会影响力和运作手段就不会只是把自己包装得很牛了，还能让学校受益。</p>
+ <p data-pid="GhYbTcfN">就好像潘总给哈佛捐了那么多亿，回报就是儿子入学，哈佛你是收不收？</p>
+ <p data-pid="hWppsR_T">我不觉得哈佛有问题。学校要运营，要培养精英和人类栋梁，需要钱。有人给钱，代价是让一个孩子顺利毕业，那对哈佛来讲没有任何亏损，却收益颇丰。这是多聪明，稳赚不赔的做法。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="J9-JtAaP">上层阶级对出国留学的运作手段因为代价极高，我等普通家庭是无法模仿导致减效的。</p>
+ <p data-pid="Z_xD143u">所以巨富之子几乎人人出身名校，为什么呢？因为人家进名校很简单。而巨富之子又很少，完全不会对名校的声誉造成影响。</p>
+ <p data-pid="ZB9uh8Fw">那就恭喜呗，有人成了哈佛毕业，有人实验室多了经费。只要更多的钱用在了推动人类发展的事业上，那我毫不介意不会振翅的人御风飞到我上头。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <hr>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="Yrzc0-sw">【更新】</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="J5lCCqyA">感谢大家的指正和喜欢。写之前我完全没想到会有这么多人看，所以没有做很多前期调研，推测也因此难免主观。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="aFQ7_WOD">首先，我赞同对我眼界和格局的质疑。我思考了一下，感觉自己没看到很多层面的东西。</p>
+ <p data-pid="hOIUpRQV">有答主指出，姚安娜不需要真的亲自去学技术，她去是为了积累人脉和提升任总，乃至华为的层次。</p>
+ <p data-pid="E5hni4ic">我觉得这个解读更接近任总的初衷，是非常有道理的。我应该跳脱出自己的小格局，从企业家的角度来看待他女儿的问题。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="gzw_rBEj">其次，我反对把我的回答极端化理解的一些答主。</p>
+ <p data-pid="YpJW2hm4">我没有贬低美国的高等教育，更不一概而论判定「水深」和全体走后门。我自己目前还在CMU读书，入学条件是非常苛刻的，更不要说哈佛了。</p>
+ <p data-pid="X7fYXq37">我也没有说姚安娜丝毫没有真才实学，哈佛不可能招一个废物。但从她一系列的，包括没有像姐姐一样被任总培养，没有参与华为技术发展，反进娱乐圈的操作，我推断她没有那么优秀，不具备哈佛毕业生应有的技术能力、思想境界、追求与格局。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="0AfwEfCF">而我全文想表达的重点是，她这类巨富家庭的孩子在入学上与我们普通家庭的孩子可能走的程序，或者考察的方面都不一样。</p>
+ <p data-pid="GhSYDNz7">事实就是，美国顶校是培养精英的地方。是豪门之后成精英的概率大，还是普通孩子的概率大呢？所以，他们进哈佛本身就比我们简单，不需要那么好的天资和个人能力，这是迎合哈佛的招生理念的。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="1Hb5pwQn">最后，有关姚安娜一个公主，为啥要进华为和我们一起996秃头的质疑，我只想说，学CS的不都是搬砖码农，也不用都996。</p>
+ <p data-pid="9fI5c2XF">看看她姐姐，公主进华为肯定就是核心岗位了。懂技术的人做管理岗肯定比纯管理出身的人员更好。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="lL68bzIv">但无论如何，她的个人发展还是自己的事情。我们除了吃吃瓜，还是洗洗睡吧。</p>
+ <p data-pid="ApmI45Py">最近听说公主在追某新晋流量男演员的行程。</p>
+ <p data-pid="GYUW3xXj">公主追星和我们普通人都不一样哈，直接安排一起S+级综艺常驻。</p>
+</body>
