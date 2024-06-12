@@ -1,0 +1,31 @@
+# 有哪些搞笑的弹幕？
+- 点赞数：20985
+- 更新时间：2017年07月19日07时14分42秒
+- 回答url：https://www.zhihu.com/question/39463086/answer/200370466
+<body>
+ <p data-pid="BuTI8Mth">《铁齿铜牙纪晓岚》，不记得是哪一部里面的了，有个才女给皇上出了个对联：烟锁池塘柳。这五个字偏旁是金木水火土，让皇上对下联</p>
+ <p data-pid="1aqASV03">…</p>
+ <p data-pid="AuAK1toZ">然后</p>
+ <p data-pid="YUkHpn33">…</p>
+ <p data-pid="8tz-feDP">…</p>
+ <p data-pid="oZZz5aiX">…</p>
+ <p data-pid="gnx4kk6A">…</p>
+ <p data-pid="7fj8uBGe">…</p>
+ <p data-pid="mUpYjGcC">…</p>
+ <p data-pid="Kbomq94U">…</p>
+ <p data-pid="M9oR5B8q">…</p>
+ <p data-pid="CUIVugFu">…</p>
+ <p data-pid="5kUDhEhG">…</p>
+ <p data-pid="K31o22D3">…</p>
+ <p data-pid="oFkiCiwn">…</p>
+ <p data-pid="zfEUZDmP">…</p>
+ <p data-pid="pKWGbnMK">机智的弹幕</p>
+ <p data-pid="g2ow9CmY">…</p>
+ <p data-pid="13RBB_lH">…</p>
+ <p data-pid="IVOrmX01">飘来五个字</p>
+ <p data-pid="YhcrZ_zm">…</p>
+ <p data-pid="KnWqUTMa">…</p>
+ <p data-pid="-U4kzqno">…</p>
+ <p data-pid="5qiJuRjD">…</p>
+ <p data-pid="IB_Qmn-N">深圳铁板烧…………………</p>
+</body>
