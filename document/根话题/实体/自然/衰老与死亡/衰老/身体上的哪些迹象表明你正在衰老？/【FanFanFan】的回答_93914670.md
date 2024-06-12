@@ -1,0 +1,41 @@
+# 身体上的哪些迹象表明你正在衰老？
+- 点赞数：10347
+- 更新时间：2016年04月08日04时25分45秒
+- 回答url：https://www.zhihu.com/question/28237073/answer/93914670
+<body>
+ <p data-pid="4-wnnV2k">基本上放弃了自助餐</p>
+ <p data-pid="uc9FxWgi">基本上放弃了暴饮暴食</p>
+ <p data-pid="OSZBXCCK">20岁时一顿正餐的量，现在够吃一整天</p>
+ <p data-pid="1JHNpLa6">对过咸过甜过麻过辣的食物兴趣递减</p>
+ <p data-pid="PWcoPVG0">开始逐渐对江浙和南粤食品感兴趣</p>
+ <p data-pid="eS5HaePi">熬一次夜需要缓半个星期</p>
+ <p data-pid="vNnfHlkc">因为基础代谢率下降，运动稍微停滞或吃得过多，就会长肥肉</p>
+ <p data-pid="mtCOa6b-">肌肉体积在变大，绝对力量在增加，但爆发力下降，耐力下降</p>
+ <p data-pid="1DP3m76U">智慧在增加，但“急智”在下降</p>
+ <p data-pid="ByZnl-0_">记忆力减退</p>
+ <p data-pid="UsEpTAhA">学习能力减退</p>
+ <p data-pid="RNgOz9xA">单次时间明显增长</p>
+ <p data-pid="sskJjx6y">但贤者时间也明显增长</p>
+ <p data-pid="7bNNorUg">第二次的边际效益就接近零了</p>
+ <p data-pid="d_9xj5WZ">第三次简直想把她踹下床去</p>
+ <p data-pid="JE4VYEIO">20岁时脑补一下就能立正敬礼</p>
+ <p data-pid="djSVEISh">现在需要真的打算发射一下才能坚挺</p>
+ <p data-pid="JiHlXKNl">对异性的兴趣越来越小</p>
+ <p data-pid="J8yBBXCf">对赚钱的兴趣越来越大</p>
+ <p data-pid="oEeGvWF4">无法对任何异性产生“女神”的感知</p>
+ <p data-pid="WrUXvHUJ">无法想象对任何异性还能脸红心跳</p>
+ <p data-pid="iVcZYqpH">不再有大喜大悲</p>
+ <p data-pid="0eizwf8e">只有稳定的小喜或中性情绪</p>
+ <p data-pid="TENbcOBj">并开始无法理解为什么人们总是经常不高兴</p>
+ <p data-pid="AqgFSYv9">。。。</p>
+ <p data-pid="EWBFOzEu">以上的过程，最早从23岁就开始了，那正是踏入职场的那一年。</p>
+ <p data-pid="LkxTU9-_">抽烟、喝酒、暴饮暴食、熬夜加班...25-26岁达到了人生肥胖的巅峰，体重到了90公斤(185cm)。最后一次400米跑进55秒，也是发生在25岁。现在回看，那简直是跑道飞猪，惊讶自己当时是如何做到的。</p>
+ <p data-pid="povJpVuq">好在26岁来了美帝。停止吸烟，停止酗酒，健康饮食，规律运动。5年多过去了，再看一直在国内的同僚，再看看自己，感到无比庆幸，体重也早就恢复到80公斤。</p>
+ <p data-pid="CK6Qugqi">但依然，以上的进程还在缓慢但明显地进行着。</p>
+ <p data-pid="sQ0T4u8a">这就是衰老，大自然无可逆转的过程。</p>
+ <p data-pid="3RxYtUAO">若真有的选，我大体愿意用现有的一切，换回到一无所有的20岁。</p>
+ <p data-pid="kHsIgAFI">但这显然不会发生。</p>
+ <p data-pid="AcUdPpzk">好在心中还有激情，还有爱，还有梦。</p>
+ <p data-pid="9MV5aBJY">非著名相声艺术家高大脸说过，（大意）一个国家有前途，一个人有前途，重要的不是在20岁的时候有激情有梦想，而是在30岁依然充满激情和梦想。20岁时有激情和梦想，是这个年龄段的标配。</p>
+ <p data-pid="Z1zOhoDZ"><b>希望自己和自己同龄的同僚们，在30岁这十年，都能活得充满激情和梦想。</b></p>
+</body>
