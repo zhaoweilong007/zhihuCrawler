@@ -1,0 +1,85 @@
+# 2019年考研你是怎么成为“炮灰”的？
+- 点赞数：6558
+- 更新时间：2021年02月08日22时47分56秒
+- 回答url：https://www.zhihu.com/question/308349122/answer/601627869
+<body>
+ <p data-pid="mXNJY0gl">“ 说说朋友吧 ”</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="0HySaBuJ">考研期间，一个室友。开学前立志早晨六点起床，却没见他几次准时过。大早上人虽然到了图书馆却依然昏昏欲睡 。上午十一点不到就坐不住了要去吃饭，下午学不到四点半又坐不住了拖着同学去食堂。。。不仅如此，这货还逃掉了考研期间几乎所有的必修课和课程设计。。学院说五次课设点名不到直接降级，这货一次也没来过。更无语的是，他自己不来上课也就算了，他还怂恿别的考研学生也别去，最夸张的那段时间，一个班上课的学生只有个位数。。。老师挨个骂他，说他是全院上下名副其实的反面教材绝不为过。</p>
+ <p data-pid="Wln-KtEr">他美其名曰说是要考研才逃的课，但是实际上呢？却总给室友撞见躲在被窝里玩王者荣耀，一玩还就是一天，每个赛季不是钻石就是星耀。。。每天晚上玩手机能玩到一点半。。暑假也不留在学校复习，回家待了三个月。不用想，估计就是宅在家玩游戏了。来图书馆学习的时候还戴个大耳机听着音乐。。。考研前一周还拉同学去看电影。。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="Ysd95N9M">来年这货成绩出来了，</p>
+ <p data-pid="N2-DJpOt">正在准备复试。。。。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="_l8bLOFo">后来才发现 ，</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="dnmJ8Kdv">虽然他总赖床，但是他每天早晨七点半总能准时出现在图书馆，风雨无阻</p>
+ <p data-pid="20hEzEUs">我们误会了他，</p>
+ <p data-pid="ZS9SPEDq">他每天中午十一点不到就去食堂，不是因为心不在焉坐不住，而是为了避免下课高峰在食堂白白耽误时间。</p>
+ <p data-pid="h2YCNcjR">他逃课，是因为课程和设计占用了太多的精力，在和老师们谈判无果的情况下他只好一意孤行。</p>
+ <p data-pid="TcvZ9Jw-">他控制不住自己，为了不耽误复习进度，他平时把王者的账号交给女朋友保管，学累了就找女朋友要密码。每玩一回，女朋友给他改一次密码。每两周玩一回，每回裹在被窝里痛痛快快玩上一整天。</p>
+ <p data-pid="QYtBlIan">他苦恼单词背得太慢，在考研最后一段时间，他在百词斩每日计划设置了将近300单词，但是他每天都能拖到23:59才想起来，于是每次他得躲在被窝里捧着手机加班到一两点才能赶上前一天的打卡。</p>
+ <p data-pid="gLABixGR">这货暑假回家之后，来到目标高校走了走，他看见这里的教室座无虚席，这和他自己的大学相比大相径庭，他在那里租了三个月的公寓复习备考。好学校的教室即便是暑假也每天早晨6点开门，他坚持每天五点三十起床，十一点半教学楼关门才回公寓。不说不知道，这就是他的暑假。</p>
+ <p data-pid="GvRWZQCh">在目标高校的紧张环境下复习了三个月，回校后，自己学校图书馆考研区那一片嘈杂的环境让他难以适应。于是，这货一咬牙掏空了蚂蚁花呗买了一只超贵的降噪耳机，不放音乐，学习的时候就戴上，周围的嘈杂声瞬间熄灭。</p>
+ <p data-pid="W7_b3Y6a">自此，他的学习效率似乎提高了很多。他把专业课将近300页的题库从头到尾来回做了4遍，到最后一遍做完已经能达到几乎百分百正确率的时候，他拽上了三五好友看场电影放松一下略微紧张的心情，</p>
+ <p data-pid="Y89BvrFg">毕竟，后天就要研究生考试了。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="6P6WgaME">这货就是我。</p>
+ <p data-pid="o0VJAX26">花呗还没还完，不曾想“炮灰”形象却已深入人心</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="bo-uArAF">对自己的描述都是听寝室室友所言，在旁观者的眼睛里，我是大概率失败的失败者、就是那最没有希望的“炮灰选手”。成绩出来后，有朋友分享了平时对我的一点观察并表示纳闷，我做了适当修改和补充分享在此题下。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="t7x1lhDc">我曾一度很纳闷这些朋友为什么纳闷，纳闷咋就莫名其妙成了“炮灰”，转念一想，是因为考研期间我没有像某些人一样，每天学了什么、每天去了图书馆都要打个卡发个朋友圈吗?</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="lbjJ9hQQ">虽然“这货”会赖床到很晚，</p>
+ <p data-pid="U0is29al">会偷懒还贪玩</p>
+ <p data-pid="asrzUe7_">但是他们不知道</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="O8ZA8OvU"><b><i>自打决定考研那一天起，</i></b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="MG9RDWnZ"><b><i>这枚“炮灰”的决心从没有哪一秒动摇过</i></b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="XVPyiXPH">----------------------2019/2/27更新---------------------------</p>
+ <p data-pid="RGP2ovU-">问到排名了，土建类全日制专业，初试第一~</p>
+ <p data-pid="7-64boBI">具体学校匿了，长三角一带211</p>
+ <p data-pid="iWJGiS9s">谢谢各位考研er的关心~</p>
+ <p data-pid="vGBIggfp">努力怼复试ing~</p>
+ <p data-pid="gaiHgu5Z">-----------------------2019/3/26更新----------------------------</p>
+ <p data-pid="xMS-_3dp">拟录取</p>
+ <p data-pid="kSulbFxB">考研结束</p>
+ <p></p>
+ <p></p>
+</body>

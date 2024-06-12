@@ -1,0 +1,14 @@
+# 如何看待2023年9月，荷兰光刻机巨头阿斯麦CEO称「我们太自以为是了」，要是他看知乎还会这么认为吗？
+- 点赞数：7617
+- 更新时间：2023年09月10日18时56分25秒
+- 回答url：https://www.zhihu.com/question/621253578/answer/3204314662
+<body>
+ <p data-pid="RCoH4eqS">ASML关于中国自研光刻机的发言一览（按时间顺序）</p>
+ <p data-pid="-rnQToAk">2020年之前，【否认】，“就算给你完整图纸，你也造不出来光刻机。”</p><a href="https://link.zhihu.com/?target=https%3A//www.thepaper.cn/newsDetail_forward_8505968" data-draft-node="block" data-draft-type="link-card" data-image="https://pic4.zhimg.com/v2-4b1b52804ec38984cb0ad4ba64e12dbb_120x160.jpg" data-image-width="448" data-image-height="809" class=" wrap external" target="_blank" rel="nofollow noreferrer">给我们全套图纸，中国人都造不出高端光刻机？_澎湃号·政务_澎湃新闻-The Paper</a>
+ <p data-pid="7bkz4DpV">2022年1月，“中国不太可能独立研制出顶级光刻技术，但他们一定会尝试的。”</p><a href="https://link.zhihu.com/?target=https%3A//www.guancha.cn/economy/2022_01_20_623004.shtml" data-draft-node="block" data-draft-type="link-card" data-image="https://pic1.zhimg.com/v2-45133714ca2f73fff579884020718160_ipico.jpg" data-image-width="742" data-image-height="772" class=" wrap external" target="_blank" rel="nofollow noreferrer">光刻机巨头阿斯麦CEO：中国不太可能独立造出顶尖光刻机，但也别那么绝对</a>
+ <p data-pid="pBblVZJt">2023年4月上旬，【愤怒】，“中国自研光刻机是破坏全球芯片产业链。”</p><a href="https://link.zhihu.com/?target=https%3A//new.qq.com/rain/a/20230428A00CE400" data-draft-node="block" data-draft-type="link-card" data-image="https://pic1.zhimg.com/v2-b3212aa603626c8ca23b1030d7ed9ddc_ipico.jpg" data-image-width="0" data-image-height="0" class=" wrap external" target="_blank" rel="nofollow noreferrer">ASML高官：中国自研光刻机破坏全球产业链！这释放了一个重要信号_腾讯新闻</a>
+ <p data-pid="vQcKWSOi">2023年4月底，【妥协】，“ASML进入中国市场是绝对必要的。”</p><a href="https://link.zhihu.com/?target=https%3A//new.qq.com/rain/a/20230428A07HZE00" data-draft-node="block" data-draft-type="link-card" data-image="https://pic3.zhimg.com/v2-a229c856d847ebad9599b18bae9fb84e_ipico.jpg" data-image-width="700" data-image-height="682" class=" wrap external" target="_blank" rel="nofollow noreferrer">荷兰阿斯麦公司CEO：进入中国市场“是绝对必要的”_腾讯新闻</a>
+ <p data-pid="nhSHMUjv">2023年5月，“美半导体公司不能缺席中国市场。”</p><a href="https://link.zhihu.com/?target=https%3A//www.thepaper.cn/newsDetail_forward_22941380" data-draft-node="block" data-draft-type="link-card" class=" wrap external" target="_blank" rel="nofollow noreferrer">美半导体协会总裁：中国是我们最大的市场，我们不能缺席_澎湃财讯_澎湃新闻-The Paper</a>
+ <p data-pid="eflNIfY5">2023年9月，【沮丧】，“我们太自以为是了。”</p><a href="https://link.zhihu.com/?target=https%3A//www.sohu.com/a/719067570_115865" data-draft-node="block" data-draft-type="link-card" data-image="https://pic4.zhimg.com/v2-b031658d6cba602876664614ef33f50f_ipico.jpg" data-image-width="1284" data-image-height="1100" class=" wrap external" target="_blank" rel="nofollow noreferrer">荷兰光刻机巨头阿斯麦公司CEO：妄图孤立中国是没有希望的，我们太自以为是了_管制_出口_解决方案</a>
+ <p></p>
+</body>

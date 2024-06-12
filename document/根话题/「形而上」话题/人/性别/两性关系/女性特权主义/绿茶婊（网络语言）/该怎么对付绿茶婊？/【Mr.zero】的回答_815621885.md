@@ -1,0 +1,103 @@
+# 该怎么对付绿茶婊？
+- 点赞数：5823
+- 更新时间：2021年12月09日21时23分46秒
+- 回答url：https://www.zhihu.com/question/317505987/answer/815621885
+<body>
+ <p data-pid="AJH85B0P">12月更新</p>
+ <p data-pid="SDf-L4Ah">应该不会有啥绿茶出现了，他现在对不上那些年轻的小姑娘们，就只有几个大老爷们，他们好无聊的。。。要是有人愿意看，我可以更新一些他的发小，就是我说的“汉子婊”</p>
+ <p data-pid="b6B6wnS_">给你们讲一个前两天给我气哭的事~我做菜的时候想上厕所，就喊他帮我看着点锅~结果我出来的时候菜还是糊了，我就特别生气的问他“不是让你看着点么？怎么还是糊了？”</p>
+ <p data-pid="AHm8GFX6">他，理！直！气！壮！的告诉我“我看着呢，一步都没走开~”</p>
+ <p data-pid="AA44eBBc">我“怎么看的？来来来~你给我演示看看，我也学习一下”</p>
+ <p data-pid="gKKLcNu7">他一动没动的站在那告诉我“我一直这么看着来着”</p>
+ <p data-pid="5AI7LWLz">给我气的~我就跟他好一顿咆哮~~他跟我来了一句“那你应该让我看着点菜，你就说让我看着锅的，我哪知道你让我看菜~~”</p>
+ <p data-pid="V93R2hOs">我说“咋滴，锅能跑啊，你还得看着点锅，那看着点的意思不就是菜别糊了么？”</p>
+ <p data-pid="OHtLO1MH">不知道触动了他的哪一根笑线，就在那嘎嘎嘎的乐~看他乐成那样，我就更生气了~</p>
+ <p data-pid="xeOVKcHj">他可能想哄哄我，然后一说话就乐，一说话就乐，我就气哭了~~~他说他满脑袋就是锅跳下来，然后带着我的一锅鸡肉土豆跑，他就追~~听他说完，我真想把那锅鸡肉土豆倒他脑袋上，让他觉得锅会跑。。。</p>
+ <figure data-size="normal">
+  <img src="https://picx.zhimg.com/50/v2-9de5240d792277e12f8ccf8e9c1e4c6e_720w.jpg?source=1940ef5c" data-rawwidth="501" data-rawheight="359" data-size="normal" data-original-token="v2-a592acd6679ae3aac5268ceed05df4e7" data-default-watermark-src="https://pic1.zhimg.com/50/v2-6c53708c1bf3d9ab5ca563852ee9c1f3_720w.jpg?source=1940ef5c" class="origin_image zh-lightbox-thumb" width="501" data-original="https://pica.zhimg.com/v2-9de5240d792277e12f8ccf8e9c1e4c6e_r.jpg?source=1940ef5c">
+ </figure>
+ <p data-pid="BzS3Mdpb">我发现我老公一个神操作，我差点被笑死</p>
+ <p data-pid="UYGWy1zi">他最近升职了，从五个人的办公室搬到一个人的办公室，然后也是比较忙，刚接手工作，再加上由于他升职，他原本的职位空缺，需要他内推一个人，公司已经内定了，名义上需要我老公推荐，大概就是这个意思~~~但是其他员工不知道，就拐弯抹角的打听我老公要推荐谁，之前跟我挺好的一个女孩问到我这了，我说不知道这事~~~然后她非找我逛街，之前一直以疫情严重拒绝着，今天实在不好意思拒绝了，就去了他们单位</p>
+ <p data-pid="H2LadhpX">都下班了，他们公司就剩下那女孩了，我老公加班，我就去他办公室找他，一进门我特么都惊呆了，人家办公室里挂什么山水画啦毛笔字啦~他办公室挂咱俩结婚的时候做的那个类似海报的大照片，易拉宝？~~~嗷嗷显眼~~~老蠢了~~~我一顿让他摘下来，人家大义凛然的说“省的总有不长眼的打我主意~”</p>
+ <p data-pid="qOjqq807">我“你当自己是郭富城还是刘德华了？拿下来，赶紧的，挂几天了？没人说你？没被人嘲笑？你们老总没说你？”</p>
+ <p data-pid="h5G1dONG">他得意洋洋的“老总说咱俩感情好，挺好”</p>
+ <p data-pid="4eaqY_X2">好说歹说是拿下来了没挂几天，幸好没挂几天，要么我得丢人死</p>
+ <p data-pid="Sp8AWSMP">我估计他是看我答案看的，感觉被哪个女的多看一眼就是看上他了</p>
+ <p data-pid="_4qInTsC">你要是看见了的话，请你看清楚哈~~</p>
+ <p data-pid="UEUmqiTZ">没！人！喜！欢！你！</p>
+ <p data-pid="ZEsWaaAq">别！太！自！觉！不！臭！</p>
+ <p data-pid="4R8CGSAt">只！有！我！喜！欢！你~</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="e2ju3RXS">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+ <p data-pid="JkfiTAAo">新出炉的热乎的</p>
+ <p data-pid="pbS48ip8">背景：我今天加班，我老公来接我，他有个朋友十月份结婚，管我老公借西服，还是我之前写的那个汉子婊，我们都快到家了给他打电话，蓝牙接通之后，我听见他们的对话。。。emmmm。怎么说呢。。心疼对方。。。</p>
+ <p data-pid="0zOLtkH1">她“xxx结婚那天你去接亲吗？”</p>
+ <p data-pid="_iDjj2WQ">我老公“不知道，看那天安排再说”</p>
+ <p data-pid="j73mJ34I">她“西服呢？你给人家熨好了，别那天皱皱巴巴的”</p>
+ <p data-pid="VD-kk2M0">我老公“关你屁事啊？闲的屁次次的。。”</p>
+ <p data-pid="A7glHbwB">她“你又骂我？我就是提醒你一下，你瞅瞅你什么态度？你媳妇也能受得了你。。。”</p>
+ <p data-pid="6vI2cdD4">我老公“我媳妇才不像你那么招人烦呢”</p>
+ <p data-pid="c_zGmab1">她“行行行。。你媳妇最好”</p>
+ <p data-pid="kHQkTvFL">我老公“还有事没？没事我挂了”</p>
+ <p data-pid="guEw-O7y">她“诶？李荣浩结婚了你知道不？”（我老公比较喜欢李荣浩）</p>
+ <p data-pid="FTHrAux-">我老公“李荣浩也没给我打电话通知我，我上哪知道去”</p>
+ <p data-pid="TCjElNOs">她“我不现在打电话告诉你了吗”</p>
+ <p data-pid="l1cn1MZ4">我老公“娶的你啊？还用你打电话告诉我一声”</p>
+ <p data-pid="uS4pA3AS">她“抬杠的话就没意思了吧”</p>
+ <p data-pid="gD37rlpD">我老公“拜拜ﾉBye~有事写信。。。”然后就挂了</p>
+ <p data-pid="asnuONzM">我全程。。。憋笑。。。</p>
+ <p data-pid="a3ukIsIq">------------------------------------------------。。。。--。。。。-----</p>
+ <p data-pid="GE5VgTCd">----------！！！！！！！！---------------------好多人觉得我老公可爱啊，在更新几个他气死我的小事</p>
+ <p data-pid="rVWbdvil">第一个情人节，他问我要什么，我就客气的说“诶呀，我不要，那天什么都贵balabala”我老公果然什么都木有准备。。。那天我就蔫蔫的。。。第二天突然给我转账999.99，告诉我，他哥们告诉他说要买玫瑰，巧克力。。。。我老公“玫瑰不实用啊，巧克力她不吃啊，她说她不要啊~~~~”最后决定给我钱，让我自己买，我没收。。。他得到的结论是“女人好麻烦”“”</p>
+ <p data-pid="lhPvgWlF">我emmmm。。还可以坚持一下，毕竟给钱了</p>
+ <p data-pid="bt0iq9ue">第一次跟他出去玩，他问我要不要坐过山车，其实我有点烦排队，我就说不去了，我恐高。。他“去吧去吧一点都不可怕balabala他一顿劝我，我说那玩吧，排了两个小时，上去两分钟，下来之后，咱俩脸都白了，没血色。。。腿都软了。。。我说“你特么张罗这么欢，你也害怕啊？”他“我没坐过，我哪知道我害怕 ”说的好有道理，我没有理由反驳。。。</p>
+ <p data-pid="b0Eklj_v">第一次牵手，他“我能牵你手吗”我“？”你特么不应该是霸气一点直接拽着我吗？你问我我怎么回答？这个傻逼看我没说话，给我整了一句“唐突了”唐突你奶奶个哨子。。。大傻逼</p>
+ <p data-pid="Ci9yre7Y">拥抱同理，接吻同理，啪啪啪例外，操他妈。。。</p>
+ <p data-pid="05rP94TY">结婚之后，让他洗碗，绝不刷锅。。。让他扫地，绝不拖地，让他晾衣服，真的只是晾衣服哟~裤子还在洗衣机里，你问他，他还会一本正经的告诉你“你不是只让我晾衣服吗？我以为你裤子还没洗完”。。。</p>
+ <p data-pid="dERIwTi3">emmmm。。。评论里有个小可爱说的特别对，又笨又懒。。。。还强词夺理，嚼文嚼字。。。</p>
+ <p data-pid="GYDMFAR-">（有老公同事看见了，问他了。。很尴尬。。。）</p>
+ <p data-pid="CpWwWC8a">-----------------------------------------------------------------------------------我老公，钢铁直男，无论绿茶婊还是汉子婊在我老公面前。。。啧啧啧~~~我都心疼~~~</p>
+ <p data-pid="FJpemIJ2">我们没结婚的时候，有一天周末早上，他接个电话，是他同事~~</p>
+ <p data-pid="4HpJLNJd">特别嗲的说：“欧巴~那个报表balabala怎么弄？”</p>
+ <p data-pid="rqpv-5qt">我老公:“你管我叫爸干啥？”</p>
+ <p data-pid="AYZI1_2e">那边:“诶呀，欧巴你懂不懂？就是哥哥的意思”</p>
+ <p data-pid="KNGyXJgv">我老公:“说正事”</p>
+ <p data-pid="CmXGZ53l">:“我不会弄这个表，你来教我balabala”</p>
+ <p data-pid="YZpsbpej">我老公:“不会？那你辞职吧，要不我给你调别的部门。。”</p>
+ <p data-pid="kfIGRwXU">那边说，算了我问问别人吧。</p>
+ <p data-pid="F-3DbUlm">第二次，他们部门聚餐，我正好在附近，就在他们饭店旁边的小蛋糕店等他完事跟他一起回家，还是那个同事。。。看见我就说:“吖~嫂子好”</p>
+ <p data-pid="TMm2AUiw">我:“好呀，你们吃完了？”那时候也不知道打电话的是她，还热情的把买的小蛋糕给她吃~</p>
+ <p data-pid="WF-2R-KY">她:“还没呢，他喝了好多酒，不能开车了~你要不要先回家？”</p>
+ <p data-pid="--hvG7TF">我:“？”</p>
+ <p data-pid="OBR09HKS">她:“我们一会还得去KTV，怕你等太久balabala”</p>
+ <p data-pid="obyZEAmq">我:“？”</p>
+ <p data-pid="wFKtubtB">她:“那你要不要打车回去？放心，我一会开你家车给张哥送回去balabala”</p>
+ <p data-pid="sFpgQZWg">我全程懵逼~然后给我老公打电话合计跟他说一声我先回家了。。。我老公接电话就告诉我他一会就完事了，去KTV他不去。。。</p>
+ <p data-pid="0K9mucVW">然后我开车，他手机微信就一直响，他嫌闹心，就看了一眼，然后给关了。。。我问他谁啊，他说那个贼烦人的女的，就是你看见那个，非得问我为啥不去唱歌~~~不想去就不去呗，逼事真多，一天天啥也不会干，啥啥都问问问~真不知道她大学学啥了balabala~~~我心里想，人家是看上你了~~~我嘴上说:“可能刚出社会”我老公说:“就是笨，还懒，记性还不好”</p>
+ <p data-pid="vZN6jdzl">回到家之后他洗澡，我就看了眼他手机，那女的给他发:怎么不来唱歌啊？“嫂子管的也太紧了”然后就是他们唱歌的视频~还有她的自拍~还有别人的糗照啥的~~我看完就关了，然后告诉我老公，有人给你发微信~~~我老公看完给她回个“你们玩好”</p>
+ <p data-pid="91rvIR1n">然后她就给我老公发什么:“以后带嫂子出来吃饭啊，我看嫂子特别有眼缘”</p>
+ <p data-pid="J-gMYIzt">“嫂子好会打扮啊，我就不行，我怎么打扮都像小孩”</p>
+ <p data-pid="twd9VvYI">“嫂子穿衣服也好看，不像我穿的还跟小孩似的”</p>
+ <p data-pid="_wKplqX4">“嫂子身材真好，不像我瘦的跟小孩似的”</p>
+ <p data-pid="uy8XeooT">类似的哈，我记不太清了，我就记住她说她自己像小孩似的</p>
+ <p data-pid="ScfWELk_">我老公看完把我微信给她推了过去</p>
+ <figure data-size="normal">
+  <img src="https://pic1.zhimg.com/50/v2-ab18674b745f8f56bca32970450c088b_720w.jpg?source=1940ef5c" data-rawwidth="996" data-rawheight="996" data-size="normal" data-original-token="v2-82307eefc9ad89318b00f0c5d868d6f3" data-default-watermark-src="https://picx.zhimg.com/50/v2-221435eaef918eeef74c6dcce936ab41_720w.jpg?source=1940ef5c" class="origin_image zh-lightbox-thumb" width="996" data-original="https://picx.zhimg.com/v2-ab18674b745f8f56bca32970450c088b_r.jpg?source=1940ef5c">
+ </figure>
+ <p data-pid="X1qnvTzX">还告诉我让我教她做报表~~~</p>
+ <p data-pid="B7j__WlB">她没加我~~~后来实习期到了，她就走了~~~</p>
+ <p data-pid="mFK0CpW6">还有个汉子婊，我第一次见他朋友的时候就看见过她，没给我好脸~~你们懂那个感觉不~~~</p>
+ <p data-pid="OMMA20Vy">我老公那天拿了一瓶水，她拿过来就喝了一口然后跟我说</p>
+ <p data-pid="8DSCcT5M">她:“我们认识好几年了，你不介意吧”</p>
+ <p data-pid="QZCE4faB">我“不介意”</p>
+ <p data-pid="6TteQted">我老公:“我介意，你恶不恶心，多少次了？几块钱买不起？非得喝我的”</p>
+ <p data-pid="ar9q8Kov">她:“你骂我？”</p>
+ <p data-pid="77LpUXU3">我老公:“我骂你多少次了，回回这样，你有病啊？”</p>
+ <p data-pid="H5fYYer9">我:“你生气了？”我老公说，没有，就是烦，饭店没有这个水~我还得去超市买，多膈应</p>
+ <p data-pid="F8JuZPfn">我:“别这样嘛~多尴尬”</p>
+ <p data-pid="2uT2J8lg">我老公“她要是个男的，我得踢死他”</p>
+ <p data-pid="cf--lTwt">吃饭的时候说一些我老公的前女友，又被我老公骂了~~~</p>
+ <p data-pid="JFjnUfVW">还有我老公单位的阿姨，想把我老公介绍给他姑娘，一直管我老公叫女婿，有一次他们单位旅游，我去了，她当着我面跟我老公说：完了，这找完对象了，也不能当我女婿了，还能叫我丈母娘不？”我老公想张嘴解释~~我就说了一句:“能叫啊，他不仅能管你叫丈母娘，我还能管你叫妈，你多了一儿一女，多好”</p>
+</body>

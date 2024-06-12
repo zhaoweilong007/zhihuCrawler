@@ -1,0 +1,55 @@
+# 如何评价《魔兽》（电影）？
+- 点赞数：7015
+- 更新时间：2016年06月08日12时51分36秒
+- 回答url：https://www.zhihu.com/question/39000889/answer/104858183
+<body>
+ <p data-pid="kKZMtOD_">没想到一夜之间过千赞，感谢各位捧场。</p>
+ <p data-pid="ETAiR7-q">为满足某些强迫症患者，修改了数字。</p>
+ <p data-pid="AoczLAk-">转载请注明出处。</p>
+ <p data-pid="Ct3VsR9y">——————————————————</p>
+ <p data-pid="w-8sKQTm">——————————————————</p>
+ <p data-pid="_X4qR2-v">凌晨看首映，散场不住夸。</p>
+ <p data-pid="pIh3aY59">亢奋难入睡，怒起把题答。</p>
+ <p data-pid="Uuw_dXtg">纵观整部戏，票钱不白花。</p>
+ <p data-pid="uTFlo2Sl">场面够宏大，特效也不差。</p>
+ <p data-pid="aMMGESr7">造型还原高，情节略拖沓。</p>
+ <p data-pid="mLyXsWc6">若不怕剧透，听听都有啥。</p>
+ <p data-pid="zdzZHCpn">开场人兽斗，致敬老争霸。</p>
+ <p data-pid="5RMF-P_j">兽族七人众，半数没戏搭。</p>
+ <p data-pid="X-CAaAr4">堂堂耐奥祖，满场不见他。</p>
+ <p data-pid="5hSKI1J6">刃拳和死眼，也把酱油打。</p>
+ <p data-pid="E3wrWasI">兽人不为奴，老吼变哑巴。</p>
+ <p data-pid="xXwWctNz">黑手大酋长，单挑被秒杀。</p>
+ <p data-pid="uMpzIGZr">主角杜隆坦，整场把戏霸。</p>
+ <p data-pid="4RWVqeCh">身边毁灭锤，基情无限大。</p>
+ <p data-pid="odB1oeEJ">帅逼吴狗蛋，完全不像他。</p>
+ <p data-pid="4l9cs6Vz">只会吸碎片，solo用拳打。</p>
+ <p data-pid="HQT6rohJ">再来看联盟，仔细扒一扒。</p>
+ <p data-pid="-DUeQ0M3">精灵一闪过，矮人把枪发。</p>
+ <p data-pid="0G3HVUpQ">莱恩大国王，强行要自杀。</p>
+ <p data-pid="pPlp9ANh">神棍麦迪文，传送都找他。</p>
+ <p data-pid="boXwv1Xi">要说不靠谱，还要属洛萨。</p>
+ <p data-pid="4F3odMal">秃头长出毛，还有儿子啦。</p>
+ <p data-pid="2qGnCeUt">飞身骑狮鹫，钟情迦罗娜。</p>
+ <p data-pid="9IV369yo">蛮锤要哭晕，麦迪文爆炸。</p>
+ <p data-pid="NOd1F_L2">联盟大法师，还数卡德加。</p>
+ <p data-pid="3fkyys6w">变羊术一出，全场乐开花。</p>
+ <p data-pid="CNSmqXZK">大战麦迪文，邪能池里打。</p>
+ <p data-pid="Qa5GLkVf">后果全无视，光环太imba。</p>
+ <p data-pid="fpBANeo1">改编最严重，要说迦罗娜。</p>
+ <p data-pid="Y0yIMZcE">本是双间谍，到这洗白啦。</p>
+ <p data-pid="Fi51l7er">这都不重要，最强世界萨。</p>
+ <p data-pid="-VGmZ2t5">棕皮生绿皮，到底为神马？</p>
+ <p data-pid="odiuKM23">狗蛋来接生，强行要腐化。</p>
+ <p data-pid="io3IGOnZ">世界性难题，一下解决啦。</p>
+ <p data-pid="Se0KSjD2">小萨萌萌哒，越看越爱他。</p>
+ <p data-pid="wC1Pf-nB">未来做主角，别人都是渣。</p>
+ <p data-pid="hd0-q73o">德莱尼真丑，快把我吓趴。</p>
+ <p data-pid="P0n8OKdx">鱼人也出镜，呜啦呜啦啦。</p>
+ <p data-pid="ABP0qqq6">吐槽归吐槽，片是好片哪。</p>
+ <p data-pid="K00okqtL">十载魔兽情，一朝俱宣发。</p>
+ <p data-pid="knelgrPA">当年公会大，高玩成把抓。</p>
+ <p data-pid="m1kuhv5X">如今众基友，你们都在哪。</p>
+ <p data-pid="4lloKZ40">一口气写完，头晕眼又花。</p>
+ <p data-pid="hQnai1We">干德玛西亚，Lok`tar Ogar！</p>
+</body>

@@ -1,0 +1,8 @@
+# 何种女性可称「绿茶婊」？
+- 点赞数：5747
+- 更新时间：2019年01月23日15时21分01秒
+- 回答url：https://www.zhihu.com/question/31401165/answer/579410462
+<body>
+ <p data-pid="3VaoPRr9">心疼穿黑裙的小姐姐 (｡•́︿•̀｡)</p><a class="video-box" href="https://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1071074615366914048" target="_blank" data-video-id="" data-video-playable="" data-name="       " data-poster="https://pic4.zhimg.com/v2-d2170bfd380353b3836a50acb9da3943.jpg" data-lens-id="1071074615366914048"><img class="thumbnail" src="https://pic4.zhimg.com/v2-d2170bfd380353b3836a50acb9da3943.jpg"><span class="content"><span class="title"> <span class="z-ico-extern-gray"></span><span class="z-ico-extern-blue"></span></span><span class="url"><span class="z-ico-video"></span>https://www.zhihu.com/video/1071074615366914048</span></span></a><a class="video-box" href="https://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1071076143683321856" target="_blank" data-video-id="" data-video-playable="" data-name="       " data-poster="https://pic1.zhimg.com/v2-27b57dea22a91444ca3640d9abb8eba2.jpg" data-lens-id="1071076143683321856"><img class="thumbnail" src="https://pic1.zhimg.com/v2-27b57dea22a91444ca3640d9abb8eba2.jpg"><span class="content"><span class="title"> <span class="z-ico-extern-gray"></span><span class="z-ico-extern-blue"></span></span><span class="url"><span class="z-ico-video"></span>https://www.zhihu.com/video/1071076143683321856</span></span></a>
+ <p></p>
+</body>

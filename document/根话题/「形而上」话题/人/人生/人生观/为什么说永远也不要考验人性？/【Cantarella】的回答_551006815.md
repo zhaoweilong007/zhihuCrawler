@@ -1,0 +1,67 @@
+# 为什么说永远也不要考验人性？
+- 点赞数：16384
+- 更新时间：2020年02月18日17时13分33秒
+- 回答url：https://www.zhihu.com/question/301801218/answer/551006815
+<body>
+ <p data-pid="VMOBP300"><b>因为人性根本经不起试探</b>。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="oJZzOpyy">以前看过一个视频，大概就是说一个小伙子觉得自己的女友太漂亮了，总是不放心，于是雇佣了一个人并且让他租了一辆豪车去试探自己的女友对自己的忠诚。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="AHWfGoGv">在女友下班回来的路上，这个陌生男人将豪车停在了女生面前，彬彬有礼地说：“小姐，天色这么晚了，我送你回去吧?”</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="wqQniIiA">通过监控可以看到，女友虽然刚开始有些犹豫，最终还是因为看对方开着豪车、又衣着体面的样子，就答应了。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="HFAOBvmp">毕竟，在女生心中，<b>能开得起这么贵的豪车的人，又怎么会是坏人呢??</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="eBu1FwRz">在车上，男人按照事先的准备开始和女生搭话，等气氛成熟了之后开始提出：“你这么漂亮，能否陪我一次?”的要求。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="1xNP6BfM">女生刚开始一直在拒绝，说自己有男友，而且自己也不是那样的人，但是也并没有生气。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="8QdUuaYR">男人继续说：“小姐，你看，你在这种地方上班，一个月辛辛苦苦也不过工资就3000多，<b>你陪我一次，我给你一万。</b>”</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="yAOo8mKB">说着，就将一万块现金放在女生面前。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="eTJoPY6w">女生继续犹豫。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="Lty5IF-y">“那两万吧。”男人继续加价，又拿出一万拍在女生面前，说：“<b>陪我一次，2万。</b>”</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="vAg1AY3I">“而且你男友又不会知道，就一次而已。”</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="61YvFGCm">女生想了想，答应了，把钱收进包里，开始拿出手机变造理由给男友发短信说今天自己不能回去了，要加班如何如何。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="ROJLslee">一直在暗中观察的男友终于忍不住了，冲出来找女生吵架，并且骂她贱，说为了一点钱就能出卖自己。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="b1wfmjm6">女生也怒了，说：“你居然还找人合伙来试探我！”</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="H_wZsTn2">并且还表示：“<b>我和谁谁不是睡，和他睡还能有钱，和你睡什么都没有！</b>”</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="H_htyogr">直接说分手，并且调头走人，<b>男生呆了一会儿，竟然上前去挽留、道歉。</b></p>
+ <figure data-size="normal">
+  <img src="https://picx.zhimg.com/50/v2-89c1870005fad9f842331eb1a0c59ddb_720w.jpg?source=1940ef5c" data-caption="" data-size="normal" data-rawwidth="1200" data-rawheight="1137" data-original-token="v2-307470c079f84a5ba16a6653fb0462c8" data-default-watermark-src="https://picx.zhimg.com/50/v2-24c14eedf0d585d6c09c0564b82a7bcf_720w.jpg?source=1940ef5c" class="origin_image zh-lightbox-thumb" width="1200" data-original="https://pic1.zhimg.com/v2-89c1870005fad9f842331eb1a0c59ddb_r.jpg?source=1940ef5c">
+ </figure>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="EBoXUPUx"><b>人性都是禁不起诱惑的，如果你诱惑不到，那多半都是你出的价码还不够。</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="8WZDEPuC">之前不是有一个很火的梗：</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="kk-zjgJs">马云给你一千万让你吃屎你干不干?</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="-sjnT-yx">很多人说：<b>我能吃到他破产！</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="ibKKsmGo">同样，你也会为了一千万、一个亿、十个亿，将你的老婆拱手相让，只要有人愿意出价的话。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="lXWmNwqo">人在绝对的利益面前永远是非常<b>动物性</b>的。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="vdPAthmh">在上面那个故事里，如果那位女生经受住了考验，那么这个男生还配得上她吗?</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="xVJOEOJX">从你开始怀疑的那一刻起，你们之间的信任就早已烟消云散。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="bjEMRukq">本来日子过得好好的，你却非要去<b>制造极端情况，成天幻想2012世界末日救生舱的最后一个位置我老婆会不会让给我?！</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="ErwNhFAr">有意思吗?</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="fNntZb_n">古人说<b>水至清则无鱼，人至察则无徒。</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="XWL9I_Fc">不试探，是一种智慧。</p>
+ <p></p>
+</body>

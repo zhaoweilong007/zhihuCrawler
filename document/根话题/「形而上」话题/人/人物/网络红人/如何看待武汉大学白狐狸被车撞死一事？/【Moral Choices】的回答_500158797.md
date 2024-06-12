@@ -1,0 +1,61 @@
+# 如何看待武汉大学白狐狸被车撞死一事？
+- 点赞数：13106
+- 更新时间：2018年10月17日09时43分37秒
+- 回答url：https://www.zhihu.com/question/296465811/answer/500158797
+<body>
+ <p data-pid="1OzseBdA">根据最新的消息，也是根据目击并陪同白狐狸去医院的目击者所提供的消息，</p>
+ <p data-pid="avwISpOZ">白狐狸今天（9.28）出人意料地从珞珈山上跑了出来，一口气跑到了武汉大学东门的门口，有人想把它赶回去（一说有人刻意要抓它，但并未证实），不料惊动了珈珈，使得它跑上了马路，不幸被汽车碾过。汽车的前轮直接压过了其头部，颅骨当场碎裂，送至医院时已没有脉搏。</p>
+ <figure data-size="normal">
+  <img src="https://pic1.zhimg.com/50/v2-1e78ebf5dcd7e9561639f96bb568257e_720w.jpg?source=1940ef5c" data-rawwidth="960" data-rawheight="720" data-size="normal" data-original-token="v2-4a3ced54c2599dc1595f5e7567884785" data-default-watermark-src="https://pic1.zhimg.com/50/v2-039061a501aa6f6160a447afb41a2dad_720w.jpg?source=1940ef5c" class="origin_image zh-lightbox-thumb" width="960" data-original="https://picx.zhimg.com/v2-1e78ebf5dcd7e9561639f96bb568257e_r.jpg?source=1940ef5c">
+ </figure>
+ <p data-pid="g47V7JJQ">毫无疑问，这是一个非常让人遗憾的事件。</p>
+ <p data-pid="FKHrN8zF">作为一个武大人，武大拥有这样一只少见的动物实在是让人高兴。今天它并非善终，而是死于车轮下，我的第一反应也是：司机太过分了。</p>
+ <p data-pid="IdYs8xB8">但是，冷静下来想一想，根据这个可靠度较高的版本，仅个人观点而言，严格意义上来讲并没有人需要对白狐狸的死负责。</p>
+ <p data-pid="pdRW-4sD">白狐下山，是它自己的举动。</p>
+ <p data-pid="mPPgyiiF">白狐跑到了门口，有好心人前来阻挡，这无可厚非。</p>
+ <p data-pid="9Z8D8car">白狐上了马路不幸被碾压，司机乍一看自然脱不了干系，但是换个角度思考，这和人不走人行道乱穿马路又有什么区别？</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="Iv6UFIBC">不假，白狐不是人，没有交通安全意识。</p>
+ <p data-pid="lqvlPS1_">但是对于司机而言表现出来的现象是一样的。</p>
+ <p data-pid="3Fuhgzg3">司机怎么知道有只白狐狸突然冲出来？（当然大前提是司机也是纯属意外碾压了白狐）</p>
+ <p data-pid="tu8APC1l">司机怎么在这种突发情况下做出反应？</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="RHClkf6c">仅个人经历，同样是今天我搭乘一个同学的电瓶车回湖滨，车速仅15km/h，面前突然闯出来一只猫，我们两个人为了刹车差点飞出去。毫不夸张地讲，那只猫在我们视野里统共出现不足一秒。电瓶车尚且如此，何况汽车呢？</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="XvnNUSdz">司机有什么错吗？</p>
+ <p data-pid="85nt_TIm">没有。</p>
+ <p data-pid="lia0mDaL">有谁有错吗？</p>
+ <p data-pid="tNkUa278">没有。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="od1T9Zxu">我们之所以会愤怒，是因为我们中的大多数人从未见过白狐狸。</p>
+ <p data-pid="RW5diZTq">白狐狸真的很少见——作为一个城市里的年轻人而言——但武大至少为我们提供了见到白狐的机会，或许很多人见白狐只是为了在朋友圈里炫耀，或许只是为了满足自己的好奇心，或许是真的喜欢白狐，可是今天发生的悲剧却把我们的希望给掐灭了。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="peGZkvnS">试想，如果今天死去的不是白狐，而是一只普通的猫呢？</p>
+ <p data-pid="M-agyXr9">毫无疑问，空间里根本不会有今天这样铺天盖地的声讨、祈福。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="7_JEvOuL">区别在哪里呢？</p>
+ <p data-pid="msEVLabU">就在于白狐所象征的价值比一只普通的猫大太多了——它被人塑造成，象征了武大、象征了武大人的骄傲、象征着珞珈山。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="2LDGXnRP">最后，还是希望各位少一些戾气，让白狐在天堂中不受打搅吧。</p>
+ <p data-pid="dbk4w9u7">———</p>
+ <p data-pid="T2uVUzWW">被举报要求修改答案了？？</p>
+ <p data-pid="xfxQcwQs">我难道说错了什么？</p>
+ <p data-pid="MBBfVL4O">—————</p>
+ <p data-pid="-rcCAhqh">我感觉我之前的回答里有些不严谨，可能是让各位有一些误解，我有必要解释一下，</p>
+ <p data-pid="qjpSUMZf">为什么我的第一反应会是司机做错了。</p>
+ <p data-pid="iqbqhBb8">这件事发生的很突然，场面很混乱，真正身处一线的同学——也就是那些帮助白狐、送它去医院的同学——在事件发生后都赶去医院忙前忙后了。很多的信息当时都来自围观者。</p>
+ <p data-pid="LPoQvWDh">因此本身第一批的信息都未必准确，再加上信息是通过人传人、空间转发而透露出来的，其间的“噪音”特别多，使得包括我在内很多人得到的信息都是“白狐狸是被人人为杀掉的”，比如有言论说“是抓白狐去做网红，抓不到就把它压死了”等等。这就是我为何在回答里强调了有“人为捕捉”的这个说法。</p>
+ <p data-pid="GBoyQvdd">在这个环境下，我想，我第一反应会是认为错在司机也不奇怪了。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="RMvhOaEz">————</p>
+ <p data-pid="6bVl2DxL">我在这里奉劝那些diss我“第一反应错在司机太负能量”的各位仁兄，敢情你的宠物出了车祸你第一反应是“我宠物一定是不守规矩了，司机绝对没错”？</p>
+ <p data-pid="QicLjV4S">都省省吧，在座的没有一个是大圣人，一副“存天理、灭人欲”的姿态是很搞笑的。</p>
+ <p data-pid="HDCkzsgR">我对我的第一反应不够客观早在一开头就自我反省了，如果说我揪住司机不放，你们喷我那我活该，问题是什么？一帮人看到别人去承认自己内心的错误判断后不去引以为鉴，反而是继续抨击那个人、揪住机会骂个爽，这就不是“评论”了，这叫“挑事”。</p>
+ <p data-pid="LB57s9Xm">————</p>
+ <p data-pid="BgIqG6Ri">怎么说呢，这个回答我写了放这里好多天了，感觉很多人都没看明白我在反讽。</p>
+ <p data-pid="iiwohu6F">我早就说了，白狐死了不怪任何人，它之所以这会儿上了热搜就因为它具有一定的特殊性罢了。很多人说我把这只狐狸“捧”为神兽、象征武大太过了。没错，正是因为这些我列举的人为给它安上的所谓的象征意义、这些所谓的宣传意义，让这只狐狸不再仅仅是一只狐狸了，变得如此的吸引眼球。</p>
+ <p data-pid="X-U6hQoT">我从没认为白狐是所谓的象征，你去樱花大道上问也没几个武大人会承认。但是现实就是，多方面的宣传（空间、朋友圈、公众号、网站，甚至是武汉大学各种官方的渠道）使得武大人产生了一个美好的愿景，这个愿景又通过不断的包装以及少部分同学见到白狐而一步步加固，使得其价值越来越大，也逐渐让武大人产生了“它是我们的”这种想法，在潜意识里人为提升了白狐作为一只普通白狐的价值定位，再加上白狐是具象的，贴近生活，这些一切形成了一只白狐死去却引发巨大争议的源头。</p>
+ <p data-pid="dOyVEo87">我做了个与普通动物的“区别”，结果怎么搞的好像我在刻意地给白狐升华似的？</p>
+ <p data-pid="Gz1Z9tgn">说白了，我只是点明了白狐背后的价值体现在哪里罢了。</p>
+ <p data-pid="9XM_Omij">望周知。</p>
+</body>

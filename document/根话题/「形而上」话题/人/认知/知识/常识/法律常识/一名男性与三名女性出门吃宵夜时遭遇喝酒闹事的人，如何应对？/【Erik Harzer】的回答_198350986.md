@@ -1,0 +1,55 @@
+# 一名男性与三名女性出门吃宵夜时遭遇喝酒闹事的人，如何应对？
+- 点赞数：5341
+- 更新时间：2017年07月14日18时28分40秒
+- 回答url：https://www.zhihu.com/question/62361698/answer/198350986
+<body>
+ <p data-pid="qsTZLRxS">答主们都答得很好，但是忽略了一点，就是如何与流氓们（或者说社会的下层人士）沟通。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="TUNt1CZu">须知，平时我们惯用的适用于白领、大学生、教师、公务员、医生这些职业之间的沟通方式，在他们面前是行不通的。就像你从他们嘴里听到一声“请您”一样不可能。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="oKIBF9dJ">如果没有好的沟通方式，答主们说的“跑”、“撤”之类怕是比较难行得通。几个喝了酒的穿高跟鞋的妹子，跑？</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="ITHszgtV">所以这时候你作为男性就要扮演外交官的角色了。当然，这里回答的前提是“对方只是过来要个微信号或者说说话”，如果是明显挑事、骚扰甚至是强奸的话，应该选择报警。严重程度要分清。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="BQF5-rk9"><b>——不管年龄如何，哪怕对方是中学生，你也得称对方为哥，至少是“兄弟”。这是最起码的起手式。称小朋友之类的现在基本上都在激动地拍打轮椅。</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="bP2B5HO-"><b>——递上或者点一根烟是减轻敌意的好办法，如果没有烟，就让他坐下来喝一杯。但你要隔在他坐的位置和女生位置之间。</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="7uqC7ksQ"><b>——真诚的“交个朋友”是句有用的对白。别说“我不认识你”、“你是谁啊？”甚至“你他妈谁啊”之类的刺激性语言。</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="cNd0fxUr"><b>——如果对面的小混混把手臂放你肩膀上了，不要在意他那双脏手，因为你已经至少安全了一半。在社会人士中，发生这种肢体接触是亲密的表现。</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="im1zrPze"><b>——实在不会猜拳没有关系，但不能不会倒酒。</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="1zWvouR9"><b>——坐下来之后，一句“兄弟在哪里发财”不会错。他说完之后，记得说下自己的职业的同时，提一下自己与公安机关的关系（如果你有的话）。如果没有，看下一条。</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="yZYDIb8b"><b>——必要的时候用一句“兄弟也是混饭吃的，大家不容易”来下个软钉子，是给他个台阶下，也是敲打他自己有人。别乱来。</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="Xc4i58ez"><b>——永远，永远不要说自己是学生。尤其是你在陌生的城市。学生是最软弱最好欺负的一群人：没钱，没势力，找不到人。这基本上是混混的共识。如果一上来就老老实实说自己是大学生，那今晚怕是要费一番手段了。</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="OYj0Oo41"><b>——当然，如果你本来就是学生，没几个钱，又不认识警察叔叔，还不认识大哥，那你还带一堆妹子晚上出来在本来就经常出治安案件的小黑摊吃饭？！谁给你的这个胆量？</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="6XiYyV_z">这种夸耀锦衣的行为本法师也只能是佩服。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="vlJDj1kY">聊聊天，不扩大局势，然后平静离开，平静解决。说实话，如果你拒绝交流，那升级为一场暴力冲突的可能性远远大于正常交流。其人所恃，不过匹夫一怒，其人可依，无非烂命一条，他最大的资本就是不怕事。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="dcB3RoqX">但是，有时候知乎上阶级歧视的风气未免有些过于浓厚，想方设法都是在避开“下层”、“底层”、“垃圾人”，想法是很好啊，而且垃圾人确实也很烂啊，可是又怎么可能完全避得开？</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="4RIz_YuC">在派出所的时候，治安案件在高发时期一天能发好几十个。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="t4_aAT_C">在法院看卷宗的时候，不知有多少杀人、伤害致死、强奸是因为几句口角几句脏话而来的。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="jnVypi1K">别想完全避开。那是做梦。应该是学怎么沟通、怎么保护自己才是正道。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="yU_IVU2P">湖南农运，安源发动工人，交流的对象都是知识分子对贫下工农，结果却是湖南全省农运初具成效，有了讲习所，安源的一万二千名煤矿工人组织了起来。他们避开了吗？当然没有。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="ilZ7h5zF">然而“红色教授”避开了，28个布尔什维克避开了，是什么结果，大家都知道的。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="x6Yzboxd">这种跨阶级的交流作为一种技能，必要时十分有用。不说笼络人心，至少保护自己。而技能的培养，需要你真正深入社会去理解。若是练成此技，上可谈笑风生，下可称兄道弟。你和他的暂时虚与委蛇，又不亏什么，你们又不会真正成为朋友。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="Gx2vJMZz">你还是你的精英，他还是他的垃圾。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="KUNCEhI2">但是，何必任何时候，哪怕对面都打上门来了，还要都死保一副精英中产的面具不放呢。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="N8k5BdTD">那是被恐惧统治的标志。</p>
+</body>
