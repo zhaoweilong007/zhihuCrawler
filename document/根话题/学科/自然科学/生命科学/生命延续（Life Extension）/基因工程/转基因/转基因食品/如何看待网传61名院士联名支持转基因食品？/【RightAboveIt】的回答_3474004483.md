@@ -1,0 +1,17 @@
+# 如何看待网传61名院士联名支持转基因食品？
+- 点赞数：5548
+- 更新时间：2024年04月22日13时10分40秒
+- 回答url：https://www.zhihu.com/question/653662627/answer/3474004483
+<body>
+ <p data-pid="hkg_dlVe">名单中我大概认识的人有这几个，<b>我来带你们看看这些祸国殃民的转基因推手都是些什么成分：</b></p>
+ <p data-pid="9miyBCjk">颜龙安：杂交水稻之母，1973年育成最著名的不育系珍汕97A，和第一个大规模推广的三系杂交品种汕优2号。他的汕优2号，宣布了中国在全世界首次成功利用杂种优势增加了粮食产量。</p><a data-draft-node="block" data-draft-type="link-card" href="https://link.zhihu.com/?target=https%3A//m.sohu.com/n/326658934/" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">https://</span><span class="visible">m.sohu.com/n/326658934/</span><span class="invisible"></span></a>
+ <p data-pid="VENPtAw_">谢华安：1981年育成汕优63，是迄今为止推广面积最大的杂交水稻品种，<b>累计种植10亿亩，累计增产700亿kg</b>。</p>
+ <p data-pid="cNPERrbF">对了，汕优63的母本，就是上文颜龙安育成的“珍汕97A”。</p><a data-draft-node="block" data-draft-type="link-card" href="https://link.zhihu.com/?target=http%3A//www.xinhuanet.com/politics/2021-04/06/c_1127295967.htm" data-image="https://pic3.zhimg.com/v2-ce3a9e9c44a41603d28d6af9a6af80be.jpg" data-image-width="400" data-image-height="265" class=" wrap external" target="_blank" rel="nofollow noreferrer">从事杂交水稻育种近半个世纪，谢华安--“我的毕生目标是让大家吃得好”-新华网</a>
+ <p data-pid="LyC9-F7_">傅廷栋：杂交油菜领域，他的地位相当于袁隆平（甚至更高），全世界首次发现了波里马型胞质不育系。</p><a data-draft-node="block" data-draft-type="link-card" href="https://link.zhihu.com/?target=https%3A//www.cae.cn/cae/html/main/col36/2023-06/15/20230615195604632362592_1.html" data-image="https://pic4.zhimg.com/v2-0acc24d614fd9afcf8f34af0354d5667.jpg" data-image-width="500" data-image-height="370" class=" wrap external" target="_blank" rel="nofollow noreferrer">油菜院士傅廷栋：静待花开六十年</a>
+ <p data-pid="E-LmxGRV">许智宏：北大前校长（1999-2008），曾任中科院副院长，中科院上海植物生理生态研究所所长。他的贡献（植物组织培养和植物激素）都不必说了，只说他的头衔就够了。</p><a data-draft-node="block" data-draft-type="link-card" href="https://link.zhihu.com/?target=https%3A//m.thepaper.cn/newsDetail_forward_20702533" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">https://</span><span class="visible">m.thepaper.cn/newsDetai</span><span class="invisible">l_forward_20702533</span><span class="ellipsis"></span></a>
+ <p data-pid="pxPcsBQk">翟中和：中国细胞生物学泰斗之一，每一个生物学考研学生，手上的《细胞生物学》参考书都是他编写的，每个生物学子都是他的学生。</p><a data-draft-node="block" data-draft-type="link-card" href="https://link.zhihu.com/?target=https%3A//xsg.tsinghua.edu.cn/info/1004/2176.htm" data-image="https://pic1.zhimg.com/v2-3cd0fde60bdf7c55e1711b707056861c.jpg" data-image-width="500" data-image-height="707" class=" wrap external" target="_blank" rel="nofollow noreferrer">我相信“勤能补拙”--记我国著名细胞生物学家翟中和院士-清华大学校史馆</a>
+ <p data-pid="XMhTvelF">林鸿宣、李家洋：两位水稻生物学，水稻基因组学的大师，发现水稻抗逆、高产的基因作用机理，包括控制粒型、株型、分蘖。如果没有他们，那么水稻基因组测序不过是一本天书，中国水稻育种发展速度会慢上几倍。</p><a data-draft-node="block" data-draft-type="link-card" href="https://link.zhihu.com/?target=https%3A//www.cas.cn/xzfc/202201/t20220117_4822406.shtml" data-image="https://pic3.zhimg.com/v2-f44b73b0798446b3890bf678bec2c4ee.jpg" data-image-width="290" data-image-height="150" class=" wrap external" target="_blank" rel="nofollow noreferrer">林鸿宣：耕耘四十载只为稻花香----中国科学院</a>
+ <p class="ztext-empty-paragraph"><br></p><a data-draft-node="block" data-draft-type="link-card" href="https://link.zhihu.com/?target=http%3A//www.futureprize.org/cn/laureates/detail/10.html" class=" wrap external" target="_blank" rel="nofollow noreferrer">2018 生命科学奖 获奖人 -- 李家洋</a>
+ <p data-pid="VEOaBdNm">他们到底是为共和国鞠躬尽瘁奉献一生的国士，还是被利益集团收买的卖国贼，留给你们去猜测。</p>
+ <p data-pid="aKPq6iL1">他们到底有没有良心，有没有信仰，有没有担当，留给你们自己去判断。</p>
+</body>

@@ -1,0 +1,122 @@
+# 拿到英国offer后父母因为资金和疫情的原因不让我去了，怎么办？
+- 点赞数：8210
+- 更新时间：2020年07月21日18时23分24秒
+- 回答url：https://www.zhihu.com/question/383406205/answer/1135770517
+<body>
+ <p data-pid="sJRutJnQ"><b>利益相关，985本，国王的offer</b></p>
+ <p data-pid="GzP5r7Tu">我很能理解你的心情，别说你了，我出国就没打算学知识去了</p>
+ <p data-pid="Z5O2nx2z">英硕才一年啊，学个毛啊？别骗自己了</p>
+ <p data-pid="cClgAded">（ps. 如果想继续读博，拿个distinction还是有必要的）</p>
+ <p data-pid="b5MXyt51">所以你去英国，基本就是四个目的：</p>
+ <ol>
+  <li data-pid="6djN8jyz"><b>刷学历</b></li>
+  <li data-pid="Uv7Fppoh"><b>开眼界</b></li>
+  <li data-pid="EW0rWdHb"><b>扩人脉</b></li>
+  <li data-pid="i0Kj_bxh"><b>提简历</b></li>
+ </ol>
+ <p data-pid="GPJOblg3">没有了，你相信我，你大学四年过下来，你都不一定学到啥能赚钱的知识</p>
+ <p data-pid="c2X8od8m">更不用说一年了，而且还是外国的一年，你适应起码需要1个月不过分吧？</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="S1AHe2uY">那么就是40万换 <b>学历+眼界+人脉+简历提升</b> 值不值的问题了</p>
+ <hr>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="xN0oadie">对我来说，值得，我也不避讳，我家里准备了100万</p>
+ <p data-pid="rf_YSIgv">所以我拿出来40万，没有问题</p>
+ <p data-pid="0M2Q6BVK">我之前放弃了纽约大学、波士顿大学和乔治城大学，改了英国</p>
+ <p data-pid="FDfAPGPi">就是因为我只有100万预算，而我的三所美国的大学，基本掏空了这100万</p>
+ <p data-pid="1Z23ZKop">且还不够，100万顶多乔治城可以，纽大、波士顿是远远不够的</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="B_HnEb5x">所以，如果你拿出40万很困难，如果我是你</p>
+ <p data-pid="U2KQ-Zn5">我会选择放弃</p>
+ <p data-pid="PCa-7n0E">我父亲当初也是这么劝我的：<b>100万去美国，回报率太低</b></p>
+ <p data-pid="CU4qsQjg">和你一摸一样的原话</p>
+ <p data-pid="cCEINjJn">在父母眼里，你家的40万和我家的100万一样，都是底线</p>
+ <p data-pid="4C93eZyL">所以你也不要怪父母，天下父母都是一样的</p>
+ <p data-pid="GvhobbsY"><b>底线的意思是：没了40万/100万，之后家里可能没有能力给你任何大的财政支持了</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="PHRGR9L5">你能以双非一本的身份拿到爱丁堡的offer</p>
+ <p data-pid="aF332RXC">说明你的<b>学习能力+执行能力</b>都是同龄人中的佼佼者！</p>
+ <p data-pid="toD9BePo">爱丁堡是出了名的学历歧视，你能杀出来，我是很敬佩的</p>
+ <p data-pid="QJJtirCK">（ps. 评论说爱大均分控，不歧视学历，好吧那我可能搞错了，特此说明）</p>
+ <p data-pid="P182a1_D">扔了要是说不心疼，那我肯定觉得你在扯犊子</p>
+ <p data-pid="LJlMpKcx">毕竟在这个高校扩招的年代，用研究生学历打一个漂亮的学历翻身仗，是无数双非大学学子四年来朝思暮想的梦，这种渴望大多数清北学霸们是不懂的。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <hr>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="AEzeqUvb">所以我确实很理解你的心情</p>
+ <p data-pid="t1rnKtZ_">我也是一路DIY走过来，我没有找中介，我自己申的所有</p>
+ <p data-pid="1edtDN0J">我自己考的雅思，我自己找外教改PS和CV</p>
+ <p data-pid="QfZNL0wL">求推荐信的时候，我就像个孙子一样，心惊胆战的</p>
+ <p data-pid="mHslQN57">这一路心酸，我相信是个留学党都会理解</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="Zfa4jcj2">但有一个事实，我希望你要明白</p>
+ <p data-pid="s_7xPG17">爱丁堡也好，国王也好，牛剑也好</p>
+ <p data-pid="8IExtqXD">都不可能百分之百一定让我们能迅速赚回来留学的钱</p>
+ <p data-pid="pw2CysUG">也就是说，父母会是我们工作后，一个财务上的支持</p>
+ <p data-pid="MD-Vni1W">毕竟就算 清北+牛剑 的人，也不敢保证在大城市靠自己买房的</p>
+ <p data-pid="g8oSA9X1">总而言之：<b>我们之后还要靠父母一段时间</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="6HW4DY51"><b>如果真的贼不甘心，老娘就想出去看看妈的，不看就白活了</b></p>
+ <p data-pid="-lKqyx7N"><b>我推荐你工作几年后，有了积蓄，可以继续申请，且有可能会比爱丁堡更好</b></p>
+ <p data-pid="sYiUh09N"><b>或者等你职业进入高峰，也可以试试英国的MBA，都可以的</b></p>
+ <p data-pid="HRbeG9ya"><b>但这些都要建立在你要成为一个不是那么“顾家”的人的基础上</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="zHpCvZOn">至于gap一年，这个完全没有问题，如果学校同意</p>
+ <p data-pid="UUzpM2g6">我其实都在考虑gap了，伦敦啊我的天，伦敦的鲍老爷子都被病毒拿了一血了</p>
+ <p data-pid="ddaJpVlF">我等卑微留学生岂不就是野区的小怪兽？随时被收割啊</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="6kYGJ1jb">我相信以你的gpa和实习经历，找一份不错的工作/实习，不是难事</p>
+ <p data-pid="XYtvewjT">毕竟找到薪酬不错的岗位可比你申爱大难啊，申过英硕的都懂</p>
+ <p data-pid="EuLqCsxv">要是薪酬一年后还不错，你不出国也没事了，你不就是找好工作嘛？</p>
+ <p data-pid="o73btVLf">（你出国不会是为了拓宽人类知识边界的吧？我向来敬佩做学术的，都是学爸）</p>
+ <p data-pid="Ex1XKqtt">要是薪酬一年后并不好，那刚好疫情结束了，你也有点积蓄了，去和家长谈吧~</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <hr>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="OwiFC_mF">我们这群答案，都是建议，具体的还是需要看你</p>
+ <p data-pid="lfGzBkWp">但我们每一个人，就算给的建议不同，但初衷都是希望给你最好的选择</p>
+ <p data-pid="31kOtY68">希望你幸福</p>
+ <p data-pid="7C8QjN53">敢出国闯的人，都不是孬种</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="0SafdoTN">----------------分割线说我好可爱---------------</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="J-PvhCZc">看了这个问题下的其他答案</p>
+ <p data-pid="BIzD0NyO">很多人都在说这个女生不孝顺，不体谅父母，不考虑大局</p>
+ <p data-pid="pEGbnjl9"><b>其实这么说没错，但这些言论太太太不负责任了</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="eAFHh3HA"><b>大多数人不理解爱丁堡大学对这个女孩子的意义</b></p>
+ <p data-pid="2VrW_J2t">18岁前，大多数学生脑子里只有“考上好大学”这个念头，这个念头持续了十多年</p>
+ <p data-pid="99EwOxDO">一个优秀的大学学历，是青春期的学生的梦想，是压抑了很久的执念</p>
+ <p data-pid="o3HLtM8N">一本当然已经很不错了，但很明显这个女孩子并不满足，且这种对追求高平台的“贪婪”不应该被嘲笑和打压，反而应该值得鼓励。一个上进的女生永远比抖音上搔首弄姿的更值得尊重。</p>
+ <p data-pid="2mjul_2I">这个女生大学四年过的肯定不算放纵的，毕竟我也经常和其他双非一本的朋友聊，他们想要进入到英国的“王爱曼华”四所非G5大学，需要付出的努力是很大的。提问题的这个女生，大学四年过的绝对比大多数人要勤奋，单是刷GPA就已经很让人精疲力竭，更何况每个暑假寒假去实习、要推荐信、做项目、包装简历等等。</p>
+ <p data-pid="80QxvvLo">更何况全国的双非一本层次差别很大，如果这个女生周围的学习环境并不好，那她付出的就不仅仅是努力这么简单了，更多的是【毅力】和【妥善处理人际关系】还有【快速摆脱绝望的能力】等等。</p>
+ <p data-pid="KF8LCB11">这样看来，四年的卧薪尝胆和梦魂牵绕，辛辛苦苦换来的通知书，最后被父母的财政问题所阻碍，且这是之前父母答应了，临时反悔的。我相信换做每一个人，都会崩溃。要是我，我和父母吵一架都是完全有可能的事情。</p>
+ <p data-pid="oFpm8yjB">这不关孝顺与懂事，这是人心碎后的正常反应，这是绝望后的发泄。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="Koi5-XSD"><b>英国一年制硕士值不值得读，都要看面向对象是谁。</b></p>
+ <p data-pid="EimivzKQ">对于我，我去英国就是单纯刷个硕士学历，顺便 转专业+旅游+或许谈个恋爱？</p>
+ <p data-pid="0UGAlZHr">名气什么的对我的吸引力当然也不能说没有，但不至于那么大，除非给我牛津剑桥</p>
+ <p data-pid="jHKugo4w">而对于其他一些同学，那就是洗白第一学历+让自己以后可以自信的参加招聘会+相亲会+老乡会+同学会的王炸，且可以短时间获得硕士学位为自己赢得职业时间的利器。</p>
+ <p data-pid="e9VXHT9Y">说爱丁堡不怎么样的人，我暂且可以理解为<b>“非蠢即坏”</b>。</p>
+ <p data-pid="zzYRJoj5">你可以像一个HR一样，客观的讲出来爱丁堡大学的优势劣势专业和回国后的认可度。</p>
+ <p data-pid="OfF8inS_">毕竟确实有的专业确实认可度不算很高，有的是真的配的上QS Top30这个名号的</p>
+ <p data-pid="gZYQ4VS5">但若你直接否认了这个大学，就等于直接侮辱了这个女生四年的汗水了。</p>
+ <p data-pid="zxyojpK5">不要去用你自私的价值观，去肆意否定别人的幸福，否则你真的是畜生。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="hh1o9pCs"><b>至于她说现在不读，以后就没希望了</b></p>
+ <p data-pid="aZvhFlKq">知乎年薪百万的人们，都不清楚什么叫【信息不对称】吧？</p>
+ <p data-pid="Im8MobJA">现在不读，真的以后就没希望了吗？显然不会，路很多。</p>
+ <p data-pid="iLAKKc0l">但她之所以这么说，难道不是因为她不知道吗？一个40万拿出来都会面临破产的家庭，且还有一个弟弟要抚养，这种的家庭背景，能很清楚的告诉她未来怎么规划，并一步一步协助她规划，最后重新实现留学梦吗？很难，对吧。毕竟还有一个要高考的弟弟呢。</p>
+ <p data-pid="nAPiD0s5">这个姑娘本来没有错，现在她会被你们骂的认为她很不听话，不懂事，甚至应该学会为弟弟而自我牺牲了。</p>
+ <p data-pid="gdi4qdeJ">如果真的想帮她，先肯定她大学四年的努力，再告诉她放弃今年的offer以后该怎么做。</p>
+ <p data-pid="J9VnFj9r">而不是站在你所谓的道德制高点，去训斥一个毫无社会经验和职业规划经验的爱学习的女生。</p>
+ <p data-pid="SHipPlex"><b>总结：我站她父母，是出于理性，但不妨碍她值得被肯定。</b></p>
+</body>

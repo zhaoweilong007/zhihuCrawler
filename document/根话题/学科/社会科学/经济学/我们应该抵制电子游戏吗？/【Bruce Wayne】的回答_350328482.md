@@ -1,0 +1,61 @@
+# 我们应该抵制电子游戏吗？
+- 点赞数：7262
+- 更新时间：2018年05月13日23时57分22秒
+- 回答url：https://www.zhihu.com/question/269437058/answer/350328482
+<body>
+ <p data-pid="lcqLQaF4">我还记得小学的某年暑假，母亲恰好放弃工作开始在家炒股。于是，我拥有了我人生中最可怕的一个暑假。</p>
+ <p data-pid="6wsd7EiT">科比说他见过凌晨四点的洛杉矶。</p>
+ <p data-pid="1ipasPjs">我很羡慕他，因为在那个暑假，整整两个月六十天左右的日子里。我每天都能，也只能见到早上九点到晚上八点的书房。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="OXyhGpJ8">是的，我的母亲大人决心要用一个暑假培养我对学习的兴趣，扭转我的不良爱好。于是她逼迫我每天早上起床吃完饭就开始坐在书桌上面写作业，然后一直写到晚上八点钟去睡觉。</p>
+ <p data-pid="5dfNNy4P">不能看课外书看电视玩电脑，也不能出门去玩。</p>
+ <p data-pid="1BPM6xyY">小学五年级的作业多吗？不多。</p>
+ <p data-pid="5Hbw-FtZ">于是在头几日我满怀期望地问我的母亲大人：“妈妈，我写完作业然后可以去新华书店吗？”</p>
+ <p data-pid="9faGBLiv">我不想看电视，不想玩电脑玩手机。母亲不让我买课外书，那我只想写完作业之后可以去书店看一会书。</p>
+ <p data-pid="fpOHZoTn">母亲一边盯着大盘，一边漫不经心地说：“下学期的书发了吧，作业做完就预习下学期的课本呗。”</p>
+ <p data-pid="TdHJNdDV">我哦了一声，陷入了对眼前作业本的沉思，然后沉思了一个暑假。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="-09PdLX_">对的，既然作业写完也只能学习。那我宁可发一个暑假的呆，每天写上几句话，写到开学前写完就好了。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="tS5tOK46"><b>很多人，并不是因为有了电子游戏，才不想学习。而是因为不想学习，才去玩电子游戏。</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="IipgKSYt">没有电子游戏，还会有网络小说。没有网络小说，会有杂志。没有杂志，看报纸也比写作业舒服。如果真的扔到房间关起来除了四面白墙一盏台灯什么也没有，那么那些不愿意学习的，宁可发呆也不会去学习的。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="LIbwO3_6">在中国，很多家长的一个误区就是：</p>
+ <p data-pid="rrupAY03">孩子是因为有了外界的诱惑，才不愿意去学习的。</p>
+ <p data-pid="iaIxto4X">但实际上，对于绝大部分尚且年幼不明白学习重要性的孩子来说，学习是一个只能带来痛苦的活动。<b>只要能不进行这项活动，任何东西都可以是诱惑。</b></p>
+ <p data-pid="vf9hR3cC">在绝大部分情况下，禁止电子游戏只会带来家庭矛盾的升级。</p>
+ <p data-pid="6dVOjahN">孩子不爱学习，于是沉迷电子游戏。</p>
+ <p data-pid="vhOMW36p">孩子沉迷电子游戏，父母觉得是因为电子游戏祸害了孩子，禁止玩电脑。</p>
+ <p data-pid="QxcSdEhd">于是孩子浑身难受开始翘课翘家去网吧，甚至因为没钱还偷父母的钱。</p>
+ <p data-pid="ibjeyNkq">父母一看孩子竟然变成了这样，泪流满面地控诉电子游戏是个祸害，毁了他们的孩子。</p>
+ <p data-pid="BDrq85HT">但造成这一切的，其实并不是电子游戏。而是孩子不爱学习。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="v9XK_4S2"><b>学习是痛苦的，而很多人愿意去忍受这个痛苦，是因为他们在追求回报。</b></p>
+ <p data-pid="UNBRl_xf">升职加薪也好，提升涵养也好，平时和姑娘小伙出去玩的时候能吹吹逼也好，这些都是学习可以带来的，非常明确并且可观的回报。</p>
+ <p data-pid="R_lnCXoM">而也正是这种明确并且可观的回报，支撑着我们放弃娱乐去学习。</p>
+ <p data-pid="MwKMJVaq">但是对于很多学生来说，这种回报他们是看不见的。</p>
+ <p data-pid="vU4Mb4gM">打个比方，你现在三十岁，手头有十万块积蓄打算花了爽一爽。然后这个时候我出现了，说十万块钱给我，你再忍上个三年。我还你两百万。</p>
+ <p data-pid="VhLLHHqL">我相信，绝大部分人乐意接受。</p>
+ <p data-pid="O54pOoQ6">因为三年二十倍的回报率，对很多人来说是非常客观 并且非常可预见的回报。</p>
+ <p data-pid="4FMlR6tl">但如果改成，你每天放弃两个钟头的休息时间去站着发呆，二十年后我会给你一个好处呢？</p>
+ <p data-pid="t5nbx4Ma">我猜绝大部分人不愿意。</p>
+ <p data-pid="nqyz3XlI">因为二十年太遥远，而我一个好处的回报太不明确。</p>
+ <p data-pid="q4Vy5wGV">对于学生来说，学习就是如此。</p>
+ <p data-pid="AcyRwPxD">要求孩子放弃当前眼下他们可以遇见的玩游戏这个利益，去换取十几二十年后可能的一份好工作。他们很难接受。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="fZO225Q_">你对一个小学生说，学好语文将来能成为知乎大V和女粉们谈笑风声走上人生巅峰，他们根本不会有任何被激励的感觉。</p>
+ <p data-pid="c4quaRVb">因为这个将来，对他们太过遥远遥远。</p>
+ <p data-pid="jPwC0ZYB">远不如告诉他，优秀的孩子有权力得到玩电脑的奖赏来的更有激励效果。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="yxArYvy-"><b>禁止电子游戏，是没有效果的。因为电子游戏只是他们逃避学习的一个方式，而不是他们逃避学习的原因。</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="xeu-Afko"><b>最后，永远记得关注</b> <a class="member_mention" href="https://www.zhihu.com/people/7ba0180a90900c00c747a44c539ccbbd" data-hash="7ba0180a90900c00c747a44c539ccbbd" data-hovercard="p$b$7ba0180a90900c00c747a44c539ccbbd">@Bruce Wayne</a> 哦！</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="elht5E2G">后记：</p>
+ <p data-pid="IGplWtO2">很多朋友问，如果孩子沉迷游戏不可自拔怎么办。</p>
+ <p data-pid="mgUqrGON">吃饭会噎死，那不吃了吗？</p>
+ <p data-pid="K0w0xt2p">饭还是可以吃的，只是要小心一点的吃。游戏是可以玩的，但也不是完全放任的。</p>
+ <p data-pid="h2IXro30">市场自由是很重要的，但是政府的调控也是必须的。有玩游戏的自由是很重要的，但是在孩子得寸进尺不长脑子的时候给他一巴掌也是必须的。</p>
+</body>

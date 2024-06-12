@@ -1,0 +1,56 @@
+# “日本东出，照耀四国九州”下联怎么对？
+- 点赞数：7787
+- 更新时间：2020年08月24日11时57分59秒
+- 回答url：https://www.zhihu.com/question/367232634/answer/1407381014
+<body>
+ <p data-pid="f-Klrf1b">无聊的对联，那就随随便便对个无情对咯</p>
+ <p data-pid="9aWAmJUi">日本东出，照耀四国九州</p>
+ <p data-pid="pGjZJjEX">月子中介，融洽一家三口</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="wyYfCf25"><b>-------——------——-------——</b>分割线<b>-------——-------——-----------</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="FuJLaWgv">本属无心插柳的一个回答，没想到忽然收到不少赞同和评论讨论，受宠若惊，一方面是一点微小的机灵，另一方主要应该还是无情对这种冷峻幽默的巧妙形式，令人不由会心一笑，忍俊不禁吧。无情对是一种充满机巧、妙趣横生的对联形式，它的基本要求是上下联对仗工整，每个字都能对得起来，而且各自语意通顺，但最终上下联的内容则毫不相干，比如著名的“树已半寻休纵斧；果然一点不相干”等等。</p>
+ <p data-pid="rzfmQPXb">因为平时就比较喜欢琢磨几句，这里便贴上几则平时自己拟的一些拙对，聊供诸位一笑：</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="SfEa3IBT">巴西亚马孙；漠北冠军侯。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="EnPEXzNu">文姬冷娇容；武汉热干面。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="tlM2JJkk">蜀道当此；巴塞罗那。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="mm3XC1-H">军中粮草；国际米兰。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="Lt2r0sYf">问道求仙丹；拜仁慕尼黑。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="Uqj_gA4M">夷淮征讨；斯洛伐克。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="TZUN6lwz">珍贵无比凤联璧；玻利维亚乌拉圭。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="gMHqkHge">鸡冠草；乌克兰。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="w0tdyVtd">离子炉；坎儿井。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="0nJT2Rn4">刻舟求剑；铣床换刀。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="zubx-OHm">屡操舟楫；数控车床。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="wNME9xb3">列文虎克，陈武马忠。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="rEmnu4oq">珍奉秦公；贝克汉姆。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="GwmAVNtZ">铸钱铜山；舒克贝塔。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="hwkhSyuC">合浦珍珠；数码宝贝。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="fVVgSkY0">草图大异急校书；蜡笔小新剧场版。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="0kQTeMIx">蔽毛诗曰无邪，关羽字云长也。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="zpvWWqwW">晋侯野驱车；齐柏林飞艇。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="R_rwqHxb">红颜正当时；黑色安息日。</p>
+ <p></p>
+</body>

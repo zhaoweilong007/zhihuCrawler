@@ -1,0 +1,45 @@
+# 医生接诊医学生是一种怎样的体验？或医学生就医的时候是一种怎样的体验？
+- 点赞数：5135
+- 更新时间：2018年07月31日14时40分24秒
+- 回答url：https://www.zhihu.com/question/34052795/answer/137395411
+<body>
+ <p data-pid="yS95xoC5">5洗耳记</p>
+ <p data-pid="4z2AtMXT">说说在二院见习期间发生的事吧</p>
+ <p data-pid="ASjSERY2">某日，右耳耵聍栓塞(俗称耳屎泡水后堵耳朵)</p>
+ <p data-pid="ni53yRwX">忍了好多天，单脚跳，灌水，实在难受，终于忍不住了周日去看耳鼻喉科</p>
+ <p data-pid="KdMvvGqP">周日</p>
+ <p data-pid="DZIgDcQ-">没跟他说我是本院学生</p>
+ <p data-pid="WoEzkGYq">某主治医师兄:你这是耵聍栓塞</p>
+ <p data-pid="0qRl6A70">我:哦</p>
+ <p data-pid="7ZYA-TzO">师兄:也不问问是什么吗？</p>
+ <p data-pid="V08ZWIlX">我:耳屎堵住了</p>
+ <p data-pid="33FzhmvW">师兄:行，回去泡耳朵，泡到周三就过来复诊</p>
+ <p data-pid="pikS63Cx">……泡耳难受死了，我居然作死把左耳没堵的也泡了，然后双耳听力下降</p>
+ <p data-pid="VtwhGb68">周三，洗耳，之前知乎看到说洗耳很苏胡……二院的是吸耳……很痛很痛很痛，光荣地出现了护士姐姐口中的“洗耳综合征”，还没洗干净，还是聋的(我耳屎真是如我内心一样坚定)</p>
+ <p data-pid="1aRTDre2">于是又来洗了两次(这两次都是同学在门诊诊室见习，我在治疗室吸耳，并没太尴尬，右耳终于能听清了，左耳，左耳，还是听不清甜言蜜语啊哦多茄)</p>
+ <p data-pid="Q4NskWA3">最后一次洗耳:</p>
+ <p data-pid="NuliCB6g">叫号系统坏了！！！！</p>
+ <p data-pid="YzWc3dp6">我一个同班同学出来大喊我名字！！！！</p>
+ <p data-pid="_tJGBEP8">然后 然后 那个耳鼻喉小组见习的12个人:啊啊啊，13，真的是你啊！！！！我们还以为是同名！！！老师，老师，那是我们同班同学！！！！你看看！！！！</p>
+ <p data-pid="8w_R24M-">教过我的耳鼻喉老师:给我看看病历，哦，耵聍栓塞，哪个同学说说耵聍栓塞？(兴高采烈)</p>
+ <p data-pid="DiCkwqO8">某学霸blablabla</p>
+ <p data-pid="7pMXRHsy">老师一边用诊室不好用的吸耳给我吸……(我的耳屎要是那么好吸早就干净了啦)</p>
+ <p data-pid="CSpP2hUK">老师:吸不干净，同学们想看一下耳镜下取耵聍吗？</p>
+ <p data-pid="K7JiefaO">学霸们:好啊好啊好啊(老子心里是崩溃的)</p>
+ <p data-pid="tvXh9zTc">然后，我无法挣扎睡到了耳镜床上</p>
+ <p data-pid="xTF-aGnf">然后听到老师在那里介绍什么什么结构</p>
+ <p data-pid="JAnuAOGP">老师:这个同学耳道又细又长，所以很容易发生耵聍栓塞</p>
+ <p data-pid="8-vjnyIq">学霸们:哦~(纷纷感叹我的耳道又细又长)</p>
+ <p data-pid="jatOQjZS">老师:看到了吗？这是鼓膜，鼓膜上有好多耵聍！所以她就听不清了(我根本顾不上内心的伤感，因为用专用镊子弄鼓膜上的耳屎就够我悲伤)</p>
+ <p data-pid="AfvFsR_9">老师嘀嘀咕咕:惹？把吸管堵了？怎么那么多？(悲伤逆流成河ing)</p>
+ <p data-pid="s41xaQ14">……</p>
+ <p data-pid="6HT7B6QQ">我还是个美少女啊，我是同学们心里的美少女啊，但是至此之后，就变成了一个很多耳屎的美少女……</p>
+ <p data-pid="smj67j0x">学霸们:耵聍栓塞有什么感觉吗？洗耳什么感觉？</p>
+ <p data-pid="e-jRAwey">感觉自己变成了耳鼻喉科专用美少女SP……</p>
+ <p data-pid="nlviIGMT">不过因为是带教，所以省了耳镜的费用</p>
+ <p data-pid="hNJUKsnZ">还是很开心哒~</p>
+ <p data-pid="Lgg-qfpS">虽然</p>
+ <p data-pid="Gwu_1-r-">变成了</p>
+ <p data-pid="FYPGi730">很多耳屎的</p>
+ <p data-pid="HuMR0zul">美少女……(つд⊂)</p>
+</body>
