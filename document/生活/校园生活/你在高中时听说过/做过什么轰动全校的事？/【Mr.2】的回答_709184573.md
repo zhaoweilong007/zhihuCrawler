@@ -1,0 +1,48 @@
+# 你在高中时听说过/做过什么轰动全校的事？
+- 点赞数：18834
+- 更新时间：2019年06月08日23时37分52秒
+- 回答url：https://www.zhihu.com/question/319923069/answer/709184573
+<body>
+ <p data-pid="-CGtxQYq">运动会</p>
+ <p data-pid="1pTW2vbW">领导也不知道怎么脑子堵了</p>
+ <p data-pid="1i2KrXxc">设置项目时设置了一个8千米，</p>
+ <p data-pid="oH8Sp32h">秋天的重庆，并没有比夏天凉快多少，还保持着38度以上的高温顶着这样的大太阳来一次8千米除了体育生，基本上到终点的时候也就入土一半了</p>
+ <p data-pid="SNoiybpo">为了支持学生会的工作，学校的团委书记毫不犹豫的把作为学生会会长的我报了上去，直接无视我瞬间泛红的眼眶和抽搐的嘴角</p>
+ <p data-pid="YyzBfHFt">到了比赛那天，体育部长几乎是含着泪给我穿好了我的一号比赛服，</p>
+ <p data-pid="wjAMM-h-">“主席，兄弟一场，也帮不了你别的什么，这个一号，就留给你了！”</p>
+ <p data-pid="-IvLvMSk">这TM是鼓励人的话？？？？？</p>
+ <p data-pid="HeyDmxvo">当我走上赛场的时候，我听见学生会的和我们班的凉棚里爆发出了足以把棚掀掉的欢呼，其中不乏有人幸灾乐祸，可是因为距离太远，否则老子一定要把那个狂笑的孙子抓出来扫一个礼拜的厕所！</p>
+ <p data-pid="9ZWnhrKL">嗯？</p>
+ <p data-pid="T2O7RzIT">怎么就三个人？？？</p>
+ <p data-pid="_X3l5G7k">诶，场下的欢呼声逐渐听了下来，大家似乎也很懵逼，我扭过头看看边上和我一同上路的两个兄弟也是一脸迷茫。。。</p>
+ <p data-pid="4peM3PJy">只见裁判脸不红心不跳的，走到了信号枪靶位，诶，我擦，老师你认真的吗？！！！</p>
+ <p data-pid="WNeesW1o">枪响了，棚子里并没有传出我预想中的欢呼，而是潮水般的笑声。。。</p>
+ <p data-pid="zmZhMIUL">我开始了一场只有三个人的比赛</p>
+ <p data-pid="f5k1FXEf">。。。</p>
+ <p data-pid="mhfC103v">因为注定我是有名次的，所以我压根就没跑，直接在走。。。</p>
+ <p data-pid="uRvqD2p_">看着前面俩傻哥们还在奋力拼搏，我决定继续腆着脸往前走</p>
+ <p data-pid="vmciTL2F">棚子里的欢呼声更大了，有个别缺德冒烟的王八蛋把插在土里的彩旗拔了，迎风挥舞为我助兴</p>
+ <p data-pid="URl9MuqY">在播音员激昂慷慨催人尿下的朗诵声中，饶是我这么厚的脸皮都不由得暗暗加快了脚步</p>
+ <p data-pid="RoG4XSVz">刚开始还能拉我两圈的第二名老哥在后面的比赛中慢下了脚步，甚至慢慢的被我赶上了</p>
+ <p data-pid="S3DGFzWf">在最后的两圈里，那个老哥前进速度已经可以说和被踢下摩的的庞麦郎不分高低了</p>
+ <p data-pid="4mkHb5ml">而我</p>
+ <p data-pid="lvwZ56io">仍保持着我的饭后遛食速度</p>
+ <p data-pid="ubXvT_Vi">在为老哥加油声此起彼伏的时候</p>
+ <p data-pid="aSL-m9Us">在团委书记用眼神威胁我，有胆子就走个第二名让老子下不来台的时候</p>
+ <p data-pid="qsNHe6EG">我毅然决然的发挥风度</p>
+ <p data-pid="Mc6xPKCe">把老哥一把扛在肩上，把一瘸一拐的他一步一步送到终点线前，还特意后退一步</p>
+ <p data-pid="ukbRGbBY">送他走过终点线</p>
+ <p data-pid="6voCi9CD">棚里的欢呼声正常了起来，也很高昂，接着就是雷鸣般的掌声，</p>
+ <p data-pid="P0sAkXkD">我抬手示意同学们坐下不要因为我高大的形象而扰乱了秩序</p>
+ <p data-pid="wDib8N1n">个别在边上撇嘴，啐唾沫的被我自然的忽略了</p>
+ <p data-pid="RuGKNW7O">。。。</p>
+ <p data-pid="WrOWv8OJ">当天</p>
+ <p data-pid="dSBxqX1n">我成为了学校唯一一个靠走，走到领奖台上去的男人</p>
+ <p data-pid="pz-JIa_M">天很蓝</p>
+ <p data-pid="x8omTAtt">脸很红</p>
+ <p data-pid="zTkIB_UB">老师的脸色很绿</p>
+ <p data-pid="F6t0gIZR">。。。</p>
+ <p data-pid="QOIeq00d">我成为了学校有史以来最出名的学生会长</p>
+ <p data-pid="gK0AiS0B">“诶，快看，那就是我们学生会长，真不要脸，还走了个第三名！”</p>
+ <p data-pid="ptI1TBMv">法克！！！！！！！</p>
+</body>

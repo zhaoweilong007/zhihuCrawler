@@ -1,0 +1,55 @@
+# 抑郁症、焦虑症的根源到底是什么？
+- 点赞数：5486
+- 更新时间：2020年02月18日17时16分47秒
+- 回答url：https://www.zhihu.com/question/28514952/answer/546768051
+<body>
+ <p data-pid="VBy2p3IY"><b>过得不好。</b></p>
+ <p data-pid="Bkk6PpIU">过得不好你就容易得抑郁症。</p>
+ <p data-pid="eYrxhfSR">但是你过得不好的原因可能有很多——</p>
+ <p data-pid="xI79koaX">比如说穷/丑/不自由/被人欺负等。</p>
+ <p data-pid="IJQwWEo1">但就算你美/有钱/有地位/要什么有什么，你也有可能抑郁。</p>
+ <p data-pid="SZlQyNVx">不然为什么叔本华他爹又帅有钱老婆还是个闻名的美人还是要跳水自杀呢？</p>
+ <p data-pid="h6t3O3Ce">因为<b>不开心</b>。</p>
+ <p data-pid="kbLUhWh4">然而这种不开心其实跟外界的刺激也<b>并没有必然的联系</b>。</p>
+ <p data-pid="09YrCV-m">在安徒生童话里，</p>
+ <p data-pid="QVhdRuU1">有每天一无所有却唱着歌开心的要死的乞丐。</p>
+ <p data-pid="iNPz-iwM">也有手握重权却痛苦的要死的国王。</p>
+ <p data-pid="bTqAtZYC">每个人的抗压能力、价值取向、心性都不一样，所以有的人容易抑郁有的人不会。</p>
+ <p data-pid="2xQHe6WF">下文是举个栗子。</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="xQErrn_s">————</p>
+ <p data-pid="UQcYN-QH">首先，你是一个<b>不喜欢吃香菜的人</b>。</p>
+ <p data-pid="S5yWInrT">然后，有一天把你扔到一个种满了香菜的地方去，那个地方只有香菜，就像女儿国只有女人一样，你只能吃香菜。</p>
+ <p data-pid="ydd_GPor">当然了，跟你一起去的人也不喜欢吃香菜，于是他们为了对付香菜各显神通。</p>
+ <p data-pid="2-7IZR5Y">有的人拼命催眠自己，说有得就吃不错了，说服自己爱上了香菜，苦中作乐；</p>
+ <p data-pid="o3EKk0if">有的人也没办法接受香菜，只能默默忍受，但是也没有到受不了的地步；</p>
+ <p data-pid="eQ_0PWxC">有的人通过金钱，从别的地方偷偷搞来了肉吃；</p>
+ <p data-pid="2ZyJ1BCM">有的人天天咒骂香菜，但是也得到了发泄，基本上在边骂边吃的过程中也没饿着。</p>
+ <p data-pid="nClAuyrz">但是你不一样，你就是不喜欢吃香菜，你看到香菜就想呕吐。</p>
+ <p data-pid="wO29x3tj">而且你也没能力搞到肉来吃。</p>
+ <p data-pid="x-dKyuE5">于是你只能每天被强迫着嘴里塞满讨厌味道的香菜，然后吐出来，然后又吃下去，来保证自己不饿死。</p>
+ <p data-pid="Uzdc3RB8">刚开始你也抱怨，也咒骂，但是你发现咒骂也没有用，发泄情绪都是无力的，还是要吃香菜，甚至你还觉得香菜也很可怜，它又有什么错，你不喜欢吃它，它还要被你吃，简直太冤屈了。</p>
+ <p data-pid="Licrev7-">后来你努力奋斗，争取多挣一点钱来搞点肉吃，但是肉太稀缺了。你还是要吃香菜，你又抑郁了，你觉得香菜会一直吃到死。</p>
+ <p data-pid="NHev7bIA">于是你越来越焦虑，甚至看到绿色的植物都产生了恐惧，一到饭点就焦虑，然后由焦虑转为暴躁，又焦虑又暴躁，最后变成双相。</p>
+ <p data-pid="4NJg_zoV">你越来越懒得跟人家提你为什么不开心。因为别人早就听腻了你对香菜的憎恶之词。</p>
+ <p data-pid="ZoESvDZR">甚至你的家人也不理解，他们会说：</p>
+ <p data-pid="KAwOaMF7">“大家都吃香菜，你为何吃不得?”</p>
+ <p data-pid="ClLbLHHM">甚至还会有喜欢吃香菜的人天天跟你安利香菜有多好来恶心你。</p>
+ <p data-pid="xDHlV53-">慢慢地，大家都不知道你不喜欢香菜，大家只知道你是一个沉默寡言生无可恋的人。</p>
+ <p data-pid="k1zzL9ko">虽然你的努力也没有辜负你，你穿得比以前更好了，吃的也比之前丰富了一点，但是你还是没办法摆脱香菜。</p>
+ <p data-pid="Ec81pPxS">你觉得只有死才能摆脱。</p>
+ <p data-pid="Dr11N2gg">在一个风和日丽的午后，你吃了最后一口香菜，然后自挂东南枝。</p>
+ <p data-pid="UVBVsPG5">“那个人居然自杀了也?”</p>
+ <p data-pid="dOgPxwuG">“怎么回事啊?年纪轻轻的。”</p>
+ <p data-pid="f7cVe6UQ">“好像是不喜欢吃什么东西。”</p>
+ <p data-pid="W7r7chAt">“这也值得去死?搞笑吧?”</p>
+ <p data-pid="DpTx3fgl">“现在年轻人哦，就是日子过的太好了，一天到晚什么抑郁症焦虑症的，饿他几天他能把香菜当肉吃。”</p>
+ <p data-pid="7dtTqP9d">“哪来的什么抑郁症?还不都是自己作的。”</p>
+ <p data-pid="XKVFTYu6">“哈哈哈。”</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="y9QRxNPo">你突然发现，<b>你讨厌的不是香菜，而是你无法改变却不想如此过下去的人生。</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="j99MYS3w"><b>这个世界上不存在感同身受。</b></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="z_eGN-hF">另，我不讨厌香菜。我还挺喜欢的。</p>
+</body>
