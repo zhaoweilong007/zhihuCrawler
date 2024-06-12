@@ -1,0 +1,38 @@
+# 《诡秘之主》中有没有不用动脑子，前途光明的序列？
+- 点赞数：8934
+- 更新时间：2022年02月23日01时16分20秒
+- 回答url：https://www.zhihu.com/question/517699312/answer/2357075636
+<body>
+ <p data-pid="af6KKuKB">我的建议是你原创一条途径，就叫摆烂途径，毕竟乌贼说过地球上的途径不是全部的途径</p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p class="ztext-empty-paragraph"><br></p>
+ <p data-pid="6rX_Nv_g">比如这样：</p>
+ <p data-pid="AwoFJld5">序列9：摆烂人</p>
+ <p data-pid="ZTVoV2ju">你意识到自己改变不了任何事情，于是决定开摆</p>
+ <p data-pid="qiMolWD7">此阶段可以获得良好心态以及优质睡眠，同时看待事物更加客观</p>
+ <p data-pid="mDsDzOQ8">序列8：隐士</p>
+ <p data-pid="LoAWxEtn">你发现只要一个人宅在家里就能摆脱99%的问题，于是你找了个地方开摆</p>
+ <p data-pid="E3WxRhyE">此阶段可以在一个地方构筑属于自己的工坊，工坊内一定程度可以增强自己各项能力，同时削弱敌人。此后每次进阶工坊也会获得升级，最后工坊就是你的神国</p>
+ <p data-pid="YvqLvcU9">序列7：游民</p>
+ <p data-pid="jvxA8C8S">老是呆在家里怪无聊的，偶尔也会出去逛逛</p>
+ <p data-pid="biEKWGII">此阶段可以让你在脱离工坊之外也能获得能力上的增幅，同时可以以工坊为中心在一定范围内漫游。</p>
+ <p data-pid="ABcoN8hD">序列6：被忽略者</p>
+ <p data-pid="AxmffWli">你学会了降低自己的存在感，来避免各种麻烦发生</p>
+ <p data-pid="Gy2N-2RT">此阶段你的存在感大幅降低，非观众途径的人甚至难以发现你，即便是观众途径也容易忽略你。</p>
+ <p data-pid="ivzZRzYS">序列5：懈怠者</p>
+ <p data-pid="DWEMjD1i">你发现自己完全可以虚度光阴</p>
+ <p data-pid="6036CDzv">此阶段可以一定程度扭曲时间，从而增快自身反应速度，或用来快速浪费时间。同时也可以运用在他人身上，还可以在不知不觉间干扰他人对时间的认知。</p>
+ <p data-pid="r0F-J8MY">序列4：死角</p>
+ <p data-pid="UpQFREYH">你已经超脱凡世，成为了大多数人眼中的死角</p>
+ <p data-pid="BewvL9nC">此阶段你将会变的极其难以被发现，同时对时间的操作更进一步。同时你的精神也难以受到负面影响。</p>
+ <p data-pid="nU_dr1Xr">序列3：长生者</p>
+ <p data-pid="HJtRMhvx">你摆烂到如此地步，甚至连死亡都不肯看你一眼</p>
+ <p data-pid="y7JrYuxZ">此阶段不出意外可以长生不老，同时可以通过休眠摆脱诅咒等负面状态</p>
+ <p data-pid="QhrXXVQZ">序列2：旁观者</p>
+ <p data-pid="XJmmwPin">可以进入神话形态，进入另一维度，得以俯瞰世界，任何攻击都被无效，任何视线都可以摆脱，但同时自身也无法干涉世界。</p>
+ <p data-pid="q9x3WEke">序列1：盲点</p>
+ <p data-pid="v5UdQzKr">你的所作所为不留痕迹，没人知道你的存在</p>
+ <p data-pid="d-EAL-an">序列0：摆</p>
+ <p data-pid="lsR1hwnX">摆了</p>
+ <p data-pid="fWkiGRoZ">旧日：高维俯视者</p>
+</body>
