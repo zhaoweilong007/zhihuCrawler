@@ -1,0 +1,31 @@
+# 为什么鲜有炫富的程序员？
+- 点赞数：7364
+- 更新时间：2018年02月27日09时13分31秒
+- 回答url：https://www.zhihu.com/question/30692237/answer/329348858
+<body>
+ <p data-pid="KgRl1bDZ">因为脑回路不同。</p>
+ <p data-pid="dyGxRGHZ">我老公他花了一万块钱，买了一个洗烘一体洗衣机。</p>
+ <p data-pid="YrVHKFd-">我要用，他说，别用！</p>
+ <p data-pid="jlBVl_3p">我说为啥？</p>
+ <p data-pid="pAxiDHgW">他说，费电！</p>
+ <p data-pid="5xwP_vT3">那你买这么贵的洗衣机是干啥？</p>
+ <p data-pid="VWwNwb05">炫耀你有钱？</p>
+ <p data-pid="kK7V0c7S">~~~~~~~~~</p>
+ <p data-pid="ZdF1xyQF">再来波分割线，</p>
+ <p data-pid="Xh2YTBYD">我还遇到一个程序员，北京本地人，但不是很多房子那种。跟老婆在郊区买了套房子。</p>
+ <p data-pid="vW5dt1Rm">每个月工资上交，老婆每天给20块零花钱。</p>
+ <p data-pid="MZ5ZQx55">重点来了，他老婆不吃肉！</p>
+ <p data-pid="F8BsrYTO">他有次来跟我说，</p>
+ <p data-pid="Ts_4nCgJ">哎呀，我们家都一周没吃肉了！</p>
+ <p data-pid="V8RSHo8F">我说你们家为啥不吃肉啊！</p>
+ <p data-pid="SdCeZvO1">他说我老婆说我太胖，把肉给我断了。还说现在她怀孕了，不能乱花钱，准备把零花钱也给我断了，要省钱买重要的东西！</p>
+ <p data-pid="XQRl5QkU">然后有一天，他买了一个机械键盘，我问他，多少钱，他说，2000多。</p>
+ <p data-pid="EQ4b3h1T">我说你老婆知道吗？</p>
+ <p data-pid="cCPZ8pGF">他说~</p>
+ <p data-pid="cgBW-9jg">嗯~</p>
+ <p data-pid="SmMYp7hr">我申请了两年，她才批准下来。</p>
+ <p data-pid="MWccJsMf">嗯，每个不爱炫富的程序员背后，都是一个不为人知的故事！</p>
+ <p data-pid="2S78R_mn">~~~~~~</p>
+ <p data-pid="5_HvEYwx">备注一下，我觉得这俩程序员，可能够不上多高的炫富的资本。</p>
+ <p data-pid="0M6Gs0C9">但是，绝对够的上出电费和吃肉！！</p>
+</body>
