@@ -2,86 +2,90 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>话题分类</title>
-  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
-  <meta content="Description" name="description">
-  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-        name="viewport">
-  <link href="./lib/docsify/lib/themes/vue.css" rel="stylesheet">
-  <link href="./lib/docsify/lib/themes/docsify-dark-mode@0.6.1dist-style.css" rel="stylesheet"/>
-  <!-- 文件夹样式 -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
-  <!-- 箭头样式 -->
-<!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />-->
+    <meta charset="UTF-8">
+    <title>话题分类</title>
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+    <meta content="Description" name="description">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <link href="./lib/docsify/lib/themes/vue.css" rel="stylesheet">
+    <link href="./lib/docsify/lib/themes/docsify-dark-mode@0.6.1dist-style.css" rel="stylesheet"/>
+    <!-- 文件夹样式 -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
+    <!-- 箭头样式 -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
 
-
-
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-    w[l] = w[l] || [];
-    w[l].push({
-      'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-    });
-    var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l !== 'dataLayer' ? '&l=' + l : '';
-    j.async = true;
-    j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-PVRMB6C');</script>
-  <!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l !== 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PVRMB6C');</script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
 <div id="app"></div>
 <script>
-  window.$docsify = {
-    name: '知乎',
-    repo: 'https://github.com/zhaoweilong007/zhihuCrawler',
-    loadNavbar: true,
-    loadSidebar: true,
-    coverpage: true,
-    auto2top: true,
-    maxLevel: 3,
-    subMaxLevel: 2,
-    search: {
-      placeholder: '搜索',
-      noData: '找不到结果!',
-      depth: 5
-    },
-    alias: {
-      '/.*/_sidebar.md': '/_sidebar.md',
-      '/.*/_navbar.md': '/_navbar.md'
-    },
-    // 页面右侧toc
-    toc: {
-      tocMaxLevel: 2,
-      target: "h2, h3, h4, h5, h6",
-    },
-    pagination: {
-      previousText: "上一篇",
-      nextText: "下一篇",
-      crossChapter: true,
-      crossChapterText: true,
-    },
-    darkMode: {
-      light: {
-        toggleBtnBg: "#42b983",
-      },
-    },
-    // docsify-valine (defaults)
-    Valine: {
-      appId: 'ycFYdd0lnTjQj8C5F6sFdq1S-9Nh9j0Va',
-      appKey: 'oEH4vwxY5GSvBVmeYChJX2Lb',
-      recordIP: true,
-      enableQQ: true
-    },
-    'flexible-alerts': {
-      style: 'flat'
+    window.$docsify = {
+        name: '知乎',
+        repo: 'https://github.com/zhaoweilong007/zhihuCrawler',
+        loadNavbar: true,
+        loadSidebar: true,
+        sidebarDisplayLevel: 2,
+        coverpage: true,
+        auto2top: true,
+        maxLevel: 3,
+        subMaxLevel: 2,
+        search: {
+            placeholder: '搜索',
+            noData: '找不到结果!',
+            depth: 5
+        },
+        alias: {
+            '/.*/_sidebar.md': '/_sidebar.md',
+            '/.*/_navbar.md': '/_navbar.md'
+        },
+        // 页面右侧toc
+        toc: {
+            tocMaxLevel: 2,
+            target: "h2, h3, h4, h5, h6",
+        },
+        pagination: {
+            previousText: "上一篇",
+            nextText: "下一篇",
+            crossChapter: true,
+            crossChapterText: true,
+        },
+        progress: {
+            position: "top",
+            color: "var(--theme-color,#42b983)",
+            height: "3px",
+        },
+        darkMode: {
+            light: {
+                toggleBtnBg: "#42b983",
+            },
+        },
+        // docsify-valine (defaults)
+        Valine: {
+            appId: 'ycFYdd0lnTjQj8C5F6sFdq1S-9Nh9j0Va',
+            appKey: 'oEH4vwxY5GSvBVmeYChJX2Lb',
+            recordIP: true,
+            enableQQ: true
+        },
+        'flexible-alerts': {
+            style: 'flat'
+        }
     }
-  }
 </script>
 <script data-ga="UA-190424621-2" src="./lib/docsify/lib/docsify.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
@@ -105,11 +109,15 @@
 
 <!-- emoji -->
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
+
 </body>
 <!-- Google Tag Manager (noscript) -->
 <noscript>
-  <iframe height="0"
-          src="https://www.googletagmanager.com/ns.html?id=GTM-PVRMB6C" style="display:none;visibility:hidden" width="0"></iframe>
+    <iframe height="0"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-PVRMB6C" style="display:none;visibility:hidden"
+            width="0"></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
 </html>
