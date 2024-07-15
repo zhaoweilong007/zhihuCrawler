@@ -4,6 +4,10 @@
 - 爬取知乎话题列表，并获取高赞回答
 - 使用github workflow自动触发任务
 
+## 文档归档：
+所有回答数据已全部归档再docs分支，请切换分支查看
+地址: <https://github.com/zhaoweilong007/zhihuCrawler/tree/docs/document>
+
 ## 🔨项目环境
 
 - JDK17
