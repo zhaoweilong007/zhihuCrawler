@@ -8,6 +8,8 @@
 所有回答数据已全部归档再docs分支，请切换分支查看
 地址: <https://github.com/zhaoweilong007/zhihuCrawler/tree/docs/document>
 
+在线浏览地址: <https://zhaoweilong007.github.io/zhihuCrawler/>
+
 ## 🔨项目环境
 
 - JDK17
