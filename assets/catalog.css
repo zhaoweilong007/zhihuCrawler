@@ -1,0 +1,52 @@
+.catalog-path { color: #666; font-size: 14px; }
+.catalog-list { list-style: none; margin: 0; padding: 0; }
+.catalog-item { border-bottom: 1px solid #eee; margin: 0; padding: 8px 0; }
+.catalog-item-dir a::before { content: '📁 '; }
+.catalog-item-file a::before { content: '📄 '; }
+.catalog-error { color: #b42318; }
+.catalog-feedback { align-items: center; border: 1px solid #d0d5dd; border-radius: 8px; display: flex; gap: 10px; margin: 20px 0; padding: 14px; }
+.catalog-feedback p { margin: 0; }
+.catalog-error { border-color: #fecdca; }
+.catalog-error button { background: #fff; border: 1px solid #f04438; border-radius: 5px; color: #b42318; cursor: pointer; padding: 5px 9px; }
+.catalog-loading span { animation: catalog-spin .7s linear infinite; border: 2px solid #d0d5dd; border-radius: 50%; border-top-color: #42b983; height: 14px; width: 14px; }
+@keyframes catalog-spin { to { transform: rotate(360deg); } }
+.directory-filter { display: block; margin: 0 0 12px; }
+.directory-filter span { color: #667085; display: block; font-size: 12px; font-weight: 600; margin-bottom: 5px; }
+.directory-filter input { background: #fff; border: 1px solid #d0d5dd; border-radius: 6px; box-sizing: border-box; font: inherit; padding: 7px 9px; width: 100%; }
+.directory-filter input:focus { border-color: #42b983; box-shadow: 0 0 0 3px rgba(66, 185, 131, .15); outline: 0; }
+.article-pagination { display: flex; justify-content: space-between; gap: 16px; margin: 48px 0 24px; }
+.article-pagination a { border: 1px solid #42b983; border-radius: 4px; padding: 8px 12px; }
+.page-actions { bottom: 24px; display: grid; gap: 8px; position: fixed; right: 24px; z-index: 10; }
+.page-actions button { background: #fff; border: 1px solid #42b983; border-radius: 4px; color: #2c3e50; cursor: pointer; padding: 8px 12px; }
+.page-actions button:hover { background: #42b983; color: #fff; }
+.sidebar { background: #f7f9fc; border-right: 1px solid #e5eaf1; }
+.sidebar-nav { padding: 16px 12px 24px; }
+.directory-tree { color: #344054; }
+.directory-tree-header { background: linear-gradient(135deg, #eef9f4, #f8fcfb); border: 1px solid #d8eee3; border-radius: 10px; margin-bottom: 12px; padding: 14px; }
+.directory-tree-kicker { color: #42b983; font-size: 10px; font-weight: 700; letter-spacing: .12em; margin: 0 0 5px; }
+.directory-tree-title { color: #1d2939; font-size: 17px; font-weight: 700; margin: 0; }
+.directory-tree-shortcuts { display: flex; gap: 8px; margin: 0 0 14px; }
+.directory-tree-shortcuts a { background: #fff; border: 1px solid #d9e2ec; border-radius: 999px; color: #475467; font-size: 12px; padding: 5px 9px; }
+.directory-tree-shortcuts a:hover { border-color: #42b983; color: #168a5c; }
+.directory-tree-back { margin: 0 0 12px; }
+.directory-tree-back a { color: #168a5c; font-size: 13px; font-weight: 600; }
+.directory-tree-back a:hover { text-decoration: underline; }
+.directory-tree-breadcrumbs { display: flex; flex-wrap: wrap; gap: 4px 0; list-style: none; margin: 0 0 12px; padding: 0; }
+.directory-tree-breadcrumbs li { align-items: center; display: flex; font-size: 12px; max-width: 100%; }
+.directory-tree-breadcrumbs li:not(:last-child)::after { color: #98a2b3; content: '/'; margin: 0 5px; }
+.directory-tree-breadcrumbs a { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.directory-tree-breadcrumbs [aria-current="page"] { color: #168a5c; font-weight: 700; }
+.directory-tree-current { color: #667085; font-size: 12px; font-weight: 600; margin: 0 0 7px; }
+.directory-tree-children { list-style: none; margin: 0; max-height: calc(100vh - 285px); overflow-y: auto; padding: 0 4px 0 0; }
+.directory-tree-children li { margin: 2px 0; }
+.directory-tree-children a { border-radius: 6px; color: #475467; display: block; font-size: 13px; line-height: 1.4; overflow: hidden; padding: 7px 8px; text-overflow: ellipsis; transition: background-color .15s ease, color .15s ease; white-space: nowrap; }
+.directory-tree-children a:hover { background: #e8f7ef; color: #168a5c; }
+.directory-tree-active a { background: #dff5e8; color: #107c4d; font-weight: 700; }
+.directory-tree-dir a::before { color: #42b983; content: '▸'; font-weight: 700; margin-right: 7px; }
+.directory-tree-file a::before { color: #98a2b3; content: '·'; font-size: 16px; line-height: 0; margin-right: 8px; }
+.directory-tree-children::-webkit-scrollbar { width: 5px; }
+.directory-tree-children::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 999px; }
+@media (max-width: 768px) {
+  .sidebar-nav { padding: 12px; }
+  .directory-tree-children { max-height: none; }
+}

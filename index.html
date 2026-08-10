@@ -10,6 +10,7 @@
           name="viewport">
     <link href="./lib/docsify/lib/themes/vue.css" rel="stylesheet">
     <link href="./lib/docsify/lib/themes/docsify-dark-mode@0.6.1dist-style.css" rel="stylesheet"/>
+    <link href="./assets/catalog.css" rel="stylesheet"/>
     <!-- 文件夹样式 -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
     <!-- 箭头样式 -->
@@ -45,12 +46,8 @@
         auto2top: true,
         maxLevel: 3,
         subMaxLevel: 2,
-        search: {
-            placeholder: '搜索',
-            noData: '找不到结果!',
-            depth: 5
-        },
         alias: {
+            '/document/(.*)': 'https://raw.githubusercontent.com/zhaoweilong007/zhihuCrawler/docs/document/$1',
             '/.*/_sidebar.md': '/_sidebar.md',
             '/.*/_navbar.md': '/_navbar.md'
         },
@@ -87,9 +84,9 @@
         }
     }
 </script>
+<script src="./assets/catalog-browser.js"></script>
 <script data-ga="UA-190424621-2" src="./lib/docsify/lib/docsify.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
-<script src="./lib/docsify/lib/plugins/search.js"></script>
 <script src="./lib/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 <script src="./lib/docsify/lib/plugins/zoom-image.min.js"></script>
 <script src="./lib/docsify//lib/plugins/index.js"></script>
