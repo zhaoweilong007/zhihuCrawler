@@ -5,6 +5,7 @@ import { join } from 'node:path';
 
 const treeish = process.argv[2] || 'HEAD:document';
 const catalogDirectory = join(process.cwd(), 'catalog');
+const searchDirectory = join(process.cwd(), 'search');
 const meta = JSON.parse(await readFile(join(catalogDirectory, 'meta.json'), 'utf8'));
 const revision = await new Promise((resolve, reject) => {
   const command = spawn('git', ['rev-parse', treeish]);
@@ -24,4 +25,8 @@ if (!Array.isArray(rootShard[rootHash]?.entries) || rootShard[rootHash].entries.
 
 const shards = (await readdir(catalogDirectory)).filter((name) => /^[0-9a-f]{2}\.json$/.test(name));
 if (shards.length !== 256) throw new Error(`expected 256 catalog shards, got ${shards.length}`);
-console.log(`catalog verified: revision=${revision} files=${meta.files} directories=${meta.directories} shards=${shards.length}`);
+const searchShards = (await readdir(searchDirectory)).filter((name) => /^[0-9a-f]{2}\.json$/.test(name));
+if (searchShards.length !== meta.searchShards || searchShards.length !== 256) {
+  throw new Error(`expected 256 search shards, got ${searchShards.length}`);
+}
+console.log(`catalog verified: revision=${revision} files=${meta.files} directories=${meta.directories} shards=${shards.length} searchShards=${searchShards.length}`);
